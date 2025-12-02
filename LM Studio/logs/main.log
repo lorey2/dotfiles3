@@ -1,0 +1,364 @@
+[2025-09-10 00:44:59.970] [info]  App starting...
+[2025-09-10 00:44:59.973] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-09-10 00:45:00.957] [info]  Hardware survey for general system resources through 'vulkan' took 598.31ms
+[2025-09-10 00:45:01.157] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-09-10 00:45:01.157] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-09-10 00:45:01.157] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.25
+[2025-09-10 00:45:01.677] [info]  [AppUpdater] Received version info response
+[2025-09-10 00:45:01.677] [info]  [AppUpdater] Current version: 0.3.25 (build: 2), new version: 0.3.25 (build: 2)
+[2025-09-10 00:45:01.678] [info]  No update available: 0.3.25 (build: 2) <= 0.3.25 (build: 2)
+[2025-09-10 00:45:01.678] [info]  AppUpdater state changed to idle
+[2025-09-10 00:45:02.214] [error] [97m[GGUFMetadataProvider][39m Error while reading GGUF metadata for /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/bin/bundled-models/nomic-ai/nomic-embed-text-v1.5-GGUF/nomic-embed-text-v1.5.Q4_K_M.gguf Error: not a valid gguf file: not starting with GGUF magic number
+    at _0x3bf13a (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:1:20924)
+    at async _0x1f9386.readGGUFMetadata (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:154:7205)
+    at async _0x1f9386.getGGUFMetadata (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:154:6808)
+    at async _0x54d8b7.<computed>.buildGgufModel (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:28999)
+    at async _0x54d8b7.<computed>.buildModelRepresentation (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:28013)
+    at async _0x54d8b7.<computed>.indexModels (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:21544)
+[2025-09-10 00:50:17.347] [info]  Opening folder: /home/lorey/.lmstudio/extensions/backends
+[2025-09-10 01:06:57.296] [error] (node:12080) [DEP0147] DeprecationWarning: In future versions of Node.js, fs.rmdir(path, { recursive: true }) will be removed. Use fs.rm(path, { recursive: true }) instead
+(Use `lm-studio --trace-deprecation ...` to show where the warning was created)
+[2025-09-10 01:06:57.502] [error] [91mE[39m [97m[LMSExternal][39m [97m[Client=plugin:installed:lmstudio/rag-v1][Endpoint=getOrLoad][39m Error in channel handler: Error: Model not in domain: nomic-ai/nomic-embed-text-v1.5-GGUF
+    at Object.handler (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:246:5675)
+    at _0x46efad.receivedChannelCreate (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:665:457)
+    at <computed> [as receivedMessage] (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:648:14382)
+    at _0x527272.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:706:3019)
+    at _0x5adbd4 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:7:4712116)
+    at _0x527272._0x2f1b59 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:7:4710703)
+    at _0x527272.emit (node:events:518:28)
+    at _0x55413e.<computed>._0x1fe25f (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:7:4784056)
+    at _0x55413e.<computed>.emit (node:events:518:28)
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:7:4737077
+[2025-09-10 01:06:57.505] [error] [97m[InternalPluginsProvider][PluginProcess(lmstudio/rag-v1)][39m stderr: [PromptPreprocessor] Preprocessing failed. [Error:  Model has wrong domain. 
+
+Expecting nomic-ai/nomic-embed-text-v1.5-GGUF to be an embedding model, but it is actually an LLM.] {
+  title: 'Model not in domain: nomic-ai/nomic-embed-text-v1.5-GGUF'
+}
+
+[2025-09-10 01:06:57.507] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=sendMessage][39m Error in RPC handler: Error: Rehydrated error
+-ai/nomic-embed-text-v1.5-GGUF
+    at _0x58b844.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:720:132146)
+    at _0x17548d.subscriber (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:255:2474)
+    at _0x17548d.notifier (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:550:183149)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+- Caused By: Error:  Model has wrong domain. 
+
+Expecting nomic-ai/nomic-embed-text-v1.5-GGUF to be an embedding model, but it is actually an LLM.
+[2025-09-10 01:07:18.383] [error] [91mE[39m [97m[LMSExternal][39m [97m[Client=plugin:installed:lmstudio/rag-v1][Endpoint=getOrLoad][39m Error in channel handler: Error: Model not in domain: nomic-ai/nomic-embed-text-v1.5-GGUF
+    at Object.handler (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:246:5675)
+    at _0x46efad.receivedChannelCreate (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:665:457)
+    at <computed> [as receivedMessage] (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:648:14382)
+    at _0x527272.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:706:3019)
+    at _0x5adbd4 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:7:4712116)
+    at _0x527272._0x2f1b59 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:7:4710703)
+    at _0x527272.emit (node:events:518:28)
+    at _0x55413e.<computed>._0x1fe25f (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:7:4784056)
+    at _0x55413e.<computed>.emit (node:events:518:28)
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:7:4737077
+[2025-09-10 01:07:18.387] [error] [97m[InternalPluginsProvider][PluginProcess(lmstudio/rag-v1)][39m stderr: [PromptPreprocessor] Preprocessing failed. [Error:  Model has wrong domain. 
+
+Expecting nomic-ai/nomic-embed-text-v1.5-GGUF to be an embedding model, but it is actually an LLM.] {
+  title: 'Model not in domain: nomic-ai/nomic-embed-text-v1.5-GGUF'
+}
+
+[2025-09-10 01:07:18.390] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=sendMessage][39m Error in RPC handler: Error: Rehydrated error
+-ai/nomic-embed-text-v1.5-GGUF
+    at _0x58b844.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:720:132146)
+    at _0x17548d.subscriber (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:255:2474)
+    at _0x17548d.notifier (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:550:183149)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+- Caused By: Error:  Model has wrong domain. 
+
+Expecting nomic-ai/nomic-embed-text-v1.5-GGUF to be an embedding model, but it is actually an LLM.
+[2025-09-10 01:07:45.509] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+at _0x58b844.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:720:132146)
+    at _0xed8f48._0x10a844 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:6711)
+    at _0xed8f48.emit (node:events:518:28)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:206846)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:4058)
+    at _0x931c63.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:205884)
+    at _0x931c63.emit (node:events:518:28)
+    at ChildProcess.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:477:21126)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+- Caused By: TypeError: Cannot read properties of undefined (reading 'find')
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:4987
+    at _0x527e63.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:5388)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _0x395931.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:198)
+    at async /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849543
+    at async _0x412202.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849278)
+    at async _0x4a7ca8 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:12669)
+    at async _0x471196.<computed>.load (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:14878)
+    at async Object.loadModel (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:10038)
+    at async Object.handleMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:1622)
+[2025-09-10 01:07:45.510] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-09-10 01:07:45.511] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:07:45.511] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:07:45.511] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:07:45.511] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:07:56.162] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+at _0x58b844.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:720:132146)
+    at _0xed8f48._0x10a844 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:6711)
+    at _0xed8f48.emit (node:events:518:28)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:206846)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:4058)
+    at _0x931c63.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:205884)
+    at _0x931c63.emit (node:events:518:28)
+    at ChildProcess.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:477:21126)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+- Caused By: TypeError: Cannot read properties of undefined (reading 'find')
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:4987
+    at _0x527e63.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:5388)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _0x395931.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:198)
+    at async /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849543
+    at async _0x412202.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849278)
+    at async _0x4a7ca8 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:12669)
+    at async _0x471196.<computed>.load (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:14878)
+    at async Object.loadModel (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:10038)
+    at async Object.handleMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:1622)
+[2025-09-10 01:07:56.162] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-09-10 01:07:56.163] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:07:56.163] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:07:56.163] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:07:56.163] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:11.937] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+at _0x58b844.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:720:132146)
+    at _0xed8f48._0x10a844 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:6711)
+    at _0xed8f48.emit (node:events:518:28)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:206846)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:4058)
+    at _0x931c63.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:205884)
+    at _0x931c63.emit (node:events:518:28)
+    at ChildProcess.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:477:21126)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+- Caused By: TypeError: Cannot read properties of undefined (reading 'find')
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:4987
+    at _0x527e63.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:5388)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _0x395931.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:198)
+    at async /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849543
+    at async _0x412202.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849278)
+    at async _0x4a7ca8 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:12669)
+    at async _0x471196.<computed>.load (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:14878)
+    at async Object.loadModel (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:10038)
+    at async Object.handleMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:1622)
+[2025-09-10 01:08:11.938] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-09-10 01:08:11.939] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:11.939] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:11.939] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:11.939] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:34.482] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+at _0x58b844.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:720:132146)
+    at _0xed8f48._0x10a844 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:6711)
+    at _0xed8f48.emit (node:events:518:28)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:206846)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:4058)
+    at _0x931c63.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:205884)
+    at _0x931c63.emit (node:events:518:28)
+    at ChildProcess.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:477:21126)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+- Caused By: TypeError: Cannot read properties of undefined (reading 'find')
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:4987
+    at _0x527e63.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:5388)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _0x395931.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:198)
+    at async /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849543
+    at async _0x412202.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849278)
+    at async _0x4a7ca8 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:12669)
+    at async _0x471196.<computed>.load (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:14878)
+    at async Object.loadModel (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:10038)
+    at async Object.handleMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:1622)
+[2025-09-10 01:08:34.482] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-09-10 01:08:34.483] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:34.483] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:34.483] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:34.483] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:38.870] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+at _0x58b844.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:720:132146)
+    at _0xed8f48._0x10a844 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:6711)
+    at _0xed8f48.emit (node:events:518:28)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:206846)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:4058)
+    at _0x931c63.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:205884)
+    at _0x931c63.emit (node:events:518:28)
+    at ChildProcess.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:477:21126)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+- Caused By: TypeError: Cannot read properties of undefined (reading 'find')
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:4987
+    at _0x527e63.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:5388)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _0x395931.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:198)
+    at async /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849543
+    at async _0x412202.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849278)
+    at async _0x4a7ca8 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:12669)
+    at async _0x471196.<computed>.load (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:14878)
+    at async Object.loadModel (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:10038)
+    at async Object.handleMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:1622)
+[2025-09-10 01:08:38.871] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-09-10 01:08:38.872] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:38.872] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:38.872] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:08:38.872] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:10:58.530] [error] Tried to get CUDA environment variable overrides for LLM usage, but GPU survey data showed no GPUs!
+[2025-09-10 01:11:45.269] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m Error in channel handler: Error: Received load-error
+at _0x58b844.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:720:132146)
+    at _0xed8f48._0x10a844 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:6711)
+    at _0xed8f48.emit (node:events:518:28)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:206846)
+    at _0xed8f48.onChildMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:4058)
+    at _0x931c63.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:91:205884)
+    at _0x931c63.emit (node:events:518:28)
+    at ChildProcess.<anonymous> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:477:21126)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+- Caused By: TypeError: Cannot read properties of undefined (reading 'find')
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:4987
+    at _0x527e63.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:5388)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _0x395931.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:108:198)
+    at async /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849543
+    at async _0x412202.<computed> (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:7:849278)
+    at async _0x4a7ca8 (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:12669)
+    at async _0x471196.<computed>.load (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:85:14878)
+    at async Object.loadModel (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:10038)
+    at async Object.handleMessage (/tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/lib/llmworker.js:110:1622)
+[2025-09-10 01:11:45.270] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=loadModel][39m No instance reference assigned before error
+[2025-09-10 01:11:45.271] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:11:45.271] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=countTokens][39m Error in RPC handler: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:11:45.271] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:11:45.271] [error] Unhandled Rejection at: {} reason: Error: Model is unloaded.
+    at /tmp/.mount_LM-Stu1OnIrM/resources/app/.webpack/main/index.js:106:3729
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-10 01:12:09.625] [info]  App starting...
+[2025-09-10 01:12:09.627] [info]  [AppUpdater] Update channel set to 'stable'
+[2025-09-10 01:12:09.724] [info]  Hardware survey for general system resources through 'vulkan' took 91.95ms
+[2025-09-10 01:12:09.859] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2025-09-10 01:12:09.859] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2025-09-10 01:12:09.860] [info]  [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.3.25
+[2025-09-10 01:12:10.349] [info]  [AppUpdater] Received version info response
+[2025-09-10 01:12:10.349] [info]  [AppUpdater] Current version: 0.3.25 (build: 2), new version: 0.3.25 (build: 2)
+[2025-09-10 01:12:10.350] [info]  No update available: 0.3.25 (build: 2) <= 0.3.25 (build: 2)
+[2025-09-10 01:12:10.350] [info]  AppUpdater state changed to idle
+[2025-09-10 01:12:10.939] [error] [97m[GGUFMetadataProvider][39m Error while reading GGUF metadata for /tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/bin/bundled-models/nomic-ai/nomic-embed-text-v1.5-GGUF/nomic-embed-text-v1.5.Q4_K_M.gguf Error: not a valid gguf file: not starting with GGUF magic number
+    at _0x3bf13a (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:1:20924)
+    at async _0x1f9386.readGGUFMetadata (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:154:7205)
+    at async _0x1f9386.getGGUFMetadata (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:154:6808)
+    at async _0x54d8b7.<computed>.buildGgufModel (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:91:28999)
+    at async _0x54d8b7.<computed>.buildModelRepresentation (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:91:28013)
+    at async _0x54d8b7.<computed>.indexModels (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:91:21544)
+[2025-09-10 01:12:11.891] [error] [97m[ModelIndexProvider][VirtualModelResolver][39m Failed to recommend a concrete model for virtual model openai/gpt-oss-20b TypeError: Cannot read properties of undefined (reading 'backendInfo')
+    at _0x40eed6.getModelFitEstimation (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:157:18978)
+    at async _0x570724.getModelFitEstimation (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:157:16357)
+    at async /tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:533:42172
+    at async Promise.all (index 0)
+    at async _0x570724.recommend (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:533:42058)
+    at async _0xe856ed.resolve (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:160:22986)
+    at async _0x5e744a.updateIndex (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:162:2639)
+    at async /tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:162:966
+[2025-09-10 01:12:11.959] [error] Tried to get CUDA environment variable overrides for LLM usage, but GPU survey data showed no GPUs!
+[2025-09-10 01:12:25.272] [error] (node:19508) [DEP0147] DeprecationWarning: In future versions of Node.js, fs.rmdir(path, { recursive: true }) will be removed. Use fs.rm(path, { recursive: true }) instead
+(Use `lm-studio --trace-deprecation ...` to show where the warning was created)
+[2025-09-10 01:12:25.283] [error] [91mE[39m [97m[LMSExternal][39m [97m[Client=plugin:installed:lmstudio/rag-v1][Endpoint=getOrLoad][39m Error in channel handler: Error: Model not in domain: nomic-ai/nomic-embed-text-v1.5-GGUF
+    at Object.handler (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:246:5675)
+    at _0x46efad.receivedChannelCreate (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:665:457)
+    at <computed> [as receivedMessage] (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:648:14382)
+    at _0x527272.<anonymous> (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:706:3019)
+    at _0x5adbd4 (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:7:4712116)
+    at _0x527272._0x2f1b59 (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:7:4710703)
+    at _0x527272.emit (node:events:518:28)
+    at _0x55413e.<computed>._0x1fe25f (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:7:4784056)
+    at _0x55413e.<computed>.emit (node:events:518:28)
+    at /tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:7:4737077
+[2025-09-10 01:12:25.287] [error] [97m[InternalPluginsProvider][PluginProcess(lmstudio/rag-v1)][39m stderr: [PromptPreprocessor] Preprocessing failed. [Error:  Model has wrong domain. 
+
+Expecting nomic-ai/nomic-embed-text-v1.5-GGUF to be an embedding model, but it is actually an LLM.] {
+  title: 'Model not in domain: nomic-ai/nomic-embed-text-v1.5-GGUF'
+}
+
+[2025-09-10 01:12:25.291] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=sendMessage][39m Error in RPC handler: Error: Rehydrated error
+-ai/nomic-embed-text-v1.5-GGUF
+    at _0x58b844.<computed> (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:720:132146)
+    at _0x17548d.subscriber (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:255:2474)
+    at _0x17548d.notifier (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:550:183149)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+- Caused By: Error:  Model has wrong domain. 
+
+Expecting nomic-ai/nomic-embed-text-v1.5-GGUF to be an embedding model, but it is actually an LLM.
+[2025-09-10 01:12:49.047] [error] [91mE[39m [97m[LMSExternal][39m [97m[Client=plugin:installed:lmstudio/rag-v1][Endpoint=getOrLoad][39m Error in channel handler: Error: Model not in domain: nomic-ai/nomic-embed-text-v1.5-GGUF
+    at Object.handler (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:246:5675)
+    at _0x46efad.receivedChannelCreate (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:665:457)
+    at <computed> [as receivedMessage] (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:648:14382)
+    at _0x527272.<anonymous> (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:706:3019)
+    at _0x5adbd4 (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:7:4712116)
+    at _0x527272._0x2f1b59 (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:7:4710703)
+    at _0x527272.emit (node:events:518:28)
+    at _0x55413e.<computed>._0x1fe25f (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:7:4784056)
+    at _0x55413e.<computed>.emit (node:events:518:28)
+    at /tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:7:4737077
+[2025-09-10 01:12:49.049] [error] [97m[InternalPluginsProvider][PluginProcess(lmstudio/rag-v1)][39m stderr: [PromptPreprocessor] Preprocessing failed. [Error:  Model has wrong domain. 
+
+Expecting nomic-ai/nomic-embed-text-v1.5-GGUF to be an embedding model, but it is actually an LLM.] {
+  title: 'Model not in domain: nomic-ai/nomic-embed-text-v1.5-GGUF'
+}
+
+[2025-09-10 01:12:49.051] [error] [97m[LMSInternal][Client=LM Studio][Endpoint=sendMessage][39m Error in RPC handler: Error: Rehydrated error
+-ai/nomic-embed-text-v1.5-GGUF
+    at _0x58b844.<computed> (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:720:132146)
+    at _0x17548d.subscriber (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:255:2474)
+    at _0x17548d.notifier (/tmp/.mount_LM-Stuc5aWsI/resources/app/.webpack/main/index.js:550:183149)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+- Caused By: Error:  Model has wrong domain. 
+
+Expecting nomic-ai/nomic-embed-text-v1.5-GGUF to be an embedding model, but it is actually an LLM.

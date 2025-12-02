@@ -1,0 +1,13 @@
+2025/11/25-15:08:47.904 4293 Reusing MANIFEST /home/lorey/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/25-15:08:47.904 4293 Recovering log #7
+2025/11/25-15:08:47.904 4293 Reusing old log /home/lorey/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/000007.log 
+2025/11/25-15:08:47.921 4295 Level-0 table #11: started
+2025/11/25-15:08:47.925 4295 Level-0 table #11: 5122 bytes OK
+2025/11/25-15:08:47.932 4295 Delete type=0 #7
+2025/11/25-15:08:47.932 4292 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 453 : 1
+2025/11/25-15:08:47.932 4292 Compacting 1@0 + 1@1 files
+2025/11/25-15:08:47.937 4292 Generated table #12@0: 148 keys, 4479 bytes
+2025/11/25-15:08:47.937 4292 Compacted 1@0 + 1@1 files => 4479 bytes
+2025/11/25-15:08:47.941 4292 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/25-15:08:47.942 4292 Delete type=2 #11
+2025/11/25-15:08:47.942 4292 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 453 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

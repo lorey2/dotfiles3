@@ -1,0 +1,18 @@
+2025/10/29-20:33:50.093 4f6a Reusing MANIFEST /home/lorey/.config/google-chrome/Default/IndexedDB/https_tabs.ultimate-guitar.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/29-20:33:50.094 4f6a Recovering log #3
+2025/10/29-20:33:50.095 4f6a Reusing old log /home/lorey/.config/google-chrome/Default/IndexedDB/https_tabs.ultimate-guitar.com_0.indexeddb.leveldb/000003.log 
+2025/10/29-21:08:41.337 4f68 Level-0 table #5: started
+2025/10/29-21:08:41.355 4f68 Level-0 table #5: 2349827 bytes OK
+2025/10/29-21:08:41.360 4f68 Delete type=0 #3
+2025/10/29-21:59:32.610 4f68 Level-0 table #7: started
+2025/10/29-21:59:32.614 4f68 Level-0 table #7: 854 bytes OK
+2025/10/29-21:59:32.621 4f68 Delete type=0 #4
+2025/10/29-21:59:32.621 4f68 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/10/29-21:59:32.622 4f68 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x000Yf\x17\xa3yB\x00\x01\x80\x01\x00u\x00g\x00-\x00s\x00t\x00a\x00t\x00i\x00c\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00t\x00a\x00b\x00s\x00.\x00u\x00l\x00t\x00i\x00m\x00a\x00t\x00e\x00-\x00g\x00u\x00i\x00t\x00a\x00r\x00.\x00c\x00o\x00m\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00p\x00u\x00b\x00l\x00i\x00c\x00/\x00b\x00u\x00i\x00l\x00d\x00/\x00u\x00g\x00_\x00r\x00e\x00a\x00c\x00t\x00_\x00i\x001\x008\x00n\x00_\x00e\x00s\x006\x00/\x002\x000\x002\x005\x001\x000\x00/\x005\x009\x007\x002\x00.\x00a\x009\x00c\x006\x003\x00f\x008\x00b\x00c\x00a\x007\x009\x004\x00c\x007\x001\x000\x000\x002\x001\x002\x006\x00b\x003\x008\x009\x00e\x00b\x00a\x002\x006\x00e\x00.\x00j\x00s' @ 11302 : 0
+2025/10/29-21:59:32.622 4f68 Compacting 1@1 + 1@2 files
+2025/10/29-21:59:32.632 4f68 Generated table #8@1: 1845 keys, 2074002 bytes
+2025/10/29-21:59:32.632 4f68 Compacted 1@1 + 1@2 files => 2074002 bytes
+2025/10/29-21:59:32.636 4f68 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/29-21:59:32.636 4f68 Delete type=2 #5
+2025/10/29-21:59:32.636 4f68 Delete type=2 #7
+2025/10/29-21:59:32.636 4f68 Manual compaction at level-1 from '\x00\x01\x01 \x03\x000Yf\x17\xa3yB\x00\x01\x80\x01\x00u\x00g\x00-\x00s\x00t\x00a\x00t\x00i\x00c\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00t\x00a\x00b\x00s\x00.\x00u\x00l\x00t\x00i\x00m\x00a\x00t\x00e\x00-\x00g\x00u\x00i\x00t\x00a\x00r\x00.\x00c\x00o\x00m\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00p\x00u\x00b\x00l\x00i\x00c\x00/\x00b\x00u\x00i\x00l\x00d\x00/\x00u\x00g\x00_\x00r\x00e\x00a\x00c\x00t\x00_\x00i\x001\x008\x00n\x00_\x00e\x00s\x006\x00/\x002\x000\x002\x005\x001\x000\x00/\x005\x009\x007\x002\x00.\x00a\x009\x00c\x006\x003\x00f\x008\x00b\x00c\x00a\x007\x009\x004\x00c\x007\x001\x000\x000\x002\x001\x002\x006\x00b\x003\x008\x009\x00e\x00b\x00a\x002\x006\x00e\x00.\x00j\x00s' @ 11302 : 0 .. (end); will stop at (end)

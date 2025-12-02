@@ -1,0 +1,83 @@
+{
+  "language": "en",
+  "downloadsFolder": "/home/lorey/.lmstudio/models",
+  "sidebar": {
+    "showButtonNames": false,
+    "monochromeSidebarIcons": false
+  },
+  "configs": {
+    "expandConfigsOnClick": true
+  },
+  "chat": {
+    "showSuggestionsOnNewChat": true,
+    "alwaysShowPromptTemplate": false,
+    "autoSwitchToModelInChatIfLoaded": true,
+    "useShiftEnterToSendMessage": false,
+    "useKeychordToRegenerate": true,
+    "unloadPreviousModelOnSelect": true,
+    "highlightChatMessageOnHover": true,
+    "doubleClickMessageToEdit": false,
+    "aiNamingMode": "auto",
+    "autoExpandReasoningBlocks": false,
+    "reasoningBlocksVignette": true,
+    "messageGenInfoMode": "lastMessage",
+    "visualizeSpeculativeDecoding": false,
+    "chatFullWidth": false,
+    "neverAskForToolConfirmation": false,
+    "skipToolConfirmationPatterns": [],
+    "showChatUtilityMenuLabels": true,
+    "pinnedPlugins": [],
+    "showRoleAndInsertButtons": false,
+    "scrollLastMessageToTop": "scrollToTopNoLatch",
+    "showTokenCountInChatListings": false,
+    "moveDeletedItemsToTrash": false
+  },
+  "developer": {
+    "showExperimentalFeatures": false,
+    "experimentalLoadPresets": false,
+    "showDebugInfoBlocksInChat": false,
+    "showModelDownloadOptionData": false,
+    "backendDownloadChannel": "stable",
+    "appUpdateChannel": "stable",
+    "allowDevelopmentPlugins": true,
+    "unloadPreviousJITModelOnLoad": true,
+    "jitModelTTL": {
+      "enabled": true,
+      "ttlSeconds": 3600
+    },
+    "autoUpdateExtensionPacks": true,
+    "autoDeleteExtensionPacks": true,
+    "separateReasoningContent": false,
+    "experimentFlags": []
+  },
+  "ui": {
+    "missionControlFullscreen": false,
+    "showModelFileNameInMyModels": false,
+    "configureLoadParamsBeforeLoad": false
+  },
+  "configPresetInclusiveness": {
+    "speculativeDecoding": false
+  },
+  "toggledConfigDropdowns": [],
+  "userInterfaceComplexityLevel": 1,
+  "appFirstLoad": false,
+  "autoLoadBundledLLM": true,
+  "modelLoadingGuardrails": {
+    "mode": "high",
+    "customThresholdBytes": 4294967296
+  },
+  "dismissedModals": [],
+  "dismissedConversationSnackbars": [],
+  "pre030ChatsMigrated": 3,
+  "appPostUpdateNotificationPending": false,
+  "promptWhenCommittingUnsavedChangesWithNewFields": false,
+  "enableLocalService": true,
+  "cliInstalled": false,
+  "useHFProxy": true,
+  "hfSearchToken": "",
+  "hfDownloadToken": "",
+  "defaultContextLength": {
+    "type": "custom",
+    "value": 4096
+  }
+}

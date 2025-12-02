@@ -1,0 +1,25 @@
+2025/10/18-03:11:25.973 348f Reusing MANIFEST /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.yggtorrent.top_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/18-03:11:25.974 348f Recovering log #19
+2025/10/18-03:11:25.974 348f Reusing old log /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.yggtorrent.top_0.indexeddb.leveldb/000019.log 
+2025/10/18-03:11:25.974 348f Delete type=2 #17
+2025/10/18-03:11:52.356 348f Level-0 table #24: started
+2025/10/18-03:11:52.360 348f Level-0 table #24: 664 bytes OK
+2025/10/18-03:11:52.365 348f Delete type=0 #19
+2025/10/18-03:11:52.365 348f Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 109 : 1
+2025/10/18-03:11:52.365 348f Compacting 1@0 + 1@1 files
+2025/10/18-03:11:52.369 348f Generated table #25@0: 7 keys, 409 bytes
+2025/10/18-03:11:52.369 348f Compacted 1@0 + 1@1 files => 409 bytes
+2025/10/18-03:11:52.374 348f compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/18-03:11:52.374 348f Delete type=2 #24
+2025/10/18-03:11:52.375 348f Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 109 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/18-03:11:56.063 3493 Level-0 table #27: started
+2025/10/18-03:11:56.067 3493 Level-0 table #27: 526 bytes OK
+2025/10/18-03:11:56.072 3493 Delete type=0 #23
+2025/10/18-03:11:56.073 3493 Delete type=2 #21
+2025/10/18-03:11:56.073 348f Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 136 : 0
+2025/10/18-03:11:56.073 348f Compacting 1@0 + 1@1 files
+2025/10/18-03:11:56.078 348f Generated table #28@0: 4 keys, 253 bytes
+2025/10/18-03:11:56.078 348f Compacted 1@0 + 1@1 files => 253 bytes
+2025/10/18-03:11:56.084 348f compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/18-03:11:56.084 348f Delete type=2 #27
+2025/10/18-03:11:56.084 348f Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 136 : 0 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

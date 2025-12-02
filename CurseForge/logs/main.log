@@ -1,0 +1,1002 @@
+[2025-10-29 19:10:53.656] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com.
+[2025-10-29 19:10:53.660] [info]  [ConfigurationServiceImpl] Current env: production.
+[2025-10-29 19:10:53.669] [info]  [BackgroundController] App version: 1.288.1.28405.
+[2025-10-29 19:10:53.670] [info]  [BackgroundController] OS: linux.
+[2025-10-29 19:10:53.670] [info]  [BackgroundController] OS version: 6.14.0-34-generic.
+[2025-10-29 19:10:53.670] [info]  [BackgroundController] App startup args: /tmp/.mount_cursef64Oedo/curseforge,--no-sandbox.
+[2025-10-29 19:10:54.358] [info]  [BackgroundController] Electron App Ready. Continuing Initialization....
+[2025-10-29 19:10:54.359] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ....
+[2025-10-29 19:10:59.438] [info]  [AppUpdateServiceImpl] Checking if app has an update which is available locally..
+[2025-10-29 19:10:59.439] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.288.1-28405.
+[2025-10-29 19:10:59.440] [info]  Checking for update
+[2025-10-29 19:10:59.440] [info]  Electron Updater - Checking for application update
+[2025-10-29 19:10:59.442] [info]  Generated new staging user ID: 950c6464-67ac-51fc-9b72-3fa406dd49ba
+[2025-10-29 19:10:59.491] [info]  Update for version 1.288.1-28405 is not available (latest version: 1.288.1-28405, downgrade is disallowed).
+[2025-10-29 19:10:59.491] [info]  Electron Updater - App update is not available. Latest Version: 1.288.1-28405. Release Date: 2025-10-26T14:05:48.182Z
+[2025-10-29 19:10:59.492] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-10-29 19:10:59.660] [info]  [Renderer - Main Window] Initializing Sentry service [ [] ]
+[2025-10-29 19:10:59.672] [info]  [Renderer - Main Window] [ReactErrorWatchDog] Starting watchdog with 10000 [ [] ]
+[2025-10-29 19:10:59.687] [info]  [SessionStartedEventHandler] App session started.
+[2025-10-29 19:10:59.691] [info]  [AutoUpdaterServiceImpl] Starting Auto Updater Service.
+[2025-10-29 19:10:59.692] [info]  [AutoUpdaterServiceImpl] Auto updater is disabled by configuration.
+[2025-10-29 19:10:59.692] [info]  [LoginService] Validating login status.
+[2025-10-29 19:10:59.692] [info]  [SessionInfoRepositoryImpl] Loading login tokens from storage.
+[2025-10-29 19:10:59.693] [info]  [SessionInfoRepositoryImpl] Missing mandatory tokens. Clearing storage.
+[2025-10-29 19:10:59.693] [info]  [SessionInfoRepositoryImpl] Clearing tokens from storage.
+[2025-10-29 19:10:59.700] [info]  [LoginService] No login tokens found..
+[2025-10-29 19:10:59.701] [info]  [SessionInfoRepositoryImpl] Clearing tokens from storage.
+[2025-10-29 19:10:59.705] [info]  [LoginService] Notifying logged out status.
+[2025-10-29 19:10:59.705] [info]  [SessionInfoRepositoryImpl] Clearing tokens from storage.
+[2025-10-29 19:10:59.710] [error] [LoggedOutEventHandler] Failed to update client session info. Error: Radium API is not ready
+[2025-10-29 19:10:59.710] [info]  [GameAuthUsersChangedEventHandler] Minecraft Users info loaded.
+[2025-10-29 19:10:59.710] [info]  [LoggedOutEventHandler] User is logged out.
+[2025-10-29 19:10:59.711] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ....
+[2025-10-29 19:10:59.713] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-10-29 19:10:59.713] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.288.1-28405.
+[2025-10-29 19:10:59.713] [info]  Checking for update
+[2025-10-29 19:10:59.713] [info]  Electron Updater - Checking for application update
+[2025-10-29 19:10:59.728] [info]  Update for version 1.288.1-28405 is not available (latest version: 1.288.1-28405, downgrade is disallowed).
+[2025-10-29 19:10:59.728] [info]  Electron Updater - App update is not available. Latest Version: 1.288.1-28405. Release Date: 2025-10-26T14:05:48.182Z
+[2025-10-29 19:10:59.729] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-10-29 19:10:59.729] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-10-29 19:10:59.775] [error] [SettingsService] Failed to get app content path: Error: Failed to get app content path.
+[2025-10-29 19:10:59.788] [info]  [PluginCommunication] Connecting to Mods Agent.
+[2025-10-29 19:10:59.789] [info]  [PluginProcessHost] Starting Mods Agent with ports range 56552-56572.
+[2025-10-29 19:10:59.789] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_cursef64Oedo/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=56552,--to-port=56572,--pid=13445,--appDataPath=/home/lorey/.config/CurseForge,--api-key=dff6df7c-d5fd-41d9-8b56-7f6e59cdec25,--clientId=Overwolf.
+[2025-10-29 19:10:59.835] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-10-29 19:10:59.841] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D.
+[2025-10-29 19:10:59.874] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D. Status code: 200.
+[2025-10-29 19:10:59.988] [info]  [PluginProcessHost] Agent stdout: Starting CurseForge Agent Host.
+[2025-10-29 19:11:00.253] [info]  [PluginProcessHost] Agent stdout: Agent Data path is /home/lorey/.config/CurseForge/agent.
+[2025-10-29 19:11:00.254] [info]  [PluginProcessHost] Agent stdout: Agent Log path is /home/lorey/.config/CurseForge/agent/logs.
+[2025-10-29 19:11:00.837] [info]  [PluginProcessHost] Agent stdout: 10/29/2025 19:11:00 [Info] Server started at ws://127.0.0.1:56552/CurseForge (actual port 56552) .
+[2025-10-29 19:11:00.838] [info]  [PluginProcessHost] Mods Agent started. pid: 14072, port: 56552.
+[2025-10-29 19:11:00.838] [info]  [PluginWebSocket] Connecting to Mods Agent CurseForge on ports range 56552-56552.
+[2025-10-29 19:11:00.842] [info]  [PluginProcessHost] Agent stdout: Mods Agent server started on port 56552.
+[2025-10-29 19:11:00.893] [info]  [PluginWebSocket] Connected to mods agent.
+[2025-10-29 19:11:00.893] [info]  [PluginWebSocket] Connected to Mods Agent on port 56552.
+[2025-10-29 19:11:01.348] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false.
+[2025-10-29 19:11:01.413] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false.
+[2025-10-29 19:11:01.422] [info]  [CoreServiceImpl] Mods agent was initialized successfully.
+[2025-10-29 19:11:01.466] [info]  [AppConnectivityService] Reporting app connectivity.
+[2025-10-29 19:11:01.467] [info]  [AnalyticsService] Executing POST request https://tracking.overwolf.com/tracking/InsertStats?Stats=true.
+[2025-10-29 19:11:01.932] [info]  [Renderer - Main Window] Startup game was not found [ [] ]
+[2025-10-29 19:11:02.331] [info]  [AnalyticsService] Executed POST request https://tracking.overwolf.com/tracking/InsertStats?Stats=true. Status code: 200.
+[2025-10-29 19:11:02.332] [info]  [AnalyticsService] Sent a Grafana event to https://tracking.overwolf.com/tracking/InsertStats?Stats=true.
+[2025-10-29 19:11:02.359] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_session_info&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22isLoggedIn%22%3Afalse%2C%22isSyncEnabled%22%3Afalse%2C%22appLanguage%22%3A%22en%22%2C%22groupsCount%22%3A%7B%7D%2C%22isMojangLoggedIn%22%3Afalse%2C%22minecraftLauncherTypes%22%3A%5B0%5D%7D.
+[2025-10-29 19:11:02.371] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_session_info&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22isLoggedIn%22%3Afalse%2C%22isSyncEnabled%22%3Afalse%2C%22appLanguage%22%3A%22en%22%2C%22groupsCount%22%3A%7B%7D%2C%22isMojangLoggedIn%22%3Afalse%2C%22minecraftLauncherTypes%22%3A%5B0%5D%7D. Status code: 200.
+[2025-10-29 19:11:02.373] [info]  [ElectronApplication] CRN Api is not available.
+[2025-10-29 19:11:02.379] [info]  [AppLaunchService] No install params to launch and install project.
+[2025-10-29 19:11:04.689] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-10-29 19:11:09.673] [info]  [Renderer - Main Window] [ReactErrorWatchDog] Starting watchdog with 1000 [ [] ]
+[2025-10-29 19:11:10.333] [info]  [ReleaseNotesApiImpl] Fetching /1.288.1.28405/release-notes/1 ....
+[2025-10-29 19:11:10.420] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22loading%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D.
+[2025-10-29 19:11:10.451] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22loading%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D. Status code: 200.
+[2025-10-29 19:11:10.477] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22playing%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D.
+[2025-10-29 19:11:10.495] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22playing%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D. Status code: 200.
+[2025-10-29 19:11:12.261] [info]  [Renderer - Main Window] Getting game 432 category classes [ [] ]
+[2025-10-29 19:11:12.262] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2025-10-29 19:11:12.261] [info]  [Renderer - Main Window] Getting game 432 categories [ [] ]
+[2025-10-29 19:11:12.264] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432}.
+[2025-10-29 19:11:12.265] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22MyModpacksPage%22%7D.
+[2025-10-29 19:11:12.267] [info]  [MeasurementAppServiceImpl] starting measurement game-dau.
+[2025-10-29 19:11:12.274] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22MyModpacksPage%22%7D. Status code: 200.
+[2025-10-29 19:11:12.370] [info]  [Renderer - Main Window] Got 144 categories for game 432 [ [] ]
+[2025-10-29 19:11:12.387] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft Users Info.
+[2025-10-29 19:11:12.380] [info]  [Renderer - Main Window] Getting game 432 install mod request from queue [ [] ]
+[2025-10-29 19:11:12.387] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2025-10-29 19:11:12.388] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft User Info.
+[2025-10-29 19:11:12.388] [info]  [Renderer - Main Window] Game 432 has no pending install mod request [ [] ]
+[2025-10-29 19:11:12.389] [warn]  [Renderer - Main Window] No last game instance guid to choose from [ [] ]
+[2025-10-29 19:11:20.608] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_search_project_requested&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22searchedValue%22%3A%22Holycube%22%2C%22gameId%22%3A%22432%22%2C%22byProjectId%22%3Afalse%7D.
+[2025-10-29 19:11:20.643] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_search_project_requested&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22searchedValue%22%3A%22Holycube%22%2C%22gameId%22%3A%22432%22%2C%22byProjectId%22%3Afalse%7D. Status code: 200.
+[2025-10-29 19:11:20.661] [info]  [EleriumCommunicationLayer] Request - GET v1/games/432/versions - params: None.
+[2025-10-29 19:11:20.666] [info]  [Renderer - Main Window] Searching mods. page: 1, column: 11, order: 2, category: undefined, sectionId: null, gameVersion: undefined, primaryAuthorId: undefined, text: Holycube, slug: undefined [ [] ]
+[2025-10-29 19:11:20.667] [info]  [EleriumCommunicationLayer] Request - GET v2/mods/search - params: gameId=432&pageSize=20&searchFilter=Holycube&sortField=1&sortOrder=desc&index=0&clientCompatible=false.
+[2025-10-29 19:11:20.668] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22BrowseProjectsPage%22%7D.
+[2025-10-29 19:11:20.679] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22BrowseProjectsPage%22%7D. Status code: 200.
+[2025-10-29 19:11:20.702] [info]  [EleriumCommunicationLayer] Request - GET v1/minecraft/modloader?includeAll=true - params: None.
+[2025-10-29 19:11:21.061] [info]  [ProjectAppServiceImpl] Got 4 search results for game 432. Page 1.
+[2025-10-29 19:11:21.064] [info]  [Renderer - Main Window] Received 4 search results for game 432 [ [] ]
+[2025-10-29 19:11:22.289] [info]  [AnalyticsService] trackDailyUnique is unique: true.
+[2025-10-29 19:11:22.290] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_daily_active_user_per_game_v2&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22game_id%22%3A432%2C%22gameId%22%3A432%7D.
+[2025-10-29 19:11:22.304] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_daily_active_user_per_game_v2&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22game_id%22%3A432%2C%22gameId%22%3A432%7D. Status code: 200.
+[2025-10-29 19:11:23.922] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_install_project_requested&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22gameId%22%3A432%2C%22installType%22%3A%22install%22%2C%22installSource%22%3A%22app%22%2C%22projectId%22%3A%221218251%22%2C%22component%22%3A%22BrowseProjectsPage%22%7D.
+[2025-10-29 19:11:23.935] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_install_project_requested&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22gameId%22%3A432%2C%22installType%22%3A%22install%22%2C%22installSource%22%3A%22app%22%2C%22projectId%22%3A%221218251%22%2C%22component%22%3A%22BrowseProjectsPage%22%7D. Status code: 200.
+[2025-10-29 19:11:24.370] [info]  [ModpackDetectedEventHandler] Modpack d5926157-3acf-4183-973b-529e9fb133b3 detected.
+[2025-10-29 19:11:24.383] [info]  [GameInstanceChangedEventHandler] Game instance changed: d5926157-3acf-4183-973b-529e9fb133b3 - ["AddedToDatabase"].
+[2025-10-29 19:11:24.396] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_modpack_installed&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22game_id%22%3A432%2C%22projectId%22%3A1218251%2C%22isCustom%22%3Afalse%7D.
+[2025-10-29 19:11:24.405] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_modpack_installed&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22game_id%22%3A432%2C%22projectId%22%3A1218251%2C%22isCustom%22%3Afalse%7D. Status code: 200.
+[2025-10-29 19:11:24.444] [info]  [ProjectInstanceChangedEventHandler] Project instance 1218251 - Holycube Revolution changed.
+[2025-10-29 19:11:24.456] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2025-10-29 19:11:26.550] [info]  [ProjectInstanceChangedEventHandler] Project instance 1218251 - Holycube Revolution changed.
+[2025-10-29 19:11:26.550] [info]  [ProjectInstanceChangedEventHandler] Project instance 1218251 - Holycube Revolution changed.
+[2025-10-29 19:11:26.590] [info]  [ProjectInstalledEventHandler] Project 1218251 - Holycube Revolution installed to Holycube Revolution instance.
+[2025-10-29 19:11:28.720] [info]  [ProjectInstanceChangedEventHandler] Project instance 1255120 - Holycube - Bedrock Breaker changed.
+[2025-10-29 19:11:28.720] [info]  [ProjectInstanceChangedEventHandler] Project instance 1255120 - Holycube - Bedrock Breaker changed.
+[2025-10-29 19:11:28.720] [info]  [ProjectInstalledEventHandler] Project 1255120 - Holycube - Bedrock Breaker installed to Holycube Revolution instance.
+[2025-10-29 19:11:29.122] [info]  [ProjectInstalledEventHandler] Project 829380 - Create Encased installed to Holycube Revolution instance.
+[2025-10-29 19:11:29.125] [info]  [ProjectInstanceChangedEventHandler] Project instance 829380 - Create Encased changed.
+[2025-10-29 19:11:29.125] [info]  [ProjectInstanceChangedEventHandler] Project instance 829380 - Create Encased changed.
+[2025-10-29 19:11:29.128] [info]  [ProjectInstanceChangedEventHandler] Project instance 829380 - Create Encased changed.
+[2025-10-29 19:11:29.518] [info]  [ProjectInstalledEventHandler] Project 348521 - Cloth Config API (Fabric/Forge/NeoForge) installed to Holycube Revolution instance.
+[2025-10-29 19:11:29.519] [info]  [ProjectInstanceChangedEventHandler] Project instance 348521 - Cloth Config API (Fabric/Forge/NeoForge) changed.
+[2025-10-29 19:11:29.519] [info]  [ProjectInstanceChangedEventHandler] Project instance 348521 - Cloth Config API (Fabric/Forge/NeoForge) changed.
+[2025-10-29 19:11:30.177] [info]  [ProjectInstanceChangedEventHandler] Project instance 620770 - Expanded Delight changed.
+[2025-10-29 19:11:30.177] [info]  [ProjectInstanceChangedEventHandler] Project instance 620770 - Expanded Delight changed.
+[2025-10-29 19:11:30.178] [info]  [ProjectInstalledEventHandler] Project 620770 - Expanded Delight installed to Holycube Revolution instance.
+[2025-10-29 19:11:32.257] [info]  [ProjectInstalledEventHandler] Project 869524 - WATERMeDIA: Multimedia API installed to Holycube Revolution instance.
+[2025-10-29 19:11:32.259] [info]  [ProjectInstanceChangedEventHandler] Project instance 869524 - WATERMeDIA: Multimedia API changed.
+[2025-10-29 19:11:32.259] [info]  [ProjectInstanceChangedEventHandler] Project instance 869524 - WATERMeDIA: Multimedia API changed.
+[2025-10-29 19:11:32.259] [info]  [ProjectInstanceChangedEventHandler] Project instance 869524 - WATERMeDIA: Multimedia API changed.
+[2025-10-29 19:11:33.380] [info]  [ProjectInstalledEventHandler] Project 410295 - Konkrete installed to Holycube Revolution instance.
+[2025-10-29 19:11:33.383] [info]  [ProjectInstanceChangedEventHandler] Project instance 410295 - Konkrete changed.
+[2025-10-29 19:11:33.387] [info]  [ProjectInstanceChangedEventHandler] Project instance 410295 - Konkrete changed.
+[2025-10-29 19:11:33.758] [info]  [ProjectInstanceChangedEventHandler] Project instance 417645 - Just Enough Professions (JEP) changed.
+[2025-10-29 19:11:33.758] [info]  [ProjectInstanceChangedEventHandler] Project instance 417645 - Just Enough Professions (JEP) changed.
+[2025-10-29 19:11:33.759] [info]  [ProjectInstalledEventHandler] Project 417645 - Just Enough Professions (JEP) installed to Holycube Revolution instance.
+[2025-10-29 19:11:34.196] [info]  [ProjectInstalledEventHandler] Project 1144296 - Display Delight installed to Holycube Revolution instance.
+[2025-10-29 19:11:34.199] [info]  [ProjectInstanceChangedEventHandler] Project instance 1144296 - Display Delight changed.
+[2025-10-29 19:11:34.199] [info]  [ProjectInstanceChangedEventHandler] Project instance 1144296 - Display Delight changed.
+[2025-10-29 19:11:34.521] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22played%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D.
+[2025-10-29 19:11:34.526] [info]  [Renderer - Main Window] Starting Ads. Size: Container Id: curseforge_desktop_banner, Size: [{"width":400,"height":60}], Element ID: curseforge_desktop_banner [ [] ]
+[2025-10-29 19:11:34.526] [info]  [Renderer - Main Window] Starting electron ads sdk [
+  [
+    {
+      appId: 'pnhpggjfelbelmidfhnebbhfkabchccbheggegjc',
+      muid: '3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef',
+      appVersion: '1.288.1.28405',
+      userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) CurseForge/1.288.1-28405 Chrome/138.0.7204.251 Electron/37.7.0 Safari/537.36',
+      size: [ { width: 400, height: 60 } ],
+      containerId: 'curseforge_desktop_banner'
+    }
+  ]
+]
+[2025-10-29 19:11:34.534] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D.
+[2025-10-29 19:11:34.530] [info]  [Renderer - Main Window] Starting Ads. Size: Container Id: curseforge_desktop_large, Size: [{"width":400,"height":600},{"width":1,"height":1}], Element ID: curseforge_desktop_large [ [] ]
+[2025-10-29 19:11:34.530] [info]  [Renderer - Main Window] Starting electron ads sdk [
+  [
+    {
+      appId: 'pnhpggjfelbelmidfhnebbhfkabchccbheggegjc',
+      muid: '3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef',
+      appVersion: '1.288.1.28405',
+      userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) CurseForge/1.288.1-28405 Chrome/138.0.7204.251 Electron/37.7.0 Safari/537.36',
+      size: [ { width: 400, height: 600 }, { width: 1, height: 1 } ],
+      containerId: 'curseforge_desktop_large'
+    }
+  ]
+]
+[2025-10-29 19:11:34.540] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D.
+[2025-10-29 19:11:34.579] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D. Status code: 200.
+[2025-10-29 19:11:34.580] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22played%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D. Status code: 200.
+[2025-10-29 19:11:34.581] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D. Status code: 200.
+[2025-10-29 19:11:34.609] [info]  [ProjectInstanceChangedEventHandler] Project instance 543661 - Stylish Effects changed.
+[2025-10-29 19:11:34.610] [info]  [ProjectInstalledEventHandler] Project 543661 - Stylish Effects installed to Holycube Revolution instance.
+[2025-10-29 19:11:34.613] [info]  [ProjectInstanceChangedEventHandler] Project instance 543661 - Stylish Effects changed.
+[2025-10-29 19:11:34.962] [info]  [ProjectInstalledEventHandler] Project 400514 - Easy Villagers installed to Holycube Revolution instance.
+[2025-10-29 19:11:34.965] [info]  [ProjectInstanceChangedEventHandler] Project instance 400514 - Easy Villagers changed.
+[2025-10-29 19:11:34.970] [info]  [ProjectInstanceChangedEventHandler] Project instance 400514 - Easy Villagers changed.
+[2025-10-29 19:11:35.294] [info]  [ProjectInstalledEventHandler] Project 250398 - Controlling installed to Holycube Revolution instance.
+[2025-10-29 19:11:35.297] [info]  [ProjectInstanceChangedEventHandler] Project instance 250398 - Controlling changed.
+[2025-10-29 19:11:35.301] [info]  [ProjectInstanceChangedEventHandler] Project instance 250398 - Controlling changed.
+[2025-10-29 19:11:35.848] [info]  [ProjectInstanceChangedEventHandler] Project instance 465690 - Build Guide changed.
+[2025-10-29 19:11:35.849] [info]  [ProjectInstanceChangedEventHandler] Project instance 465690 - Build Guide changed.
+[2025-10-29 19:11:35.850] [info]  [ProjectInstalledEventHandler] Project 465690 - Build Guide installed to Holycube Revolution instance.
+[2025-10-29 19:11:35.852] [info]  [ProjectInstanceChangedEventHandler] Project instance 465690 - Build Guide changed.
+[2025-10-29 19:11:36.271] [info]  [ProjectInstanceChangedEventHandler] Project instance 854949 - Fusion (Connected Textures) changed.
+[2025-10-29 19:11:36.272] [info]  [ProjectInstanceChangedEventHandler] Project instance 854949 - Fusion (Connected Textures) changed.
+[2025-10-29 19:11:36.273] [info]  [ProjectInstalledEventHandler] Project 854949 - Fusion (Connected Textures) installed to Holycube Revolution instance.
+[2025-10-29 19:11:36.275] [info]  [ProjectInstanceChangedEventHandler] Project instance 854949 - Fusion (Connected Textures) changed.
+[2025-10-29 19:11:36.656] [info]  [ProjectInstalledEventHandler] Project 905040 - Create: Bells & Whistles installed to Holycube Revolution instance.
+[2025-10-29 19:11:36.657] [info]  [ProjectInstanceChangedEventHandler] Project instance 905040 - Create: Bells & Whistles changed.
+[2025-10-29 19:11:36.657] [info]  [ProjectInstanceChangedEventHandler] Project instance 905040 - Create: Bells & Whistles changed.
+[2025-10-29 19:11:37.038] [info]  [ProjectInstalledEventHandler] Project 633252 - Beautify! installed to Holycube Revolution instance.
+[2025-10-29 19:11:37.040] [info]  [ProjectInstanceChangedEventHandler] Project instance 633252 - Beautify! changed.
+[2025-10-29 19:11:37.043] [info]  [ProjectInstanceChangedEventHandler] Project instance 633252 - Beautify! changed.
+[2025-10-29 19:11:37.455] [info]  [ProjectInstalledEventHandler] Project 953126 - Create: Framed installed to Holycube Revolution instance.
+[2025-10-29 19:11:37.456] [info]  [ProjectInstanceChangedEventHandler] Project instance 953126 - Create: Framed changed.
+[2025-10-29 19:11:37.456] [info]  [ProjectInstanceChangedEventHandler] Project instance 953126 - Create: Framed changed.
+[2025-10-29 19:11:37.458] [info]  [ProjectInstanceChangedEventHandler] Project instance 953126 - Create: Framed changed.
+[2025-10-29 19:11:37.971] [info]  [ProjectInstanceChangedEventHandler] Project instance 1218884 - Holycube Backport changed.
+[2025-10-29 19:11:37.972] [info]  [ProjectInstalledEventHandler] Project 1218884 - Holycube Backport installed to Holycube Revolution instance.
+[2025-10-29 19:11:37.974] [info]  [ProjectInstanceChangedEventHandler] Project instance 1218884 - Holycube Backport changed.
+[2025-10-29 19:11:38.393] [info]  [ProjectInstalledEventHandler] Project 403422 - Emotecraft (Forge) installed to Holycube Revolution instance.
+[2025-10-29 19:11:38.395] [info]  [ProjectInstanceChangedEventHandler] Project instance 403422 - Emotecraft (Forge) changed.
+[2025-10-29 19:11:38.395] [info]  [ProjectInstanceChangedEventHandler] Project instance 403422 - Emotecraft (Forge) changed.
+[2025-10-29 19:11:38.395] [info]  [ProjectInstanceChangedEventHandler] Project instance 403422 - Emotecraft (Forge) changed.
+[2025-10-29 19:11:38.760] [info]  [ProjectInstalledEventHandler] Project 1216624 - Create: Dragons Plus installed to Holycube Revolution instance.
+[2025-10-29 19:11:38.761] [info]  [ProjectInstanceChangedEventHandler] Project instance 1216624 - Create: Dragons Plus changed.
+[2025-10-29 19:11:38.761] [info]  [ProjectInstanceChangedEventHandler] Project instance 1216624 - Create: Dragons Plus changed.
+[2025-10-29 19:11:38.761] [info]  [ProjectInstanceChangedEventHandler] Project instance 1216624 - Create: Dragons Plus changed.
+[2025-10-29 19:11:39.055] [info]  [ProjectInstalledEventHandler] Project 271740 - Toast Control installed to Holycube Revolution instance.
+[2025-10-29 19:11:39.057] [info]  [ProjectInstanceChangedEventHandler] Project instance 271740 - Toast Control changed.
+[2025-10-29 19:11:39.057] [info]  [ProjectInstanceChangedEventHandler] Project instance 271740 - Toast Control changed.
+[2025-10-29 19:11:39.920] [info]  [ProjectInstalledEventHandler] Project 450663 - Armor Poser installed to Holycube Revolution instance.
+[2025-10-29 19:11:39.923] [info]  [ProjectInstanceChangedEventHandler] Project instance 450663 - Armor Poser changed.
+[2025-10-29 19:11:39.923] [info]  [ProjectInstanceChangedEventHandler] Project instance 450663 - Armor Poser changed.
+[2025-10-29 19:11:40.291] [info]  [ProjectInstanceChangedEventHandler] Project instance 686911 - ImmediatelyFast changed.
+[2025-10-29 19:11:40.291] [info]  [ProjectInstanceChangedEventHandler] Project instance 686911 - ImmediatelyFast changed.
+[2025-10-29 19:11:40.292] [info]  [ProjectInstalledEventHandler] Project 686911 - ImmediatelyFast installed to Holycube Revolution instance.
+[2025-10-29 19:11:40.294] [info]  [ProjectInstanceChangedEventHandler] Project instance 686911 - ImmediatelyFast changed.
+[2025-10-29 19:11:40.621] [info]  [ProjectInstalledEventHandler] Project 827163 - Ender's Delight installed to Holycube Revolution instance.
+[2025-10-29 19:11:40.624] [info]  [ProjectInstanceChangedEventHandler] Project instance 827163 - Ender's Delight changed.
+[2025-10-29 19:11:40.625] [info]  [ProjectInstanceChangedEventHandler] Project instance 827163 - Ender's Delight changed.
+[2025-10-29 19:11:40.982] [info]  [ProjectInstanceChangedEventHandler] Project instance 1253573 - Mechanicals Lib changed.
+[2025-10-29 19:11:40.983] [info]  [ProjectInstalledEventHandler] Project 1253573 - Mechanicals Lib installed to Holycube Revolution instance.
+[2025-10-29 19:11:40.987] [info]  [ProjectInstanceChangedEventHandler] Project instance 1253573 - Mechanicals Lib changed.
+[2025-10-29 19:11:41.298] [info]  [ProjectInstanceChangedEventHandler] Project instance 1238567 - Sophisticated Backpacks Create Integration changed.
+[2025-10-29 19:11:41.299] [info]  [ProjectInstalledEventHandler] Project 1238567 - Sophisticated Backpacks Create Integration installed to Holycube Revolution instance.
+[2025-10-29 19:11:41.302] [info]  [ProjectInstanceChangedEventHandler] Project instance 1238567 - Sophisticated Backpacks Create Integration changed.
+[2025-10-29 19:11:41.302] [info]  [ProjectInstanceChangedEventHandler] Project instance 1238567 - Sophisticated Backpacks Create Integration changed.
+[2025-10-29 19:11:41.692] [info]  [ProjectInstanceChangedEventHandler] Project instance 868230 - Online Emotes changed.
+[2025-10-29 19:11:41.692] [info]  [ProjectInstanceChangedEventHandler] Project instance 868230 - Online Emotes changed.
+[2025-10-29 19:11:41.693] [info]  [ProjectInstalledEventHandler] Project 868230 - Online Emotes installed to Holycube Revolution instance.
+[2025-10-29 19:11:42.119] [info]  [ProjectInstanceChangedEventHandler] Project instance 238222 - Just Enough Items (JEI) changed.
+[2025-10-29 19:11:42.120] [info]  [ProjectInstanceChangedEventHandler] Project instance 238222 - Just Enough Items (JEI) changed.
+[2025-10-29 19:11:42.121] [info]  [ProjectInstalledEventHandler] Project 238222 - Just Enough Items (JEI) installed to Holycube Revolution instance.
+[2025-10-29 19:11:42.124] [info]  [ProjectInstanceChangedEventHandler] Project instance 238222 - Just Enough Items (JEI) changed.
+[2025-10-29 19:11:42.533] [info]  [ProjectInstanceChangedEventHandler] Project instance 495476 - Puzzles Lib changed.
+[2025-10-29 19:11:42.535] [info]  [ProjectInstalledEventHandler] Project 495476 - Puzzles Lib installed to Holycube Revolution instance.
+[2025-10-29 19:11:42.540] [info]  [ProjectInstanceChangedEventHandler] Project instance 495476 - Puzzles Lib changed.
+[2025-10-29 19:11:42.540] [info]  [ProjectInstanceChangedEventHandler] Project instance 495476 - Puzzles Lib changed.
+[2025-10-29 19:11:42.907] [info]  [ProjectInstalledEventHandler] Project 891328 - Diagonal Windows installed to Holycube Revolution instance.
+[2025-10-29 19:11:42.910] [info]  [ProjectInstanceChangedEventHandler] Project instance 891328 - Diagonal Windows changed.
+[2025-10-29 19:11:42.910] [info]  [ProjectInstanceChangedEventHandler] Project instance 891328 - Diagonal Windows changed.
+[2025-10-29 19:11:43.241] [info]  [ProjectInstalledEventHandler] Project 429235 - FerriteCore ((Neo)Forge) installed to Holycube Revolution instance.
+[2025-10-29 19:11:43.243] [info]  [ProjectInstanceChangedEventHandler] Project instance 429235 - FerriteCore ((Neo)Forge) changed.
+[2025-10-29 19:11:43.243] [info]  [ProjectInstanceChangedEventHandler] Project instance 429235 - FerriteCore ((Neo)Forge) changed.
+[2025-10-29 19:11:43.623] [info]  [ProjectInstalledEventHandler] Project 968432 - MonoLib installed to Holycube Revolution instance.
+[2025-10-29 19:11:43.626] [info]  [ProjectInstanceChangedEventHandler] Project instance 968432 - MonoLib changed.
+[2025-10-29 19:11:43.626] [info]  [ProjectInstanceChangedEventHandler] Project instance 968432 - MonoLib changed.
+[2025-10-29 19:11:43.943] [info]  [ProjectInstalledEventHandler] Project 583345 - Jade Addons (Neo/Forge) installed to Holycube Revolution instance.
+[2025-10-29 19:11:43.948] [info]  [ProjectInstanceChangedEventHandler] Project instance 583345 - Jade Addons (Neo/Forge) changed.
+[2025-10-29 19:11:43.948] [info]  [ProjectInstanceChangedEventHandler] Project instance 583345 - Jade Addons (Neo/Forge) changed.
+[2025-10-29 19:11:44.430] [info]  [ProjectInstalledEventHandler] Project 1196142 - Create: Sound of Steam installed to Holycube Revolution instance.
+[2025-10-29 19:11:44.432] [info]  [ProjectInstanceChangedEventHandler] Project instance 1196142 - Create: Sound of Steam changed.
+[2025-10-29 19:11:44.432] [info]  [ProjectInstanceChangedEventHandler] Project instance 1196142 - Create: Sound of Steam changed.
+[2025-10-29 19:11:44.790] [info]  [ProjectInstalledEventHandler] Project 422301 - Sophisticated Backpacks installed to Holycube Revolution instance.
+[2025-10-29 19:11:44.791] [info]  [ProjectInstanceChangedEventHandler] Project instance 422301 - Sophisticated Backpacks changed.
+[2025-10-29 19:11:44.791] [info]  [ProjectInstanceChangedEventHandler] Project instance 422301 - Sophisticated Backpacks changed.
+[2025-10-29 19:11:44.791] [info]  [ProjectInstanceChangedEventHandler] Project instance 422301 - Sophisticated Backpacks changed.
+[2025-10-29 19:11:45.133] [info]  [ProjectInstalledEventHandler] Project 682564 - Straw Statues installed to Holycube Revolution instance.
+[2025-10-29 19:11:45.135] [info]  [ProjectInstanceChangedEventHandler] Project instance 682564 - Straw Statues changed.
+[2025-10-29 19:11:45.135] [info]  [ProjectInstanceChangedEventHandler] Project instance 682564 - Straw Statues changed.
+[2025-10-29 19:11:45.527] [info]  [ProjectInstanceChangedEventHandler] Project instance 300331 - Simply Light changed.
+[2025-10-29 19:11:45.531] [info]  [ProjectInstalledEventHandler] Project 300331 - Simply Light installed to Holycube Revolution instance.
+[2025-10-29 19:11:45.533] [info]  [ProjectInstanceChangedEventHandler] Project instance 300331 - Simply Light changed.
+[2025-10-29 19:11:45.885] [info]  [ProjectInstalledEventHandler] Project 570073 - Resourceful Lib installed to Holycube Revolution instance.
+[2025-10-29 19:11:45.887] [info]  [ProjectInstanceChangedEventHandler] Project instance 570073 - Resourceful Lib changed.
+[2025-10-29 19:11:45.890] [info]  [ProjectInstanceChangedEventHandler] Project instance 570073 - Resourceful Lib changed.
+[2025-10-29 19:11:46.285] [info]  [ProjectInstanceChangedEventHandler] Project instance 466792 - Create Stuff 'N Additions changed.
+[2025-10-29 19:11:46.286] [info]  [ProjectInstalledEventHandler] Project 466792 - Create Stuff 'N Additions installed to Holycube Revolution instance.
+[2025-10-29 19:11:46.289] [info]  [ProjectInstanceChangedEventHandler] Project instance 466792 - Create Stuff 'N Additions changed.
+[2025-10-29 19:11:46.625] [info]  [ProjectInstalledEventHandler] Project 458048 - Diagonal Fences installed to Holycube Revolution instance.
+[2025-10-29 19:11:46.626] [info]  [ProjectInstanceChangedEventHandler] Project instance 458048 - Diagonal Fences changed.
+[2025-10-29 19:11:46.626] [info]  [ProjectInstanceChangedEventHandler] Project instance 458048 - Diagonal Fences changed.
+[2025-10-29 19:11:47.237] [info]  [ProjectInstanceChangedEventHandler] Project instance 324717 - Jade 🔍 changed.
+[2025-10-29 19:11:47.237] [info]  [ProjectInstanceChangedEventHandler] Project instance 324717 - Jade 🔍 changed.
+[2025-10-29 19:11:47.238] [info]  [ProjectInstalledEventHandler] Project 324717 - Jade 🔍 installed to Holycube Revolution instance.
+[2025-10-29 19:11:47.241] [info]  [ProjectInstanceChangedEventHandler] Project instance 324717 - Jade 🔍 changed.
+[2025-10-29 19:11:47.911] [info]  [ProjectInstalledEventHandler] Project 288885 - FastWorkbench installed to Holycube Revolution instance.
+[2025-10-29 19:11:47.914] [info]  [ProjectInstanceChangedEventHandler] Project instance 288885 - FastWorkbench changed.
+[2025-10-29 19:11:47.914] [info]  [ProjectInstanceChangedEventHandler] Project instance 288885 - FastWorkbench changed.
+[2025-10-29 19:11:48.546] [info]  [ProjectInstanceChangedEventHandler] Project instance 261725 - ItemZoom changed.
+[2025-10-29 19:11:48.547] [info]  [ProjectInstanceChangedEventHandler] Project instance 261725 - ItemZoom changed.
+[2025-10-29 19:11:48.548] [info]  [ProjectInstalledEventHandler] Project 261725 - ItemZoom installed to Holycube Revolution instance.
+[2025-10-29 19:11:49.075] [info]  [ProjectInstalledEventHandler] Project 1219053 - Particular ✨ Reforged installed to Holycube Revolution instance.
+[2025-10-29 19:11:49.078] [info]  [ProjectInstanceChangedEventHandler] Project instance 1219053 - Particular ✨ Reforged changed.
+[2025-10-29 19:11:49.084] [info]  [ProjectInstanceChangedEventHandler] Project instance 1219053 - Particular ✨ Reforged changed.
+[2025-10-29 19:11:49.084] [info]  [ProjectInstanceChangedEventHandler] Project instance 1219053 - Particular ✨ Reforged changed.
+[2025-10-29 19:11:49.428] [info]  [ProjectInstanceChangedEventHandler] Project instance 1242631 - Bountiful Braces changed.
+[2025-10-29 19:11:49.429] [info]  [ProjectInstanceChangedEventHandler] Project instance 1242631 - Bountiful Braces changed.
+[2025-10-29 19:11:49.430] [info]  [ProjectInstalledEventHandler] Project 1242631 - Bountiful Braces installed to Holycube Revolution instance.
+[2025-10-29 19:11:49.827] [info]  [ProjectInstanceChangedEventHandler] Project instance 287342 - Titanium changed.
+[2025-10-29 19:11:49.829] [info]  [ProjectInstalledEventHandler] Project 287342 - Titanium installed to Holycube Revolution instance.
+[2025-10-29 19:11:49.833] [info]  [ProjectInstanceChangedEventHandler] Project instance 287342 - Titanium changed.
+[2025-10-29 19:11:50.198] [info]  [ProjectInstanceChangedEventHandler] Project instance 391382 - More Overlays Updated changed.
+[2025-10-29 19:11:50.199] [info]  [ProjectInstanceChangedEventHandler] Project instance 391382 - More Overlays Updated changed.
+[2025-10-29 19:11:50.200] [info]  [ProjectInstalledEventHandler] Project 391382 - More Overlays Updated installed to Holycube Revolution instance.
+[2025-10-29 19:11:50.202] [info]  [ProjectInstanceChangedEventHandler] Project instance 391382 - More Overlays Updated changed.
+[2025-10-29 19:11:50.493] [info]  [ProjectInstalledEventHandler] Project 1133580 - Smithing Template Viewer for JEI/EMI installed to Holycube Revolution instance.
+[2025-10-29 19:11:50.496] [info]  [ProjectInstanceChangedEventHandler] Project instance 1133580 - Smithing Template Viewer for JEI/EMI changed.
+[2025-10-29 19:11:50.496] [info]  [ProjectInstanceChangedEventHandler] Project instance 1133580 - Smithing Template Viewer for JEI/EMI changed.
+[2025-10-29 19:11:50.946] [info]  [ProjectInstanceChangedEventHandler] Project instance 363363 - Extreme sound muffler - (Neo)Forge changed.
+[2025-10-29 19:11:50.946] [info]  [ProjectInstanceChangedEventHandler] Project instance 363363 - Extreme sound muffler - (Neo)Forge changed.
+[2025-10-29 19:11:50.947] [info]  [ProjectInstalledEventHandler] Project 363363 - Extreme sound muffler - (Neo)Forge installed to Holycube Revolution instance.
+[2025-10-29 19:11:50.951] [info]  [ProjectInstanceChangedEventHandler] Project instance 363363 - Extreme sound muffler - (Neo)Forge changed.
+[2025-10-29 19:11:51.329] [info]  [ProjectInstanceChangedEventHandler] Project instance 1103188 - Create More Recipes changed.
+[2025-10-29 19:11:51.331] [info]  [ProjectInstalledEventHandler] Project 1103188 - Create More Recipes installed to Holycube Revolution instance.
+[2025-10-29 19:11:51.335] [info]  [ProjectInstanceChangedEventHandler] Project instance 1103188 - Create More Recipes changed.
+[2025-10-29 19:11:51.335] [info]  [ProjectInstanceChangedEventHandler] Project instance 1103188 - Create More Recipes changed.
+[2025-10-29 19:11:51.999] [info]  [ProjectInstanceChangedEventHandler] Project instance 538214 - Handcrafted changed.
+[2025-10-29 19:11:51.999] [info]  [ProjectInstanceChangedEventHandler] Project instance 538214 - Handcrafted changed.
+[2025-10-29 19:11:52.000] [info]  [ProjectInstalledEventHandler] Project 538214 - Handcrafted installed to Holycube Revolution instance.
+[2025-10-29 19:11:53.210] [info]  [ProjectInstalledEventHandler] Project 272515 - Better Advancements installed to Holycube Revolution instance.
+[2025-10-29 19:11:53.213] [info]  [ProjectInstanceChangedEventHandler] Project instance 272515 - Better Advancements changed.
+[2025-10-29 19:11:53.216] [info]  [ProjectInstanceChangedEventHandler] Project instance 272515 - Better Advancements changed.
+[2025-10-29 19:11:53.913] [info]  [ProjectInstanceChangedEventHandler] Project instance 583228 - Simple Backups changed.
+[2025-10-29 19:11:53.913] [info]  [ProjectInstanceChangedEventHandler] Project instance 583228 - Simple Backups changed.
+[2025-10-29 19:11:53.914] [info]  [ProjectInstalledEventHandler] Project 583228 - Simple Backups installed to Holycube Revolution instance.
+[2025-10-29 19:11:53.917] [info]  [ProjectInstanceChangedEventHandler] Project instance 583228 - Simple Backups changed.
+[2025-10-29 19:11:54.532] [info]  [ProjectInstalledEventHandler] Project 245755 - Waystones installed to Holycube Revolution instance.
+[2025-10-29 19:11:54.534] [info]  [ProjectInstanceChangedEventHandler] Project instance 245755 - Waystones changed.
+[2025-10-29 19:11:54.538] [info]  [ProjectInstanceChangedEventHandler] Project instance 245755 - Waystones changed.
+[2025-10-29 19:11:54.538] [info]  [ProjectInstanceChangedEventHandler] Project instance 245755 - Waystones changed.
+[2025-10-29 19:11:54.825] [info]  [ProjectInstanceChangedEventHandler] Project instance 240633 - Inventory Sorter changed.
+[2025-10-29 19:11:54.826] [info]  [ProjectInstanceChangedEventHandler] Project instance 240633 - Inventory Sorter changed.
+[2025-10-29 19:11:54.827] [info]  [ProjectInstalledEventHandler] Project 240633 - Inventory Sorter installed to Holycube Revolution instance.
+[2025-10-29 19:11:55.467] [info]  [ProjectInstanceChangedEventHandler] Project instance 317094 - EmbellishCraft changed.
+[2025-10-29 19:11:55.468] [info]  [ProjectInstalledEventHandler] Project 317094 - EmbellishCraft installed to Holycube Revolution instance.
+[2025-10-29 19:11:55.469] [info]  [ProjectInstanceChangedEventHandler] Project instance 317094 - EmbellishCraft changed.
+[2025-10-29 19:11:56.084] [info]  [ProjectInstalledEventHandler] Project 367706 - FancyMenu installed to Holycube Revolution instance.
+[2025-10-29 19:11:56.086] [info]  [ProjectInstanceChangedEventHandler] Project instance 367706 - FancyMenu changed.
+[2025-10-29 19:11:56.086] [info]  [ProjectInstanceChangedEventHandler] Project instance 367706 - FancyMenu changed.
+[2025-10-29 19:11:56.086] [info]  [ProjectInstanceChangedEventHandler] Project instance 367706 - FancyMenu changed.
+[2025-10-29 19:11:57.047] [info]  [ProjectInstalledEventHandler] Project 412082 - Supplementaries installed to Holycube Revolution instance.
+[2025-10-29 19:11:57.048] [info]  [ProjectInstanceChangedEventHandler] Project instance 412082 - Supplementaries changed.
+[2025-10-29 19:11:57.048] [info]  [ProjectInstanceChangedEventHandler] Project instance 412082 - Supplementaries changed.
+[2025-10-29 19:11:57.048] [info]  [ProjectInstanceChangedEventHandler] Project instance 412082 - Supplementaries changed.
+[2025-10-29 19:11:57.469] [info]  [ProjectInstanceChangedEventHandler] Project instance 1168509 - Anvian's Lib changed.
+[2025-10-29 19:11:57.470] [info]  [ProjectInstalledEventHandler] Project 1168509 - Anvian's Lib installed to Holycube Revolution instance.
+[2025-10-29 19:11:57.475] [info]  [ProjectInstanceChangedEventHandler] Project instance 1168509 - Anvian's Lib changed.
+[2025-10-29 19:11:57.475] [info]  [ProjectInstanceChangedEventHandler] Project instance 1168509 - Anvian's Lib changed.
+[2025-10-29 19:11:57.861] [info]  [ProjectInstalledEventHandler] Project 1005676 - Create: Aquatic Ambitions installed to Holycube Revolution instance.
+[2025-10-29 19:11:57.864] [info]  [ProjectInstanceChangedEventHandler] Project instance 1005676 - Create: Aquatic Ambitions changed.
+[2025-10-29 19:11:57.868] [info]  [ProjectInstanceChangedEventHandler] Project instance 1005676 - Create: Aquatic Ambitions changed.
+[2025-10-29 19:11:58.249] [info]  [ProjectInstalledEventHandler] Project 1297736 - Create: Colored installed to Holycube Revolution instance.
+[2025-10-29 19:11:58.251] [info]  [ProjectInstanceChangedEventHandler] Project instance 1297736 - Create: Colored changed.
+[2025-10-29 19:11:58.256] [info]  [ProjectInstanceChangedEventHandler] Project instance 1297736 - Create: Colored changed.
+[2025-10-29 19:11:58.718] [info]  [ProjectInstanceChangedEventHandler] Project instance 303657 - Kiwi 🥝 (Neo/Forge) changed.
+[2025-10-29 19:11:58.719] [info]  [ProjectInstalledEventHandler] Project 303657 - Kiwi 🥝 (Neo/Forge) installed to Holycube Revolution instance.
+[2025-10-29 19:11:58.720] [info]  [ProjectInstanceChangedEventHandler] Project instance 303657 - Kiwi 🥝 (Neo/Forge) changed.
+[2025-10-29 19:11:58.721] [info]  [ProjectInstanceChangedEventHandler] Project instance 303657 - Kiwi 🥝 (Neo/Forge) changed.
+[2025-10-29 19:11:59.198] [info]  [ProjectInstalledEventHandler] Project 1231513 - Holycube Additions installed to Holycube Revolution instance.
+[2025-10-29 19:11:59.199] [info]  [ProjectInstanceChangedEventHandler] Project instance 1231513 - Holycube Additions changed.
+[2025-10-29 19:11:59.199] [info]  [ProjectInstanceChangedEventHandler] Project instance 1231513 - Holycube Additions changed.
+[2025-10-29 19:11:59.666] [info]  [ProjectInstanceChangedEventHandler] Project instance 250419 - Enchantment Descriptions changed.
+[2025-10-29 19:11:59.667] [info]  [ProjectInstalledEventHandler] Project 250419 - Enchantment Descriptions installed to Holycube Revolution instance.
+[2025-10-29 19:11:59.670] [info]  [ProjectInstanceChangedEventHandler] Project instance 250419 - Enchantment Descriptions changed.
+[2025-10-29 19:11:59.671] [info]  [ProjectInstanceChangedEventHandler] Project instance 250419 - Enchantment Descriptions changed.
+[2025-10-29 19:12:00.228] [info]  [ProjectInstanceChangedEventHandler] Project instance 1264423 - BaguetteLib changed.
+[2025-10-29 19:12:00.229] [info]  [ProjectInstanceChangedEventHandler] Project instance 1264423 - BaguetteLib changed.
+[2025-10-29 19:12:00.230] [info]  [ProjectInstalledEventHandler] Project 1264423 - BaguetteLib installed to Holycube Revolution instance.
+[2025-10-29 19:12:00.235] [info]  [ProjectInstanceChangedEventHandler] Project instance 1264423 - BaguetteLib changed.
+[2025-10-29 19:12:00.892] [info]  [ProjectInstanceChangedEventHandler] Project instance 511770 - Drippy Loading Screen changed.
+[2025-10-29 19:12:00.893] [info]  [ProjectInstanceChangedEventHandler] Project instance 511770 - Drippy Loading Screen changed.
+[2025-10-29 19:12:00.893] [info]  [ProjectInstalledEventHandler] Project 511770 - Drippy Loading Screen installed to Holycube Revolution instance.
+[2025-10-29 19:12:01.430] [info]  [ProjectInstanceChangedEventHandler] Project instance 659496 - MoreBeeInfo changed.
+[2025-10-29 19:12:01.431] [info]  [ProjectInstanceChangedEventHandler] Project instance 659496 - MoreBeeInfo changed.
+[2025-10-29 19:12:01.431] [info]  [ProjectInstalledEventHandler] Project 659496 - MoreBeeInfo installed to Holycube Revolution instance.
+[2025-10-29 19:12:01.433] [info]  [ProjectInstanceChangedEventHandler] Project instance 659496 - MoreBeeInfo changed.
+[2025-10-29 19:12:01.826] [info]  [ProjectInstanceChangedEventHandler] Project instance 1223529 - Wakes Reforged changed.
+[2025-10-29 19:12:01.827] [info]  [ProjectInstalledEventHandler] Project 1223529 - Wakes Reforged installed to Holycube Revolution instance.
+[2025-10-29 19:12:01.829] [info]  [ProjectInstanceChangedEventHandler] Project instance 1223529 - Wakes Reforged changed.
+[2025-10-29 19:12:02.209] [info]  [ProjectInstanceChangedEventHandler] Project instance 404468 - FTB Teams (Forge) changed.
+[2025-10-29 19:12:02.210] [info]  [ProjectInstanceChangedEventHandler] Project instance 404468 - FTB Teams (Forge) changed.
+[2025-10-29 19:12:02.210] [info]  [ProjectInstalledEventHandler] Project 404468 - FTB Teams (Forge) installed to Holycube Revolution instance.
+[2025-10-29 19:12:02.212] [info]  [ProjectInstanceChangedEventHandler] Project instance 404468 - FTB Teams (Forge) changed.
+[2025-10-29 19:12:02.565] [info]  [ProjectInstalledEventHandler] Project 283644 - Placebo installed to Holycube Revolution instance.
+[2025-10-29 19:12:02.568] [info]  [ProjectInstanceChangedEventHandler] Project instance 283644 - Placebo changed.
+[2025-10-29 19:12:02.571] [info]  [ProjectInstanceChangedEventHandler] Project instance 283644 - Placebo changed.
+[2025-10-29 19:12:02.572] [info]  [ProjectInstanceChangedEventHandler] Project instance 283644 - Placebo changed.
+[2025-10-29 19:12:03.073] [info]  [ProjectInstanceChangedEventHandler] Project instance 659674 - Create Slice & Dice changed.
+[2025-10-29 19:12:03.074] [info]  [ProjectInstanceChangedEventHandler] Project instance 659674 - Create Slice & Dice changed.
+[2025-10-29 19:12:03.074] [info]  [ProjectInstalledEventHandler] Project 659674 - Create Slice & Dice installed to Holycube Revolution instance.
+[2025-10-29 19:12:03.077] [info]  [ProjectInstanceChangedEventHandler] Project instance 659674 - Create Slice & Dice changed.
+[2025-10-29 19:12:03.774] [info]  [ProjectInstalledEventHandler] Project 384991 - Additional Lights installed to Holycube Revolution instance.
+[2025-10-29 19:12:03.777] [info]  [ProjectInstanceChangedEventHandler] Project instance 384991 - Additional Lights changed.
+[2025-10-29 19:12:03.777] [info]  [ProjectInstanceChangedEventHandler] Project instance 384991 - Additional Lights changed.
+[2025-10-29 19:12:03.777] [info]  [ProjectInstanceChangedEventHandler] Project instance 384991 - Additional Lights changed.
+[2025-10-29 19:12:04.629] [info]  [ProjectInstanceChangedEventHandler] Project instance 314906 - FTB Chunks (Forge) changed.
+[2025-10-29 19:12:04.630] [info]  [ProjectInstalledEventHandler] Project 314906 - FTB Chunks (Forge) installed to Holycube Revolution instance.
+[2025-10-29 19:12:04.636] [info]  [ProjectInstanceChangedEventHandler] Project instance 314906 - FTB Chunks (Forge) changed.
+[2025-10-29 19:12:04.636] [info]  [ProjectInstanceChangedEventHandler] Project instance 314906 - FTB Chunks (Forge) changed.
+[2025-10-29 19:12:04.691] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-10-29 19:12:05.642] [info]  [ProjectInstanceChangedEventHandler] Project instance 419372 - Easy Piglins changed.
+[2025-10-29 19:12:05.642] [info]  [ProjectInstanceChangedEventHandler] Project instance 419372 - Easy Piglins changed.
+[2025-10-29 19:12:05.643] [info]  [ProjectInstalledEventHandler] Project 419372 - Easy Piglins installed to Holycube Revolution instance.
+[2025-10-29 19:12:05.956] [info]  [ProjectInstalledEventHandler] Project 1142875 - Flerovium installed to Holycube Revolution instance.
+[2025-10-29 19:12:05.959] [info]  [ProjectInstanceChangedEventHandler] Project instance 1142875 - Flerovium changed.
+[2025-10-29 19:12:05.960] [info]  [ProjectInstanceChangedEventHandler] Project instance 1142875 - Flerovium changed.
+[2025-10-29 19:12:05.965] [info]  [ProjectInstanceChangedEventHandler] Project instance 1142875 - Flerovium changed.
+[2025-10-29 19:12:06.293] [info]  [ProjectInstalledEventHandler] Project 316873 - Charm of Undying (Fabric/Forge/Quilt) installed to Holycube Revolution instance.
+[2025-10-29 19:12:06.295] [info]  [ProjectInstanceChangedEventHandler] Project instance 316873 - Charm of Undying (Fabric/Forge/Quilt) changed.
+[2025-10-29 19:12:06.295] [info]  [ProjectInstanceChangedEventHandler] Project instance 316873 - Charm of Undying (Fabric/Forge/Quilt) changed.
+[2025-10-29 19:12:06.659] [info]  [ProjectInstanceChangedEventHandler] Project instance 1061749 - Create: Enchantable Machinery changed.
+[2025-10-29 19:12:06.659] [info]  [ProjectInstanceChangedEventHandler] Project instance 1061749 - Create: Enchantable Machinery changed.
+[2025-10-29 19:12:06.660] [info]  [ProjectInstalledEventHandler] Project 1061749 - Create: Enchantable Machinery installed to Holycube Revolution instance.
+[2025-10-29 19:12:06.872] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-10-29 19:12:07.042] [info]  [ProjectInstalledEventHandler] Project 1283840 - Create: Extended Wrenches installed to Holycube Revolution instance.
+[2025-10-29 19:12:07.045] [info]  [ProjectInstanceChangedEventHandler] Project instance 1283840 - Create: Extended Wrenches changed.
+[2025-10-29 19:12:07.045] [info]  [ProjectInstanceChangedEventHandler] Project instance 1283840 - Create: Extended Wrenches changed.
+[2025-10-29 19:12:07.383] [info]  [ProjectInstalledEventHandler] Project 1161283 - Create: Winery [Forge/NeoForge] installed to Holycube Revolution instance.
+[2025-10-29 19:12:07.385] [info]  [ProjectInstanceChangedEventHandler] Project instance 1161283 - Create: Winery [Forge/NeoForge] changed.
+[2025-10-29 19:12:07.385] [info]  [ProjectInstanceChangedEventHandler] Project instance 1161283 - Create: Winery [Forge/NeoForge] changed.
+[2025-10-29 19:12:07.803] [info]  [ProjectInstalledEventHandler] Project 896746 - Amendments installed to Holycube Revolution instance.
+[2025-10-29 19:12:07.804] [info]  [ProjectInstanceChangedEventHandler] Project instance 896746 - Amendments changed.
+[2025-10-29 19:12:07.805] [info]  [ProjectInstanceChangedEventHandler] Project instance 896746 - Amendments changed.
+[2025-10-29 19:12:07.807] [info]  [ProjectInstanceChangedEventHandler] Project instance 896746 - Amendments changed.
+[2025-10-29 19:12:08.142] [info]  [ProjectInstanceChangedEventHandler] Project instance 1003673 - My Nether's Delight changed.
+[2025-10-29 19:12:08.143] [info]  [ProjectInstalledEventHandler] Project 1003673 - My Nether's Delight installed to Holycube Revolution instance.
+[2025-10-29 19:12:08.146] [info]  [ProjectInstanceChangedEventHandler] Project instance 1003673 - My Nether's Delight changed.
+[2025-10-29 19:12:08.146] [info]  [ProjectInstanceChangedEventHandler] Project instance 1003673 - My Nether's Delight changed.
+[2025-10-29 19:12:08.554] [info]  [ProjectInstalledEventHandler] Project 1057194 - Create: Curios Jetpack & Backtank [Forge/Fabric/NeoForge] installed to Holycube Revolution instance.
+[2025-10-29 19:12:08.556] [info]  [ProjectInstanceChangedEventHandler] Project instance 1057194 - Create: Curios Jetpack & Backtank [Forge/Fabric/NeoForge] changed.
+[2025-10-29 19:12:08.556] [info]  [ProjectInstanceChangedEventHandler] Project instance 1057194 - Create: Curios Jetpack & Backtank [Forge/Fabric/NeoForge] changed.
+[2025-10-29 19:12:08.888] [info]  [ProjectInstalledEventHandler] Project 457570 - Configured installed to Holycube Revolution instance.
+[2025-10-29 19:12:08.889] [info]  [ProjectInstanceChangedEventHandler] Project instance 457570 - Configured changed.
+[2025-10-29 19:12:08.891] [info]  [ProjectInstanceChangedEventHandler] Project instance 457570 - Configured changed.
+[2025-10-29 19:12:08.892] [info]  [ProjectInstanceChangedEventHandler] Project instance 457570 - Configured changed.
+[2025-10-29 19:12:09.227] [info]  [ProjectInstalledEventHandler] Project 968456 - Cobweb installed to Holycube Revolution instance.
+[2025-10-29 19:12:09.231] [info]  [ProjectInstanceChangedEventHandler] Project instance 968456 - Cobweb changed.
+[2025-10-29 19:12:09.231] [info]  [ProjectInstanceChangedEventHandler] Project instance 968456 - Cobweb changed.
+[2025-10-29 19:12:10.401] [info]  [ProjectInstalledEventHandler] Project 328085 - Create installed to Holycube Revolution instance.
+[2025-10-29 19:12:10.402] [info]  [ProjectInstanceChangedEventHandler] Project instance 328085 - Create changed.
+[2025-10-29 19:12:10.402] [info]  [ProjectInstanceChangedEventHandler] Project instance 328085 - Create changed.
+[2025-10-29 19:12:10.402] [info]  [ProjectInstanceChangedEventHandler] Project instance 328085 - Create changed.
+[2025-10-29 19:12:10.893] [info]  [ProjectInstalledEventHandler] Project 923238 - Create: Design n' Decor installed to Holycube Revolution instance.
+[2025-10-29 19:12:10.896] [info]  [ProjectInstanceChangedEventHandler] Project instance 923238 - Create: Design n' Decor changed.
+[2025-10-29 19:12:10.896] [info]  [ProjectInstanceChangedEventHandler] Project instance 923238 - Create: Design n' Decor changed.
+[2025-10-29 19:12:11.312] [info]  [ProjectInstalledEventHandler] Project 306770 - Patchouli installed to Holycube Revolution instance.
+[2025-10-29 19:12:11.315] [info]  [ProjectInstanceChangedEventHandler] Project instance 306770 - Patchouli changed.
+[2025-10-29 19:12:11.315] [info]  [ProjectInstanceChangedEventHandler] Project instance 306770 - Patchouli changed.
+[2025-10-29 19:12:11.315] [info]  [ProjectInstanceChangedEventHandler] Project instance 306770 - Patchouli changed.
+[2025-10-29 19:12:11.702] [info]  [ProjectInstalledEventHandler] Project 1107296 - Create Mechanical Chicken installed to Holycube Revolution instance.
+[2025-10-29 19:12:11.703] [info]  [ProjectInstanceChangedEventHandler] Project instance 1107296 - Create Mechanical Chicken changed.
+[2025-10-29 19:12:11.703] [info]  [ProjectInstanceChangedEventHandler] Project instance 1107296 - Create Mechanical Chicken changed.
+[2025-10-29 19:12:12.096] [info]  [ProjectInstalledEventHandler] Project 905508 - Create: Quality Of Life installed to Holycube Revolution instance.
+[2025-10-29 19:12:12.100] [info]  [ProjectInstanceChangedEventHandler] Project instance 905508 - Create: Quality Of Life changed.
+[2025-10-29 19:12:12.100] [info]  [ProjectInstanceChangedEventHandler] Project instance 905508 - Create: Quality Of Life changed.
+[2025-10-29 19:12:12.105] [info]  [ProjectInstanceChangedEventHandler] Project instance 905508 - Create: Quality Of Life changed.
+[2025-10-29 19:12:13.067] [info]  [ProjectInstalledEventHandler] Project 456956 - Chipped installed to Holycube Revolution instance.
+[2025-10-29 19:12:13.068] [info]  [ProjectInstanceChangedEventHandler] Project instance 456956 - Chipped changed.
+[2025-10-29 19:12:13.068] [info]  [ProjectInstanceChangedEventHandler] Project instance 456956 - Chipped changed.
+[2025-10-29 19:12:13.425] [info]  [ProjectInstalledEventHandler] Project 228525 - Bookshelf installed to Holycube Revolution instance.
+[2025-10-29 19:12:13.427] [info]  [ProjectInstanceChangedEventHandler] Project instance 228525 - Bookshelf changed.
+[2025-10-29 19:12:13.427] [info]  [ProjectInstanceChangedEventHandler] Project instance 228525 - Bookshelf changed.
+[2025-10-29 19:12:13.429] [info]  [ProjectInstanceChangedEventHandler] Project instance 228525 - Bookshelf changed.
+[2025-10-29 19:12:13.887] [info]  [ProjectInstalledEventHandler] Project 499980 - Moonlight Lib installed to Holycube Revolution instance.
+[2025-10-29 19:12:13.888] [info]  [ProjectInstanceChangedEventHandler] Project instance 499980 - Moonlight Lib changed.
+[2025-10-29 19:12:13.888] [info]  [ProjectInstanceChangedEventHandler] Project instance 499980 - Moonlight Lib changed.
+[2025-10-29 19:12:13.888] [info]  [ProjectInstanceChangedEventHandler] Project instance 499980 - Moonlight Lib changed.
+[2025-10-29 19:12:14.365] [info]  [ProjectInstanceChangedEventHandler] Project instance 1086661 - Bountiful Blocks changed.
+[2025-10-29 19:12:14.366] [info]  [ProjectInstanceChangedEventHandler] Project instance 1086661 - Bountiful Blocks changed.
+[2025-10-29 19:12:14.366] [info]  [ProjectInstalledEventHandler] Project 1086661 - Bountiful Blocks installed to Holycube Revolution instance.
+[2025-10-29 19:12:14.679] [info]  [ProjectInstalledEventHandler] Project 248787 - AppleSkin installed to Holycube Revolution instance.
+[2025-10-29 19:12:14.682] [info]  [ProjectInstanceChangedEventHandler] Project instance 248787 - AppleSkin changed.
+[2025-10-29 19:12:14.682] [info]  [ProjectInstanceChangedEventHandler] Project instance 248787 - AppleSkin changed.
+[2025-10-29 19:12:15.233] [info]  [ProjectInstalledEventHandler] Project 557076 - Freecam installed to Holycube Revolution instance.
+[2025-10-29 19:12:15.234] [info]  [ProjectInstanceChangedEventHandler] Project instance 557076 - Freecam changed.
+[2025-10-29 19:12:15.234] [info]  [ProjectInstanceChangedEventHandler] Project instance 557076 - Freecam changed.
+[2025-10-29 19:12:15.659] [info]  [ProjectInstalledEventHandler] Project 567403 - Lychee (Neo/Forge) installed to Holycube Revolution instance.
+[2025-10-29 19:12:15.661] [info]  [ProjectInstanceChangedEventHandler] Project instance 567403 - Lychee (Neo/Forge) changed.
+[2025-10-29 19:12:15.662] [info]  [ProjectInstanceChangedEventHandler] Project instance 567403 - Lychee (Neo/Forge) changed.
+[2025-10-29 19:12:15.664] [info]  [ProjectInstanceChangedEventHandler] Project instance 567403 - Lychee (Neo/Forge) changed.
+[2025-10-29 19:12:16.439] [info]  [ProjectInstanceChangedEventHandler] Project instance 968398 - Create: Copycats+ changed.
+[2025-10-29 19:12:16.440] [info]  [ProjectInstanceChangedEventHandler] Project instance 968398 - Create: Copycats+ changed.
+[2025-10-29 19:12:16.440] [info]  [ProjectInstalledEventHandler] Project 968398 - Create: Copycats+ installed to Holycube Revolution instance.
+[2025-10-29 19:12:17.177] [info]  [ProjectInstanceChangedEventHandler] Project instance 491890 - Etched changed.
+[2025-10-29 19:12:17.178] [info]  [ProjectInstalledEventHandler] Project 491890 - Etched installed to Holycube Revolution instance.
+[2025-10-29 19:12:17.182] [info]  [ProjectInstanceChangedEventHandler] Project instance 491890 - Etched changed.
+[2025-10-29 19:12:17.182] [info]  [ProjectInstanceChangedEventHandler] Project instance 491890 - Etched changed.
+[2025-10-29 19:12:17.581] [info]  [ProjectInstanceChangedEventHandler] Project instance 593753 - End Respawn Anchor changed.
+[2025-10-29 19:12:17.582] [info]  [ProjectInstalledEventHandler] Project 593753 - End Respawn Anchor installed to Holycube Revolution instance.
+[2025-10-29 19:12:17.585] [info]  [ProjectInstanceChangedEventHandler] Project instance 593753 - End Respawn Anchor changed.
+[2025-10-29 19:12:17.948] [info]  [ProjectInstalledEventHandler] Project 938643 - Melody installed to Holycube Revolution instance.
+[2025-10-29 19:12:17.951] [info]  [ProjectInstanceChangedEventHandler] Project instance 938643 - Melody changed.
+[2025-10-29 19:12:17.955] [info]  [ProjectInstanceChangedEventHandler] Project instance 938643 - Melody changed.
+[2025-10-29 19:12:18.507] [info]  [ProjectInstanceChangedEventHandler] Project instance 388172 - GeckoLib changed.
+[2025-10-29 19:12:18.509] [info]  [ProjectInstalledEventHandler] Project 388172 - GeckoLib installed to Holycube Revolution instance.
+[2025-10-29 19:12:18.512] [info]  [ProjectInstanceChangedEventHandler] Project instance 388172 - GeckoLib changed.
+[2025-10-29 19:12:18.512] [info]  [ProjectInstanceChangedEventHandler] Project instance 388172 - GeckoLib changed.
+[2025-10-29 19:12:18.833] [info]  [ProjectInstalledEventHandler] Project 955605 - CERBON's API [Forge | Fabric | NeoForge] installed to Holycube Revolution instance.
+[2025-10-29 19:12:18.836] [info]  [ProjectInstanceChangedEventHandler] Project instance 955605 - CERBON's API [Forge | Fabric | NeoForge] changed.
+[2025-10-29 19:12:18.841] [info]  [ProjectInstanceChangedEventHandler] Project instance 955605 - CERBON's API [Forge | Fabric | NeoForge] changed.
+[2025-10-29 19:12:19.452] [info]  [ProjectInstalledEventHandler] Project 938917 - Accessories installed to Holycube Revolution instance.
+[2025-10-29 19:12:19.454] [info]  [ProjectInstanceChangedEventHandler] Project instance 938917 - Accessories changed.
+[2025-10-29 19:12:19.458] [info]  [ProjectInstanceChangedEventHandler] Project instance 938917 - Accessories changed.
+[2025-10-29 19:12:19.458] [info]  [ProjectInstanceChangedEventHandler] Project instance 938917 - Accessories changed.
+[2025-10-29 19:12:19.913] [info]  [ProjectInstanceChangedEventHandler] Project instance 470193 - Connectivity changed.
+[2025-10-29 19:12:19.915] [info]  [ProjectInstalledEventHandler] Project 470193 - Connectivity installed to Holycube Revolution instance.
+[2025-10-29 19:12:19.919] [info]  [ProjectInstanceChangedEventHandler] Project instance 470193 - Connectivity changed.
+[2025-10-29 19:12:19.919] [info]  [ProjectInstanceChangedEventHandler] Project instance 470193 - Connectivity changed.
+[2025-10-29 19:12:20.262] [info]  [ProjectInstanceChangedEventHandler] Project instance 1232232 - HolyWrench: Survival Debug Stick changed.
+[2025-10-29 19:12:20.262] [info]  [ProjectInstanceChangedEventHandler] Project instance 1232232 - HolyWrench: Survival Debug Stick changed.
+[2025-10-29 19:12:20.263] [info]  [ProjectInstalledEventHandler] Project 1232232 - HolyWrench: Survival Debug Stick installed to Holycube Revolution instance.
+[2025-10-29 19:12:20.643] [info]  [ProjectInstalledEventHandler] Project 1231639 - Invisible Item Frame installed to Holycube Revolution instance.
+[2025-10-29 19:12:20.646] [info]  [ProjectInstanceChangedEventHandler] Project instance 1231639 - Invisible Item Frame changed.
+[2025-10-29 19:12:20.647] [info]  [ProjectInstanceChangedEventHandler] Project instance 1231639 - Invisible Item Frame changed.
+[2025-10-29 19:12:20.998] [info]  [ProjectInstanceChangedEventHandler] Project instance 635427 - Yeetus Experimentus changed.
+[2025-10-29 19:12:20.998] [info]  [ProjectInstanceChangedEventHandler] Project instance 635427 - Yeetus Experimentus changed.
+[2025-10-29 19:12:20.999] [info]  [ProjectInstalledEventHandler] Project 635427 - Yeetus Experimentus installed to Holycube Revolution instance.
+[2025-10-29 19:12:21.368] [info]  [ProjectInstanceChangedEventHandler] Project instance 511040 - Durability Tooltip changed.
+[2025-10-29 19:12:21.369] [info]  [ProjectInstalledEventHandler] Project 511040 - Durability Tooltip installed to Holycube Revolution instance.
+[2025-10-29 19:12:21.374] [info]  [ProjectInstanceChangedEventHandler] Project instance 511040 - Durability Tooltip changed.
+[2025-10-29 19:12:21.728] [info]  [ProjectInstanceChangedEventHandler] Project instance 652202 - Create : Misc & Things changed.
+[2025-10-29 19:12:21.742] [info]  [ProjectInstalledEventHandler] Project 652202 - Create : Misc & Things installed to Holycube Revolution instance.
+[2025-10-29 19:12:21.745] [info]  [ProjectInstanceChangedEventHandler] Project instance 652202 - Create : Misc & Things changed.
+[2025-10-29 19:12:22.148] [info]  [ProjectInstanceChangedEventHandler] Project instance 309927 - Curios API (Forge/NeoForge) changed.
+[2025-10-29 19:12:22.150] [info]  [ProjectInstalledEventHandler] Project 309927 - Curios API (Forge/NeoForge) installed to Holycube Revolution instance.
+[2025-10-29 19:12:22.153] [info]  [ProjectInstanceChangedEventHandler] Project instance 309927 - Curios API (Forge/NeoForge) changed.
+[2025-10-29 19:12:22.456] [info]  [ProjectInstanceChangedEventHandler] Project instance 824654 - Create: Molten Vents changed.
+[2025-10-29 19:12:22.456] [info]  [ProjectInstanceChangedEventHandler] Project instance 824654 - Create: Molten Vents changed.
+[2025-10-29 19:12:22.458] [info]  [ProjectInstalledEventHandler] Project 824654 - Create: Molten Vents installed to Holycube Revolution instance.
+[2025-10-29 19:12:23.142] [info]  [ProjectInstanceChangedEventHandler] Project instance 316582 - Corpse changed.
+[2025-10-29 19:12:23.142] [info]  [ProjectInstanceChangedEventHandler] Project instance 316582 - Corpse changed.
+[2025-10-29 19:12:23.144] [info]  [ProjectInstalledEventHandler] Project 316582 - Corpse installed to Holycube Revolution instance.
+[2025-10-29 19:12:23.147] [info]  [ProjectInstanceChangedEventHandler] Project instance 316582 - Corpse changed.
+[2025-10-29 19:12:23.600] [info]  [ProjectInstalledEventHandler] Project 1229975 - Happy Ghast 1.19+ [FORGE/NEOFORGE] installed to Holycube Revolution instance.
+[2025-10-29 19:12:23.601] [info]  [ProjectInstanceChangedEventHandler] Project instance 1229975 - Happy Ghast 1.19+ [FORGE/NEOFORGE] changed.
+[2025-10-29 19:12:23.601] [info]  [ProjectInstanceChangedEventHandler] Project instance 1229975 - Happy Ghast 1.19+ [FORGE/NEOFORGE] changed.
+[2025-10-29 19:12:23.951] [info]  [ProjectInstanceChangedEventHandler] Project instance 416294 - Rhino changed.
+[2025-10-29 19:12:23.953] [info]  [ProjectInstalledEventHandler] Project 416294 - Rhino installed to Holycube Revolution instance.
+[2025-10-29 19:12:23.956] [info]  [ProjectInstanceChangedEventHandler] Project instance 416294 - Rhino changed.
+[2025-10-29 19:12:23.957] [info]  [ProjectInstanceChangedEventHandler] Project instance 416294 - Rhino changed.
+[2025-10-29 19:12:24.293] [info]  [ProjectInstalledEventHandler] Project 1266399 - HolyPackage installed to Holycube Revolution instance.
+[2025-10-29 19:12:24.296] [info]  [ProjectInstanceChangedEventHandler] Project instance 1266399 - HolyPackage changed.
+[2025-10-29 19:12:24.301] [info]  [ProjectInstanceChangedEventHandler] Project instance 1266399 - HolyPackage changed.
+[2025-10-29 19:12:24.571] [info]  [ProjectInstalledEventHandler] Project 1217518 - Create Better FPS installed to Holycube Revolution instance.
+[2025-10-29 19:12:24.572] [info]  [ProjectInstanceChangedEventHandler] Project instance 1217518 - Create Better FPS changed.
+[2025-10-29 19:12:24.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 1217518 - Create Better FPS changed.
+[2025-10-29 19:12:24.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 1217518 - Create Better FPS changed.
+[2025-10-29 19:12:25.787] [info]  [ProjectInstalledEventHandler] Project 864781 - Create: Dreams n' Desires installed to Holycube Revolution instance.
+[2025-10-29 19:12:25.789] [info]  [ProjectInstanceChangedEventHandler] Project instance 864781 - Create: Dreams n' Desires changed.
+[2025-10-29 19:12:25.789] [info]  [ProjectInstanceChangedEventHandler] Project instance 864781 - Create: Dreams n' Desires changed.
+[2025-10-29 19:12:25.789] [info]  [ProjectInstanceChangedEventHandler] Project instance 864781 - Create: Dreams n' Desires changed.
+[2025-10-29 19:12:26.167] [info]  [ProjectInstalledEventHandler] Project 532610 - oωo (owo-lib) installed to Holycube Revolution instance.
+[2025-10-29 19:12:26.170] [info]  [ProjectInstanceChangedEventHandler] Project instance 532610 - oωo (owo-lib) changed.
+[2025-10-29 19:12:26.175] [info]  [ProjectInstanceChangedEventHandler] Project instance 532610 - oωo (owo-lib) changed.
+[2025-10-29 19:12:26.567] [info]  [ProjectInstanceChangedEventHandler] Project instance 438332 - SuperMartijn642's Config Lib changed.
+[2025-10-29 19:12:26.567] [info]  [ProjectInstanceChangedEventHandler] Project instance 438332 - SuperMartijn642's Config Lib changed.
+[2025-10-29 19:12:26.568] [info]  [ProjectInstalledEventHandler] Project 438332 - SuperMartijn642's Config Lib installed to Holycube Revolution instance.
+[2025-10-29 19:12:27.316] [info]  [ProjectInstanceChangedEventHandler] Project instance 351264 - Kotlin for Forge changed.
+[2025-10-29 19:12:27.317] [info]  [ProjectInstanceChangedEventHandler] Project instance 351264 - Kotlin for Forge changed.
+[2025-10-29 19:12:27.317] [info]  [ProjectInstanceChangedEventHandler] Project instance 351264 - Kotlin for Forge changed.
+[2025-10-29 19:12:27.318] [info]  [ProjectInstalledEventHandler] Project 351264 - Kotlin for Forge installed to Holycube Revolution instance.
+[2025-10-29 19:12:28.021] [info]  [ProjectInstalledEventHandler] Project 1163890 - Create: Cheese Factory [Forge/NeoForge] installed to Holycube Revolution instance.
+[2025-10-29 19:12:28.023] [info]  [ProjectInstanceChangedEventHandler] Project instance 1163890 - Create: Cheese Factory [Forge/NeoForge] changed.
+[2025-10-29 19:12:28.023] [info]  [ProjectInstanceChangedEventHandler] Project instance 1163890 - Create: Cheese Factory [Forge/NeoForge] changed.
+[2025-10-29 19:12:28.026] [info]  [ProjectInstanceChangedEventHandler] Project instance 1163890 - Create: Cheese Factory [Forge/NeoForge] changed.
+[2025-10-29 19:12:29.781] [info]  [ProjectInstalledEventHandler] Project 935929 - Create Railways Navigator installed to Holycube Revolution instance.
+[2025-10-29 19:12:29.783] [info]  [ProjectInstanceChangedEventHandler] Project instance 935929 - Create Railways Navigator changed.
+[2025-10-29 19:12:29.784] [info]  [ProjectInstanceChangedEventHandler] Project instance 935929 - Create Railways Navigator changed.
+[2025-10-29 19:12:30.498] [info]  [ProjectInstalledEventHandler] Project 398521 - Farmer's Delight installed to Holycube Revolution instance.
+[2025-10-29 19:12:30.500] [info]  [ProjectInstanceChangedEventHandler] Project instance 398521 - Farmer's Delight changed.
+[2025-10-29 19:12:30.500] [info]  [ProjectInstanceChangedEventHandler] Project instance 398521 - Farmer's Delight changed.
+[2025-10-29 19:12:30.500] [info]  [ProjectInstanceChangedEventHandler] Project instance 398521 - Farmer's Delight changed.
+[2025-10-29 19:12:31.016] [info]  [ProjectInstalledEventHandler] Project 610492 - Another Furniture installed to Holycube Revolution instance.
+[2025-10-29 19:12:31.018] [info]  [ProjectInstanceChangedEventHandler] Project instance 610492 - Another Furniture changed.
+[2025-10-29 19:12:31.018] [info]  [ProjectInstanceChangedEventHandler] Project instance 610492 - Another Furniture changed.
+[2025-10-29 19:12:31.022] [info]  [ProjectInstanceChangedEventHandler] Project instance 610492 - Another Furniture changed.
+[2025-10-29 19:12:31.401] [info]  [ProjectInstanceChangedEventHandler] Project instance 256717 - Clumps changed.
+[2025-10-29 19:12:31.401] [info]  [ProjectInstanceChangedEventHandler] Project instance 256717 - Clumps changed.
+[2025-10-29 19:12:31.402] [info]  [ProjectInstalledEventHandler] Project 256717 - Clumps installed to Holycube Revolution instance.
+[2025-10-29 19:12:31.723] [info]  [ProjectInstalledEventHandler] Project 233071 - Crafting Tweaks installed to Holycube Revolution instance.
+[2025-10-29 19:12:31.725] [info]  [ProjectInstanceChangedEventHandler] Project instance 233071 - Crafting Tweaks changed.
+[2025-10-29 19:12:31.725] [info]  [ProjectInstanceChangedEventHandler] Project instance 233071 - Crafting Tweaks changed.
+[2025-10-29 19:12:32.195] [info]  [ProjectInstalledEventHandler] Project 32274 - JourneyMap installed to Holycube Revolution instance.
+[2025-10-29 19:12:32.197] [info]  [ProjectInstanceChangedEventHandler] Project instance 32274 - JourneyMap changed.
+[2025-10-29 19:12:32.197] [info]  [ProjectInstanceChangedEventHandler] Project instance 32274 - JourneyMap changed.
+[2025-10-29 19:12:32.642] [info]  [ProjectInstalledEventHandler] Project 531834 - Create Confectionery installed to Holycube Revolution instance.
+[2025-10-29 19:12:32.645] [info]  [ProjectInstanceChangedEventHandler] Project instance 531834 - Create Confectionery changed.
+[2025-10-29 19:12:32.645] [info]  [ProjectInstanceChangedEventHandler] Project instance 531834 - Create Confectionery changed.
+[2025-10-29 19:12:33.174] [info]  [ProjectInstalledEventHandler] Project 834607 - WATERFrAMES: Multimedia Displays installed to Holycube Revolution instance.
+[2025-10-29 19:12:33.178] [info]  [ProjectInstanceChangedEventHandler] Project instance 834607 - WATERFrAMES: Multimedia Displays changed.
+[2025-10-29 19:12:33.179] [info]  [ProjectInstanceChangedEventHandler] Project instance 834607 - WATERFrAMES: Multimedia Displays changed.
+[2025-10-29 19:12:33.179] [info]  [ProjectInstanceChangedEventHandler] Project instance 834607 - WATERFrAMES: Multimedia Displays changed.
+[2025-10-29 19:12:33.737] [info]  [ProjectInstalledEventHandler] Project 257814 - CreativeCore installed to Holycube Revolution instance.
+[2025-10-29 19:12:33.738] [info]  [ProjectInstanceChangedEventHandler] Project instance 257814 - CreativeCore changed.
+[2025-10-29 19:12:33.740] [info]  [ProjectInstanceChangedEventHandler] Project instance 257814 - CreativeCore changed.
+[2025-10-29 19:12:33.740] [info]  [ProjectInstanceChangedEventHandler] Project instance 257814 - CreativeCore changed.
+[2025-10-29 19:12:34.039] [info]  [ProjectInstanceChangedEventHandler] Project instance 299540 - FastFurnace changed.
+[2025-10-29 19:12:34.040] [info]  [ProjectInstanceChangedEventHandler] Project instance 299540 - FastFurnace changed.
+[2025-10-29 19:12:34.041] [info]  [ProjectInstalledEventHandler] Project 299540 - FastFurnace installed to Holycube Revolution instance.
+[2025-10-29 19:12:34.671] [info]  [ProjectInstanceChangedEventHandler] Project instance 531761 - Balm changed.
+[2025-10-29 19:12:34.672] [info]  [ProjectInstalledEventHandler] Project 531761 - Balm installed to Holycube Revolution instance.
+[2025-10-29 19:12:34.675] [info]  [ProjectInstanceChangedEventHandler] Project instance 531761 - Balm changed.
+[2025-10-29 19:12:34.676] [info]  [ProjectInstanceChangedEventHandler] Project instance 531761 - Balm changed.
+[2025-10-29 19:12:34.981] [info]  [ProjectInstalledEventHandler] Project 1241678 - Create Mechanical Cow installed to Holycube Revolution instance.
+[2025-10-29 19:12:34.982] [info]  [ProjectInstanceChangedEventHandler] Project instance 1241678 - Create Mechanical Cow changed.
+[2025-10-29 19:12:34.983] [info]  [ProjectInstanceChangedEventHandler] Project instance 1241678 - Create Mechanical Cow changed.
+[2025-10-29 19:12:35.635] [info]  [ProjectInstanceChangedEventHandler] Project instance 511319 - Reese's Sodium Options changed.
+[2025-10-29 19:12:35.636] [info]  [ProjectInstanceChangedEventHandler] Project instance 511319 - Reese's Sodium Options changed.
+[2025-10-29 19:12:35.637] [info]  [ProjectInstalledEventHandler] Project 511319 - Reese's Sodium Options installed to Holycube Revolution instance.
+[2025-10-29 19:12:35.937] [info]  [ProjectInstalledEventHandler] Project 367442 - Mapper Base installed to Holycube Revolution instance.
+[2025-10-29 19:12:35.939] [info]  [ProjectInstanceChangedEventHandler] Project instance 367442 - Mapper Base changed.
+[2025-10-29 19:12:35.940] [info]  [ProjectInstanceChangedEventHandler] Project instance 367442 - Mapper Base changed.
+[2025-10-29 19:12:36.473] [info]  [ProjectInstalledEventHandler] Project 455508 - Iris Shaders installed to Holycube Revolution instance.
+[2025-10-29 19:12:36.474] [info]  [ProjectInstanceChangedEventHandler] Project instance 455508 - Iris Shaders changed.
+[2025-10-29 19:12:36.477] [info]  [ProjectInstanceChangedEventHandler] Project instance 455508 - Iris Shaders changed.
+[2025-10-29 19:12:37.170] [info]  [ProjectInstanceChangedEventHandler] Project instance 1005914 - Fzzy Config changed.
+[2025-10-29 19:12:37.171] [info]  [ProjectInstanceChangedEventHandler] Project instance 1005914 - Fzzy Config changed.
+[2025-10-29 19:12:37.171] [info]  [ProjectInstalledEventHandler] Project 1005914 - Fzzy Config installed to Holycube Revolution instance.
+[2025-10-29 19:12:37.173] [info]  [ProjectInstanceChangedEventHandler] Project instance 1005914 - Fzzy Config changed.
+[2025-10-29 19:12:37.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 238086 - KubeJS changed.
+[2025-10-29 19:12:37.578] [info]  [ProjectInstalledEventHandler] Project 238086 - KubeJS installed to Holycube Revolution instance.
+[2025-10-29 19:12:37.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 238086 - KubeJS changed.
+[2025-10-29 19:12:37.581] [info]  [ProjectInstanceChangedEventHandler] Project instance 238086 - KubeJS changed.
+[2025-10-29 19:12:38.002] [info]  [ProjectInstalledEventHandler] Project 1023259 - Prickle installed to Holycube Revolution instance.
+[2025-10-29 19:12:38.005] [info]  [ProjectInstanceChangedEventHandler] Project instance 1023259 - Prickle changed.
+[2025-10-29 19:12:38.005] [info]  [ProjectInstanceChangedEventHandler] Project instance 1023259 - Prickle changed.
+[2025-10-29 19:12:38.009] [info]  [ProjectInstanceChangedEventHandler] Project instance 1023259 - Prickle changed.
+[2025-10-29 19:12:38.409] [info]  [ProjectInstalledEventHandler] Project 1138130 - Corpse x Curios API Compat installed to Holycube Revolution instance.
+[2025-10-29 19:12:38.413] [info]  [ProjectInstanceChangedEventHandler] Project instance 1138130 - Corpse x Curios API Compat changed.
+[2025-10-29 19:12:38.413] [info]  [ProjectInstanceChangedEventHandler] Project instance 1138130 - Corpse x Curios API Compat changed.
+[2025-10-29 19:12:38.417] [info]  [ProjectInstanceChangedEventHandler] Project instance 1138130 - Corpse x Curios API Compat changed.
+[2025-10-29 19:12:38.868] [info]  [ProjectInstalledEventHandler] Project 394535 - Trash Cans installed to Holycube Revolution instance.
+[2025-10-29 19:12:38.870] [info]  [ProjectInstanceChangedEventHandler] Project instance 394535 - Trash Cans changed.
+[2025-10-29 19:12:38.870] [info]  [ProjectInstanceChangedEventHandler] Project instance 394535 - Trash Cans changed.
+[2025-10-29 19:12:39.353] [info]  [ProjectInstanceChangedEventHandler] Project instance 289310 - Camera Mod changed.
+[2025-10-29 19:12:39.356] [info]  [ProjectInstalledEventHandler] Project 289310 - Camera Mod installed to Holycube Revolution instance.
+[2025-10-29 19:12:39.357] [info]  [ProjectInstanceChangedEventHandler] Project instance 289310 - Camera Mod changed.
+[2025-10-29 19:12:40.068] [info]  [ProjectInstanceChangedEventHandler] Project instance 448233 - Entity Culling Fabric/Forge changed.
+[2025-10-29 19:12:40.068] [info]  [ProjectInstalledEventHandler] Project 448233 - Entity Culling Fabric/Forge installed to Holycube Revolution instance.
+[2025-10-29 19:12:40.070] [info]  [ProjectInstanceChangedEventHandler] Project instance 448233 - Entity Culling Fabric/Forge changed.
+[2025-10-29 19:12:40.070] [info]  [ProjectInstanceChangedEventHandler] Project instance 448233 - Entity Culling Fabric/Forge changed.
+[2025-10-29 19:12:40.381] [info]  [ProjectInstanceChangedEventHandler] Project instance 1072349 - Create: Pattern Schematics changed.
+[2025-10-29 19:12:40.382] [info]  [ProjectInstanceChangedEventHandler] Project instance 1072349 - Create: Pattern Schematics changed.
+[2025-10-29 19:12:40.382] [info]  [ProjectInstalledEventHandler] Project 1072349 - Create: Pattern Schematics installed to Holycube Revolution instance.
+[2025-10-29 19:12:40.385] [info]  [ProjectInstanceChangedEventHandler] Project instance 1072349 - Create: Pattern Schematics changed.
+[2025-10-29 19:12:40.925] [info]  [ProjectInstalledEventHandler] Project 615134 - bad packets installed to Holycube Revolution instance.
+[2025-10-29 19:12:40.926] [info]  [ProjectInstanceChangedEventHandler] Project instance 615134 - bad packets changed.
+[2025-10-29 19:12:40.928] [info]  [ProjectInstanceChangedEventHandler] Project instance 615134 - bad packets changed.
+[2025-10-29 19:12:41.245] [info]  [ProjectInstanceChangedEventHandler] Project instance 230976 - Fast Leaf Decay changed.
+[2025-10-29 19:12:41.246] [info]  [ProjectInstanceChangedEventHandler] Project instance 230976 - Fast Leaf Decay changed.
+[2025-10-29 19:12:41.247] [info]  [ProjectInstalledEventHandler] Project 230976 - Fast Leaf Decay installed to Holycube Revolution instance.
+[2025-10-29 19:12:41.612] [info]  [ProjectInstalledEventHandler] Project 836544 - Create: More Sand Papers installed to Holycube Revolution instance.
+[2025-10-29 19:12:41.614] [info]  [ProjectInstanceChangedEventHandler] Project instance 836544 - Create: More Sand Papers changed.
+[2025-10-29 19:12:41.615] [info]  [ProjectInstanceChangedEventHandler] Project instance 836544 - Create: More Sand Papers changed.
+[2025-10-29 19:12:41.944] [info]  [ProjectInstanceChangedEventHandler] Project instance 858542 - Searchables changed.
+[2025-10-29 19:12:41.945] [info]  [ProjectInstalledEventHandler] Project 858542 - Searchables installed to Holycube Revolution instance.
+[2025-10-29 19:12:41.949] [info]  [ProjectInstanceChangedEventHandler] Project instance 858542 - Searchables changed.
+[2025-10-29 19:12:42.247] [info]  [ProjectInstalledEventHandler] Project 969422 - Diagonal Walls installed to Holycube Revolution instance.
+[2025-10-29 19:12:42.249] [info]  [ProjectInstanceChangedEventHandler] Project instance 969422 - Diagonal Walls changed.
+[2025-10-29 19:12:42.251] [info]  [ProjectInstanceChangedEventHandler] Project instance 969422 - Diagonal Walls changed.
+[2025-10-29 19:12:42.649] [info]  [ProjectInstalledEventHandler] Project 1096328 - Haven Trowel installed to Holycube Revolution instance.
+[2025-10-29 19:12:42.652] [info]  [ProjectInstanceChangedEventHandler] Project instance 1096328 - Haven Trowel changed.
+[2025-10-29 19:12:42.652] [info]  [ProjectInstanceChangedEventHandler] Project instance 1096328 - Haven Trowel changed.
+[2025-10-29 19:12:43.846] [info]  [ProjectInstanceChangedEventHandler] Project instance 416089 - Simple Voice Chat changed.
+[2025-10-29 19:12:43.846] [info]  [ProjectInstanceChangedEventHandler] Project instance 416089 - Simple Voice Chat changed.
+[2025-10-29 19:12:43.847] [info]  [ProjectInstalledEventHandler] Project 416089 - Simple Voice Chat installed to Holycube Revolution instance.
+[2025-10-29 19:12:43.849] [info]  [ProjectInstanceChangedEventHandler] Project instance 416089 - Simple Voice Chat changed.
+[2025-10-29 19:12:44.286] [info]  [ProjectInstanceChangedEventHandler] Project instance 276951 - Comforts changed.
+[2025-10-29 19:12:44.287] [info]  [ProjectInstalledEventHandler] Project 276951 - Comforts installed to Holycube Revolution instance.
+[2025-10-29 19:12:44.290] [info]  [ProjectInstanceChangedEventHandler] Project instance 276951 - Comforts changed.
+[2025-10-29 19:12:44.850] [info]  [ProjectInstanceChangedEventHandler] Project instance 618298 - Sophisticated Core changed.
+[2025-10-29 19:12:44.850] [info]  [ProjectInstanceChangedEventHandler] Project instance 618298 - Sophisticated Core changed.
+[2025-10-29 19:12:44.851] [info]  [ProjectInstalledEventHandler] Project 618298 - Sophisticated Core installed to Holycube Revolution instance.
+[2025-10-29 19:12:44.853] [info]  [ProjectInstanceChangedEventHandler] Project instance 618298 - Sophisticated Core changed.
+[2025-10-29 19:12:45.229] [info]  [ProjectInstanceChangedEventHandler] Project instance 841890 - Athena changed.
+[2025-10-29 19:12:45.229] [info]  [ProjectInstalledEventHandler] Project 841890 - Athena installed to Holycube Revolution instance.
+[2025-10-29 19:12:45.231] [info]  [ProjectInstanceChangedEventHandler] Project instance 841890 - Athena changed.
+[2025-10-29 19:12:45.544] [info]  [ProjectInstanceChangedEventHandler] Project instance 927564 - Zume changed.
+[2025-10-29 19:12:45.546] [info]  [ProjectInstanceChangedEventHandler] Project instance 927564 - Zume changed.
+[2025-10-29 19:12:45.553] [info]  [ProjectInstanceChangedEventHandler] Project instance 927564 - Zume changed.
+[2025-10-29 19:12:45.553] [info]  [ProjectInstalledEventHandler] Project 927564 - Zume installed to Holycube Revolution instance.
+[2025-10-29 19:12:45.982] [info]  [ProjectInstanceChangedEventHandler] Project instance 790626 - ModernFix changed.
+[2025-10-29 19:12:45.982] [info]  [ProjectInstanceChangedEventHandler] Project instance 790626 - ModernFix changed.
+[2025-10-29 19:12:45.983] [info]  [ProjectInstalledEventHandler] Project 790626 - ModernFix installed to Holycube Revolution instance.
+[2025-10-29 19:12:46.388] [info]  [ProjectInstanceChangedEventHandler] Project instance 688768 - Create: Enchantment Industry changed.
+[2025-10-29 19:12:46.389] [info]  [ProjectInstalledEventHandler] Project 688768 - Create: Enchantment Industry installed to Holycube Revolution instance.
+[2025-10-29 19:12:46.393] [info]  [ProjectInstanceChangedEventHandler] Project instance 688768 - Create: Enchantment Industry changed.
+[2025-10-29 19:12:46.393] [info]  [ProjectInstanceChangedEventHandler] Project instance 688768 - Create: Enchantment Industry changed.
+[2025-10-29 19:12:46.763] [info]  [ProjectInstanceChangedEventHandler] Project instance 955781 - Pottery (Additional Pots) changed.
+[2025-10-29 19:12:46.763] [info]  [ProjectInstanceChangedEventHandler] Project instance 955781 - Pottery (Additional Pots) changed.
+[2025-10-29 19:12:46.764] [info]  [ProjectInstalledEventHandler] Project 955781 - Pottery (Additional Pots) installed to Holycube Revolution instance.
+[2025-10-29 19:12:47.111] [info]  [ProjectInstalledEventHandler] Project 419699 - Architectury API installed to Holycube Revolution instance.
+[2025-10-29 19:12:47.113] [info]  [ProjectInstanceChangedEventHandler] Project instance 419699 - Architectury API changed.
+[2025-10-29 19:12:47.113] [info]  [ProjectInstanceChangedEventHandler] Project instance 419699 - Architectury API changed.
+[2025-10-29 19:12:47.474] [info]  [ProjectInstalledEventHandler] Project 532286 - Just Enough Effect Descriptions (JEED) installed to Holycube Revolution instance.
+[2025-10-29 19:12:47.476] [info]  [ProjectInstanceChangedEventHandler] Project instance 532286 - Just Enough Effect Descriptions (JEED) changed.
+[2025-10-29 19:12:47.478] [info]  [ProjectInstanceChangedEventHandler] Project instance 532286 - Just Enough Effect Descriptions (JEED) changed.
+[2025-10-29 19:12:47.478] [info]  [ProjectInstanceChangedEventHandler] Project instance 532286 - Just Enough Effect Descriptions (JEED) changed.
+[2025-10-29 19:12:47.801] [info]  [ProjectInstanceChangedEventHandler] Project instance 356702 - Entity Detectors changed.
+[2025-10-29 19:12:47.802] [info]  [ProjectInstalledEventHandler] Project 356702 - Entity Detectors installed to Holycube Revolution instance.
+[2025-10-29 19:12:47.804] [info]  [ProjectInstanceChangedEventHandler] Project instance 356702 - Entity Detectors changed.
+[2025-10-29 19:12:48.269] [info]  [ProjectInstanceChangedEventHandler] Project instance 280510 - AttributeFix changed.
+[2025-10-29 19:12:48.270] [info]  [ProjectInstanceChangedEventHandler] Project instance 280510 - AttributeFix changed.
+[2025-10-29 19:12:48.271] [info]  [ProjectInstalledEventHandler] Project 280510 - AttributeFix installed to Holycube Revolution instance.
+[2025-10-29 19:12:48.275] [info]  [ProjectInstanceChangedEventHandler] Project instance 280510 - AttributeFix changed.
+[2025-10-29 19:12:48.945] [info]  [ProjectInstalledEventHandler] Project 361579 - spark installed to Holycube Revolution instance.
+[2025-10-29 19:12:48.947] [info]  [ProjectInstanceChangedEventHandler] Project instance 361579 - spark changed.
+[2025-10-29 19:12:48.950] [info]  [ProjectInstanceChangedEventHandler] Project instance 361579 - spark changed.
+[2025-10-29 19:12:49.385] [info]  [ProjectInstanceChangedEventHandler] Project instance 404465 - FTB Library (Forge) changed.
+[2025-10-29 19:12:49.385] [info]  [ProjectInstanceChangedEventHandler] Project instance 404465 - FTB Library (Forge) changed.
+[2025-10-29 19:12:49.386] [info]  [ProjectInstalledEventHandler] Project 404465 - FTB Library (Forge) installed to Holycube Revolution instance.
+[2025-10-29 19:12:49.388] [info]  [ProjectInstanceChangedEventHandler] Project instance 404465 - FTB Library (Forge) changed.
+[2025-10-29 19:12:49.984] [info]  [ProjectInstalledEventHandler] Project 394468 - Sodium installed to Holycube Revolution instance.
+[2025-10-29 19:12:49.987] [info]  [ProjectInstanceChangedEventHandler] Project instance 394468 - Sodium changed.
+[2025-10-29 19:12:49.987] [info]  [ProjectInstanceChangedEventHandler] Project instance 394468 - Sodium changed.
+[2025-10-29 19:12:49.990] [info]  [ProjectInstanceChangedEventHandler] Project instance 394468 - Sodium changed.
+[2025-10-29 19:12:50.381] [info]  [ProjectInstanceChangedEventHandler] Project instance 686100 - Create Mechanical Extruder changed.
+[2025-10-29 19:12:50.381] [info]  [ProjectInstanceChangedEventHandler] Project instance 686100 - Create Mechanical Extruder changed.
+[2025-10-29 19:12:50.381] [info]  [ProjectInstalledEventHandler] Project 686100 - Create Mechanical Extruder installed to Holycube Revolution instance.
+[2025-10-29 19:12:50.891] [info]  [ProjectInstanceChangedEventHandler] Project instance 407206 - Chat Heads changed.
+[2025-10-29 19:12:50.892] [info]  [ProjectInstalledEventHandler] Project 407206 - Chat Heads installed to Holycube Revolution instance.
+[2025-10-29 19:12:50.895] [info]  [ProjectInstanceChangedEventHandler] Project instance 407206 - Chat Heads changed.
+[2025-10-29 19:12:50.895] [info]  [ProjectInstanceChangedEventHandler] Project instance 407206 - Chat Heads changed.
+[2025-10-29 19:12:51.346] [info]  [ProjectInstanceChangedEventHandler] Project instance 501590 - Additional Lanterns changed.
+[2025-10-29 19:12:51.347] [info]  [ProjectInstanceChangedEventHandler] Project instance 501590 - Additional Lanterns changed.
+[2025-10-29 19:12:51.348] [info]  [ProjectInstalledEventHandler] Project 501590 - Additional Lanterns installed to Holycube Revolution instance.
+[2025-10-29 19:12:51.651] [info]  [ProjectInstanceChangedEventHandler] Project instance 60089 - Mouse Tweaks changed.
+[2025-10-29 19:12:51.651] [info]  [ProjectInstanceChangedEventHandler] Project instance 60089 - Mouse Tweaks changed.
+[2025-10-29 19:12:51.651] [info]  [ProjectInstalledEventHandler] Project 60089 - Mouse Tweaks installed to Holycube Revolution instance.
+[2025-10-29 19:12:52.007] [info]  [ProjectInstalledEventHandler] Project 959446 - EnderPack - New Backpack installed to Holycube Revolution instance.
+[2025-10-29 19:12:52.011] [info]  [ProjectInstanceChangedEventHandler] Project instance 959446 - EnderPack - New Backpack changed.
+[2025-10-29 19:12:52.011] [info]  [ProjectInstanceChangedEventHandler] Project instance 959446 - EnderPack - New Backpack changed.
+[2025-10-29 19:12:52.632] [info]  [ProjectInstalledEventHandler] Project 454372 - SuperMartijn642's Core Lib installed to Holycube Revolution instance.
+[2025-10-29 19:12:52.634] [info]  [ProjectInstanceChangedEventHandler] Project instance 454372 - SuperMartijn642's Core Lib changed.
+[2025-10-29 19:12:52.638] [info]  [ProjectInstanceChangedEventHandler] Project instance 454372 - SuperMartijn642's Core Lib changed.
+[2025-10-29 19:12:53.860] [info]  [ProjectInstalledEventHandler] Project 1018692 - ReForgedPlay [replay mod on (neo)forge] installed to Holycube Revolution instance.
+[2025-10-29 19:12:53.862] [info]  [ProjectInstanceChangedEventHandler] Project instance 1018692 - ReForgedPlay [replay mod on (neo)forge] changed.
+[2025-10-29 19:12:53.865] [info]  [ProjectInstanceChangedEventHandler] Project instance 1018692 - ReForgedPlay [replay mod on (neo)forge] changed.
+[2025-10-29 19:12:53.865] [info]  [ProjectInstanceChangedEventHandler] Project instance 1018692 - ReForgedPlay [replay mod on (neo)forge] changed.
+[2025-10-29 19:12:54.322] [info]  [ProjectInstanceChangedEventHandler] Project instance 631990 - Simple Hats changed.
+[2025-10-29 19:12:54.322] [info]  [ProjectInstalledEventHandler] Project 631990 - Simple Hats installed to Holycube Revolution instance.
+[2025-10-29 19:12:54.325] [info]  [ProjectInstanceChangedEventHandler] Project instance 631990 - Simple Hats changed.
+[2025-10-29 19:12:54.771] [info]  [ProjectInstalledEventHandler] Project 1103431 - Sodium/Embeddium Options API installed to Holycube Revolution instance.
+[2025-10-29 19:12:54.773] [info]  [ProjectInstanceChangedEventHandler] Project instance 1103431 - Sodium/Embeddium Options API changed.
+[2025-10-29 19:12:54.775] [info]  [ProjectInstanceChangedEventHandler] Project instance 1103431 - Sodium/Embeddium Options API changed.
+[2025-10-29 19:12:55.197] [info]  [ProjectInstanceChangedEventHandler] Project instance 602171 - Harvest with ease changed.
+[2025-10-29 19:12:55.198] [info]  [ProjectInstanceChangedEventHandler] Project instance 602171 - Harvest with ease changed.
+[2025-10-29 19:12:55.198] [info]  [ProjectInstalledEventHandler] Project 602171 - Harvest with ease installed to Holycube Revolution instance.
+[2025-10-29 19:12:55.617] [info]  [ProjectInstanceChangedEventHandler] Project instance 1260145 - Create: Escalated changed.
+[2025-10-29 19:12:55.617] [info]  [ProjectInstanceChangedEventHandler] Project instance 1260145 - Create: Escalated changed.
+[2025-10-29 19:12:55.618] [info]  [ProjectInstalledEventHandler] Project 1260145 - Create: Escalated installed to Holycube Revolution instance.
+[2025-10-29 19:12:56.131] [info]  [ProjectInstanceChangedEventHandler] Project instance 361276 - Lootr (Forge & NeoForge) changed.
+[2025-10-29 19:12:56.133] [info]  [ProjectInstalledEventHandler] Project 361276 - Lootr (Forge & NeoForge) installed to Holycube Revolution instance.
+[2025-10-29 19:12:56.136] [info]  [ProjectInstanceChangedEventHandler] Project instance 361276 - Lootr (Forge & NeoForge) changed.
+[2025-10-29 19:12:56.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 1251719 - Create: Vibrant Vaults changed.
+[2025-10-29 19:12:56.578] [info]  [ProjectInstalledEventHandler] Project 1251719 - Create: Vibrant Vaults installed to Holycube Revolution instance.
+[2025-10-29 19:12:56.579] [info]  [ProjectInstanceChangedEventHandler] Project instance 1251719 - Create: Vibrant Vaults changed.
+[2025-10-29 19:12:56.932] [info]  [ProjectInstanceChangedEventHandler] Project instance 551736 - Sodium/Embeddium Dynamic Lights changed.
+[2025-10-29 19:12:56.934] [info]  [ProjectInstalledEventHandler] Project 551736 - Sodium/Embeddium Dynamic Lights installed to Holycube Revolution instance.
+[2025-10-29 19:12:56.938] [info]  [ProjectInstanceChangedEventHandler] Project instance 551736 - Sodium/Embeddium Dynamic Lights changed.
+[2025-10-29 19:12:57.243] [info]  [ProjectInstanceChangedEventHandler] Project instance 326652 - Cupboard changed.
+[2025-10-29 19:12:57.244] [info]  [ProjectInstalledEventHandler] Project 326652 - Cupboard installed to Holycube Revolution instance.
+[2025-10-29 19:12:57.246] [info]  [ProjectInstanceChangedEventHandler] Project instance 326652 - Cupboard changed.
+[2025-10-29 19:12:57.636] [info]  [ProjectInstanceChangedEventHandler] Project instance 912266 - Just Enough Beacons Reforged [Forge | Fabric | NeoForge] changed.
+[2025-10-29 19:12:57.637] [info]  [ProjectInstalledEventHandler] Project 912266 - Just Enough Beacons Reforged [Forge | Fabric | NeoForge] installed to Holycube Revolution instance.
+[2025-10-29 19:12:57.637] [info]  [ProjectInstanceChangedEventHandler] Project instance 912266 - Just Enough Beacons Reforged [Forge | Fabric | NeoForge] changed.
+[2025-10-29 19:12:58.019] [info]  [ProjectInstalledEventHandler] Project 1192187 - Create: Extra Casing installed to Holycube Revolution instance.
+[2025-10-29 19:12:58.021] [info]  [ProjectInstanceChangedEventHandler] Project instance 1192187 - Create: Extra Casing changed.
+[2025-10-29 19:12:58.023] [info]  [ProjectInstanceChangedEventHandler] Project instance 1192187 - Create: Extra Casing changed.
+[2025-10-29 19:12:58.024] [info]  [ProjectInstanceChangedEventHandler] Project instance 1192187 - Create: Extra Casing changed.
+[2025-10-29 19:12:58.351] [info]  [ProjectInstanceChangedEventHandler] Project instance 1102591 - Create: Trading Floor changed.
+[2025-10-29 19:12:58.351] [info]  [ProjectInstanceChangedEventHandler] Project instance 1102591 - Create: Trading Floor changed.
+[2025-10-29 19:12:58.352] [info]  [ProjectInstalledEventHandler] Project 1102591 - Create: Trading Floor installed to Holycube Revolution instance.
+[2025-10-29 19:12:58.354] [info]  [ProjectInstanceChangedEventHandler] Project instance 1102591 - Create: Trading Floor changed.
+[2025-10-29 19:12:58.699] [info]  [ProjectInstalledEventHandler] Project 551894 - Better Compatibility Checker installed to Holycube Revolution instance.
+[2025-10-29 19:12:58.701] [info]  [ProjectInstanceChangedEventHandler] Project instance 551894 - Better Compatibility Checker changed.
+[2025-10-29 19:12:58.704] [info]  [ProjectInstanceChangedEventHandler] Project instance 551894 - Better Compatibility Checker changed.
+[2025-10-29 19:12:58.704] [info]  [ProjectInstanceChangedEventHandler] Project instance 551894 - Better Compatibility Checker changed.
+[2025-10-29 19:13:00.525] [info]  [GameInstanceChangedEventHandler] Game instance changed: d5926157-3acf-4183-973b-529e9fb133b3 - ["Saved"].
+[2025-10-29 19:13:00.526] [info]  [ModpackChangedEventHandler] Modpack d5926157-3acf-4183-973b-529e9fb133b3 changed.
+[2025-10-29 19:13:00.569] [info]  [ModpackInstalledEventHandler] Modpack 1218251 - Holycube Revolution Installation Completed.
+[2025-10-29 19:13:00.569] [info]  [GameInstanceChangedEventHandler] Game instance changed: d5926157-3acf-4183-973b-529e9fb133b3 - ["ScanningChanged"].
+[2025-10-29 19:13:00.569] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 432 - Holycube Revolution - d5926157-3acf-4183-973b-529e9fb133b3.
+[2025-10-29 19:13:00.570] [info]  [MinecraftInstanceTaskCompletedEventHandler] Minecraft instance task completed.
+[2025-10-29 19:13:00.575] [info]  [ModpacksAppServiceImpl] Getting installed modpack d5926157-3acf-4183-973b-529e9fb133b3.
+[2025-10-29 19:13:00.575] [info]  [ModpacksAppServiceImpl] Getting installed modpack d5926157-3acf-4183-973b-529e9fb133b3.
+[2025-10-29 19:13:02.560] [info]  [ProjectInstanceChangedEventHandler] Project instance 316873 - Charm of Undying (Fabric/Forge/Quilt) changed.
+[2025-10-29 19:13:02.560] [info]  [ProjectInstanceChangedEventHandler] Project instance 272515 - Better Advancements changed.
+[2025-10-29 19:13:02.560] [info]  [ProjectInstanceChangedEventHandler] Project instance 248787 - AppleSkin changed.
+[2025-10-29 19:13:02.560] [info]  [ProjectInstanceChangedEventHandler] Project instance 686100 - Create Mechanical Extruder changed.
+[2025-10-29 19:13:02.567] [info]  [ProjectInstanceChangedEventHandler] Project instance 261725 - ItemZoom changed.
+[2025-10-29 19:13:02.567] [info]  [ProjectInstanceChangedEventHandler] Project instance 1260145 - Create: Escalated changed.
+[2025-10-29 19:13:02.568] [info]  [ProjectInstanceChangedEventHandler] Project instance 1103431 - Sodium/Embeddium Options API changed.
+[2025-10-29 19:13:02.568] [info]  [ProjectInstanceChangedEventHandler] Project instance 419699 - Architectury API changed.
+[2025-10-29 19:13:02.568] [info]  [ProjectInstanceChangedEventHandler] Project instance 324717 - Jade 🔍 changed.
+[2025-10-29 19:13:02.568] [info]  [ProjectInstanceChangedEventHandler] Project instance 532610 - oωo (owo-lib) changed.
+[2025-10-29 19:13:02.572] [info]  [ProjectInstanceChangedEventHandler] Project instance 532286 - Just Enough Effect Descriptions (JEED) changed.
+[2025-10-29 19:13:02.572] [info]  [ProjectInstanceChangedEventHandler] Project instance 633252 - Beautify! changed.
+[2025-10-29 19:13:02.572] [info]  [ProjectInstanceChangedEventHandler] Project instance 836544 - Create: More Sand Papers changed.
+[2025-10-29 19:13:02.572] [info]  [ProjectInstanceChangedEventHandler] Project instance 391382 - More Overlays Updated changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 238086 - KubeJS changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 1102591 - Create: Trading Floor changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 283644 - Placebo changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 398521 - Farmer's Delight changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 1005914 - Fzzy Config changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 1219053 - Particular ✨ Reforged changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 1086661 - Bountiful Blocks changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 314906 - FTB Chunks (Forge) changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 1253573 - Mechanicals Lib changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 968456 - Cobweb changed.
+[2025-10-29 19:13:02.573] [info]  [ProjectInstanceChangedEventHandler] Project instance 790626 - ModernFix changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 635427 - Yeetus Experimentus changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 450663 - Armor Poser changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 388172 - GeckoLib changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 491890 - Etched changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 1192187 - Create: Extra Casing changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 1217518 - Create Better FPS changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 1266399 - HolyPackage changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 394535 - Trash Cans changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 410295 - Konkrete changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 1096328 - Haven Trowel changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 501590 - Additional Lanterns changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 827163 - Ender's Delight changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 289310 - Camera Mod changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 955605 - CERBON's API [Forge | Fabric | NeoForge] changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 615134 - bad packets changed.
+[2025-10-29 19:13:02.577] [info]  [ProjectInstanceChangedEventHandler] Project instance 938643 - Melody changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 551736 - Sodium/Embeddium Dynamic Lights changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 953126 - Create: Framed changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 968432 - MonoLib changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 230976 - Fast Leaf Decay changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 300331 - Simply Light changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 841890 - Athena changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 1072349 - Create: Pattern Schematics changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 858542 - Searchables changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 652202 - Create : Misc & Things changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 351264 - Kotlin for Forge changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 511770 - Drippy Loading Screen changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 429235 - FerriteCore ((Neo)Forge) changed.
+[2025-10-29 19:13:02.580] [info]  [ProjectInstanceChangedEventHandler] Project instance 854949 - Fusion (Connected Textures) changed.
+[2025-10-29 19:13:02.581] [info]  [ProjectInstanceChangedEventHandler] Project instance 326652 - Cupboard changed.
+[2025-10-29 19:13:02.581] [info]  [ProjectInstanceChangedEventHandler] Project instance 457570 - Configured changed.
+[2025-10-29 19:13:02.581] [info]  [ProjectInstanceChangedEventHandler] Project instance 864781 - Create: Dreams n' Desires changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 1231639 - Invisible Item Frame changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 905508 - Create: Quality Of Life changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 416089 - Simple Voice Chat changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 1138130 - Corpse x Curios API Compat changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 868230 - Online Emotes changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 456956 - Chipped changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 923238 - Create: Design n' Decor changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 618298 - Sophisticated Core changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 620770 - Expanded Delight changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 1242631 - Bountiful Braces changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 511319 - Reese's Sodium Options changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 935929 - Create Railways Navigator changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 438332 - SuperMartijn642's Config Lib changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 567403 - Lychee (Neo/Forge) changed.
+[2025-10-29 19:13:02.583] [info]  [ProjectInstanceChangedEventHandler] Project instance 1144296 - Display Delight changed.
+[2025-10-29 19:13:02.585] [info]  [ProjectInstanceChangedEventHandler] Project instance 1163890 - Create: Cheese Factory [Forge/NeoForge] changed.
+[2025-10-29 19:13:02.585] [info]  [ProjectInstanceChangedEventHandler] Project instance 367706 - FancyMenu changed.
+[2025-10-29 19:13:02.585] [info]  [ProjectInstanceChangedEventHandler] Project instance 1107296 - Create Mechanical Chicken changed.
+[2025-10-29 19:13:02.586] [info]  [ProjectInstanceChangedEventHandler] Project instance 422301 - Sophisticated Backpacks changed.
+[2025-10-29 19:13:02.586] [info]  [ProjectInstanceChangedEventHandler] Project instance 299540 - FastFurnace changed.
+[2025-10-29 19:13:02.586] [info]  [ProjectInstanceChangedEventHandler] Project instance 495476 - Puzzles Lib changed.
+[2025-10-29 19:13:02.586] [info]  [ProjectInstanceChangedEventHandler] Project instance 384991 - Additional Lights changed.
+[2025-10-29 19:13:02.586] [info]  [ProjectInstanceChangedEventHandler] Project instance 499980 - Moonlight Lib changed.
+[2025-10-29 19:13:02.586] [info]  [ProjectInstanceChangedEventHandler] Project instance 407206 - Chat Heads changed.
+[2025-10-29 19:13:02.586] [info]  [ProjectInstanceChangedEventHandler] Project instance 912266 - Just Enough Beacons Reforged [Forge | Fabric | NeoForge] changed.
+[2025-10-29 19:13:02.586] [info]  [ProjectInstanceChangedEventHandler] Project instance 245755 - Waystones changed.
+[2025-10-29 19:13:02.586] [info]  [ProjectInstanceChangedEventHandler] Project instance 593753 - End Respawn Anchor changed.
+[2025-10-29 19:13:02.586] [info]  [ProjectInstanceChangedEventHandler] Project instance 1003673 - My Nether's Delight changed.
+[2025-10-29 19:13:02.588] [info]  [ProjectInstanceChangedEventHandler] Project instance 968398 - Create: Copycats+ changed.
+[2025-10-29 19:13:02.588] [info]  [ProjectInstanceChangedEventHandler] Project instance 394468 - Sodium changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 309927 - Curios API (Forge/NeoForge) changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 417645 - Just Enough Professions (JEP) changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 250419 - Enchantment Descriptions changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 316582 - Corpse changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 583228 - Simple Backups changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 271740 - Toast Control changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 682564 - Straw Statues changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 631990 - Simple Hats changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 1223529 - Wakes Reforged changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 454372 - SuperMartijn642's Core Lib changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 287342 - Titanium changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 233071 - Crafting Tweaks changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 256717 - Clumps changed.
+[2025-10-29 19:13:02.589] [info]  [ProjectInstanceChangedEventHandler] Project instance 466792 - Create Stuff 'N Additions changed.
+[2025-10-29 19:13:02.591] [info]  [ProjectInstanceChangedEventHandler] Project instance 348521 - Cloth Config API (Fabric/Forge/NeoForge) changed.
+[2025-10-29 19:13:02.591] [info]  [ProjectInstanceChangedEventHandler] Project instance 688768 - Create: Enchantment Industry changed.
+[2025-10-29 19:13:02.591] [info]  [ProjectInstanceChangedEventHandler] Project instance 927564 - Zume changed.
+[2025-10-29 19:13:02.591] [info]  [ProjectInstanceChangedEventHandler] Project instance 1232232 - HolyWrench: Survival Debug Stick changed.
+[2025-10-29 19:13:02.592] [info]  [ProjectInstanceChangedEventHandler] Project instance 458048 - Diagonal Fences changed.
+[2025-10-29 19:13:02.592] [info]  [ProjectInstanceChangedEventHandler] Project instance 328085 - Create changed.
+[2025-10-29 19:13:02.592] [info]  [ProjectInstanceChangedEventHandler] Project instance 419372 - Easy Piglins changed.
+[2025-10-29 19:13:02.592] [info]  [ProjectInstanceChangedEventHandler] Project instance 448233 - Entity Culling Fabric/Forge changed.
+[2025-10-29 19:13:02.592] [info]  [ProjectInstanceChangedEventHandler] Project instance 238222 - Just Enough Items (JEI) changed.
+[2025-10-29 19:13:02.592] [info]  [ProjectInstanceChangedEventHandler] Project instance 404468 - FTB Teams (Forge) changed.
+[2025-10-29 19:13:02.592] [info]  [ProjectInstanceChangedEventHandler] Project instance 1229975 - Happy Ghast 1.19+ [FORGE/NEOFORGE] changed.
+[2025-10-29 19:13:02.592] [info]  [ProjectInstanceChangedEventHandler] Project instance 1103188 - Create More Recipes changed.
+[2025-10-29 19:13:02.592] [info]  [ProjectInstanceChangedEventHandler] Project instance 1264423 - BaguetteLib changed.
+[2025-10-29 19:13:02.592] [info]  [ProjectInstanceChangedEventHandler] Project instance 403422 - Emotecraft (Forge) changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 959446 - EnderPack - New Backpack changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 306770 - Patchouli changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 1018692 - ReForgedPlay [replay mod on (neo)forge] changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 416294 - Rhino changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 834607 - WATERFrAMES: Multimedia Displays changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 455508 - Iris Shaders changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 1251719 - Create: Vibrant Vaults changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 257814 - CreativeCore changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 829380 - Create Encased changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 1216624 - Create: Dragons Plus changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 824654 - Create: Molten Vents changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 1231513 - Holycube Additions changed.
+[2025-10-29 19:13:02.594] [info]  [ProjectInstanceChangedEventHandler] Project instance 531834 - Create Confectionery changed.
+[2025-10-29 19:13:02.596] [info]  [ProjectInstanceChangedEventHandler] Project instance 1241678 - Create Mechanical Cow changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 905040 - Create: Bells & Whistles changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 361579 - spark changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 659496 - MoreBeeInfo changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 280510 - AttributeFix changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 543661 - Stylish Effects changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 531761 - Balm changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 1196142 - Create: Sound of Steam changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 1168509 - Anvian's Lib changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 551894 - Better Compatibility Checker changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 240633 - Inventory Sorter changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 896746 - Amendments changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 1297736 - Create: Colored changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 1238567 - Sophisticated Backpacks Create Integration changed.
+[2025-10-29 19:13:02.597] [info]  [ProjectInstanceChangedEventHandler] Project instance 938917 - Accessories changed.
+[2025-10-29 19:13:02.599] [info]  [ProjectInstanceChangedEventHandler] Project instance 1283840 - Create: Extended Wrenches changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 1005676 - Create: Aquatic Ambitions changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 404465 - FTB Library (Forge) changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 511040 - Durability Tooltip changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 1142875 - Flerovium changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 367442 - Mapper Base changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 288885 - FastWorkbench changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 1218884 - Holycube Backport changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 891328 - Diagonal Windows changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 363363 - Extreme sound muffler - (Neo)Forge changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 465690 - Build Guide changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 32274 - JourneyMap changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 60089 - Mouse Tweaks changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 969422 - Diagonal Walls changed.
+[2025-10-29 19:13:02.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 955781 - Pottery (Additional Pots) changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 610492 - Another Furniture changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 356702 - Entity Detectors changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 557076 - Freecam changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 1057194 - Create: Curios Jetpack & Backtank [Forge/Fabric/NeoForge] changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 583345 - Jade Addons (Neo/Forge) changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 317094 - EmbellishCraft changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 361276 - Lootr (Forge & NeoForge) changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 1061749 - Create: Enchantable Machinery changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 303657 - Kiwi 🥝 (Neo/Forge) changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 686911 - ImmediatelyFast changed.
+[2025-10-29 19:13:02.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 250398 - Controlling changed.
+[2025-10-29 19:13:02.603] [info]  [ProjectInstanceChangedEventHandler] Project instance 228525 - Bookshelf changed.
+[2025-10-29 19:13:02.603] [info]  [ProjectInstanceChangedEventHandler] Project instance 659674 - Create Slice & Dice changed.
+[2025-10-29 19:13:02.603] [info]  [ProjectInstanceChangedEventHandler] Project instance 538214 - Handcrafted changed.
+[2025-10-29 19:13:02.603] [info]  [ProjectInstanceChangedEventHandler] Project instance 1133580 - Smithing Template Viewer for JEI/EMI changed.
+[2025-10-29 19:13:02.604] [info]  [ProjectInstanceChangedEventHandler] Project instance 1255120 - Holycube - Bedrock Breaker changed.
+[2025-10-29 19:13:02.604] [info]  [ProjectInstanceChangedEventHandler] Project instance 1023259 - Prickle changed.
+[2025-10-29 19:13:02.604] [info]  [ProjectInstanceChangedEventHandler] Project instance 276951 - Comforts changed.
+[2025-10-29 19:13:02.604] [info]  [ProjectInstanceChangedEventHandler] Project instance 869524 - WATERMeDIA: Multimedia API changed.
+[2025-10-29 19:13:02.604] [info]  [ProjectInstanceChangedEventHandler] Project instance 412082 - Supplementaries changed.
+[2025-10-29 19:13:02.604] [info]  [ProjectInstanceChangedEventHandler] Project instance 400514 - Easy Villagers changed.
+[2025-10-29 19:13:02.604] [info]  [ProjectInstanceChangedEventHandler] Project instance 602171 - Harvest with ease changed.
+[2025-10-29 19:13:02.605] [info]  [ProjectInstanceChangedEventHandler] Project instance 470193 - Connectivity changed.
+[2025-10-29 19:13:02.605] [info]  [ProjectInstanceChangedEventHandler] Project instance 570073 - Resourceful Lib changed.
+[2025-10-29 19:13:02.605] [info]  [ProjectInstanceChangedEventHandler] Project instance 1161283 - Create: Winery [Forge/NeoForge] changed.
+[2025-10-29 19:13:02.605] [info]  [GameInstanceChangedEventHandler] Game instance changed: d5926157-3acf-4183-973b-529e9fb133b3 - ["ScanningChanged"].
+[2025-10-29 19:13:02.605] [info]  [GameInstanceScanCompletedEventHandler] Scan complete for game 432 - Holycube Revolution - d5926157-3acf-4183-973b-529e9fb133b3.
+[2025-10-29 19:13:06.874] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-10-29 19:13:07.684] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-10-29 19:13:25.109] [info]  [Renderer - Main Window] Getting project 1218251 [ [] ]
+[2025-10-29 19:13:25.111] [info]  [EleriumCommunicationLayer] Request - GET v2/mods/1218251 - params: None.
+[2025-10-29 19:13:25.116] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22ProjectPage%22%7D.
+[2025-10-29 19:13:25.117] [info]  [ModpacksAppServiceImpl] Getting installed modpack d5926157-3acf-4183-973b-529e9fb133b3.
+[2025-10-29 19:13:25.170] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22ProjectPage%22%7D. Status code: 200.
+[2025-10-29 19:13:25.267] [info]  [ModpacksAppServiceImpl] Getting installed modpack d5926157-3acf-4183-973b-529e9fb133b3.
+[2025-10-29 19:13:25.296] [info]  [Renderer - Main Window] Calling getDescription 1218251 [ [] ]
+[2025-10-29 19:13:25.297] [info]  [EleriumCommunicationLayer] Request - GET v1/mods/1218251/description - params: None.
+[2025-10-29 19:13:30.609] [info]  [Renderer - Main Window] launchModpack d5926157-3acf-4183-973b-529e9fb133b3 in gameInstanceId: undefined [ [] ]
+[2025-10-29 19:13:30.615] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_launch_modpack_requested&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22launchMethod%22%3A0%2C%22gameId%22%3A432%2C%22gameDashboardEnabled%22%3Afalse%2C%22desktopShortcut%22%3Afalse%7D.
+[2025-10-29 19:13:30.663] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_launch_modpack_requested&MUID=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&MUIDV2=3cf5d597-d7ec-d9d1-7879-9c1fff62f8ef&owver=37.7.0&Extra=%7B%22app_ver%22%3A%221.288.1.28405%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22launchMethod%22%3A0%2C%22gameId%22%3A432%2C%22gameDashboardEnabled%22%3Afalse%2C%22desktopShortcut%22%3Afalse%7D. Status code: 200.
+[2025-10-29 19:13:30.667] [info]  [MojangLauncher] Launching modpack using the Mojang Launcher. Id: d5926157-3acf-4183-973b-529e9fb133b3, Launcher Args: [object Object].
+[2025-10-29 19:13:30.676] [info]  [LauncherApi] Executing GET request https://launchermeta.mojang.com/mc/game/version_manifest.json.
+[2025-10-29 19:13:31.240] [error] [MojangLauncher] Failed to extract java version from /home/lorey/Documents/curseforge/minecraft/Install/versions/1.21.1/1.21.1.json. AggregateError
+[2025-10-29 19:13:32.803] [info]  [GameInstanceChangedEventHandler] Game instance changed: d5926157-3acf-4183-973b-529e9fb133b3 - ["Saved"].
+[2025-10-29 19:13:32.805] [info]  [ModpackChangedEventHandler] Modpack d5926157-3acf-4183-973b-529e9fb133b3 changed.
+[2025-10-29 19:13:34.425] [info]  [GameInstanceChangedEventHandler] Game instance changed: d5926157-3acf-4183-973b-529e9fb133b3 - ["Saved"].
+[2025-10-29 19:13:34.426] [info]  [ModpackChangedEventHandler] Modpack d5926157-3acf-4183-973b-529e9fb133b3 changed.
+[2025-10-29 19:13:34.474] [info]  [MinecraftInstanceTaskCompletedEventHandler] Minecraft instance task completed.
+[2025-10-29 19:13:34.475] [info]  [MinecraftGameProcessDetector] Starting detection for instance d5926157-3acf-4183-973b-529e9fb133b3.
+[2025-10-29 19:14:07.686] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-10-29 19:14:08.495] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-10-29 19:15:08.497] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-10-29 19:15:08.933] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-10-29 19:16:07.212] [info]  [SessionsService] session ended.
+[2025-10-29 19:16:07.212] [info]  [BackgroundController] Request to shutdown from tray ....
+[2025-10-29 19:16:07.212] [info]  [BackgroundController] Shutting down....
+[2025-10-29 19:16:07.213] [info]  [CoreServiceImpl] Performing shutdown cleanup actions.
+[2025-10-29 19:16:07.213] [info]  [InstalledProjectsAppServiceImpl] Cleanup - committing deletion transactions.
+[2025-10-29 19:16:07.213] [info]  [InstalledProjectsAppServiceImpl] Flushing 0 projects which are pending deletion.
+[2025-10-29 19:16:07.213] [info]  [CoreServiceImpl] Shutdown cleanup actions complete.
+[2025-10-29 19:16:07.213] [info]  [PluginCommunication] Shutting down the Mods Agent.
+[2025-10-29 19:16:08.772] [info]  [BackgroundController] Destroying desktop window....
+[2025-10-29 19:16:08.772] [info]  [AutoUpdaterServiceImpl] Stopping Auto Updater Service.
+[2025-10-29 19:16:08.773] [info]  [BackgroundController] Shutdown complete. Exiting app....

@@ -1,0 +1,42 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/StudioProjects/wooww">
+          <value>
+            <RecentProjectMetaInfo frameTitle="wooww – main.dart" projectWorkspaceId="30My6WrU4bwWo70o22EeSrOUKUg">
+              <option name="activationTimestamp" value="1754056015281" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-251.25410.109.2511.13752376" />
+              <option name="buildTimestamp" value="1752024960000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="0" y="50" width="2560" height="1550" extendedState="6" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1753451563469" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/lagora/client">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="30gjGtWZ3WUM3vJmFymJUsWXTSf">
+              <option name="activationTimestamp" value="1760739300037" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-251.25410.109.2511.13752376" />
+              <option name="buildTimestamp" value="1752024960000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="0" y="50" width="2560" height="1550" extendedState="6" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1754056017118" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/StudioProjects/lagora/client" />
+    <option name="lastProjectLocation" value="$USER_HOME$/StudioProjects" />
+  </component>
+</application>

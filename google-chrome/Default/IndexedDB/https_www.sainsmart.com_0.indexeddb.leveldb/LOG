@@ -1,0 +1,6 @@
+2025/10/01-02:53:25.788 738b Creating DB /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.sainsmart.com_0.indexeddb.leveldb since it was missing.
+2025/10/01-02:53:25.799 738b Reusing MANIFEST /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.sainsmart.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/01-03:50:44.223 738b Level-0 table #5: started
+2025/10/01-03:50:44.228 738b Level-0 table #5: 1178 bytes OK
+2025/10/01-03:50:44.234 738b Delete type=0 #3
+2025/10/01-03:50:44.234 738b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

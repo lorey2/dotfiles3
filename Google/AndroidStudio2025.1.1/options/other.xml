@@ -1,0 +1,83 @@
+<application>
+  <component name="EduSettings">
+    <option name="javaUiLibrary" value="Swing" />
+    <option name="uiLibraryChangedByUser" value="false" />
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="17.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "Educational.recentCoursesFilled": "true",
+    "Educational.stepikOAuthReset": "true",
+    "FLUTTER_LAST_SURVEY_CONTENT_CHECK_KEY": "1758807865592",
+    "GEMINI_INTELLIJ_INSTALLATION_ID": "c2e3e5b9-cbee-44ce-883d-a71521b0fa32",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "3",
+    "NEXT_SURVEY_TIMESTAMP": "2025-08-01T14:09:37.964916805Z",
+    "NextRunPlatformUpdateBuild": "AI-251.26094.121.2513.14007798",
+    "NextRunPlatformUpdateSelfBuild": "AI-251.25410.109.2511.13752376",
+    "NextRunPlatformUpdateVersion": "Narwhal 3 Feature Drop | 2025.1.3",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.cidr.test.roots.only": "true",
+    "RunOnceActivity.git.modal.commit.deprecation.notification": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "com.google.tools.ij.aiplugin.ide_session_index": "20250925_0000",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "defaultJdkConfigured": "true",
+    "experimental.ui.used.version": "251.25410.109.2511.13752376",
+    "fileTypeChangedCounter": "2",
+    "fontSizeToResetConsole": "16.25",
+    "fontSizeToResetEditor": "16.25",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "ideavim.statistics.timestamp": "1758807867641",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "251.25410.109.2511.13752376-AS",
+    "io.flutter.console.preferencesSet": "true",
+    "jdk.selected.JAVA_MODULE": "Android API 36.0, extension level 17 Platform",
+    "last_opened_file_path": "/home/lorey/development/flutter",
+    "migrate.android.sdk.path.to.roamable.storage": "false",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Dark",
+    "project.wizard.group": "JAVA_MODULE_io.flutter.module.FlutterModuleBuilder",
+    "registry.to.advanced.settings.migration.build": "AI-251.25410.109.2511.13752376",
+    "terminal.gen.one.option.visible": "false"
+  },
+  "keyToStringList": {
+    "DAILY_ACTION_TIMESTAMPS": [
+      "2025-07-25T14:09:37.962508887Z",
+      "2025-07-28T12:27:33.462728854Z",
+      "2025-08-01T13:42:00.117106870Z",
+      "2025-08-07T21:32:15.309409059Z",
+      "2025-09-21T12:01:21.453412465Z",
+      "2025-09-25T13:44:13.594897756Z",
+      "2025-10-17T22:14:54.677171301Z",
+      "2025-10-23T16:02:21.178442072Z"
+    ],
+    "FLUTTER_SDK_KNOWN_PATHS": [
+      "/home/lorey/development/flutter"
+    ],
+    "file.chooser.recent.files": [
+      "/home/lorey/StudioProjects/lagora/client",
+      "/home/lorey/development/flutter",
+      "/home/lorey/development/flutter/bin"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="client-history" project-path="$USER_HOME$/StudioProjects/lagora/client" last-access-time="1754056164111" />
+      <command-history-file filename="wooww-history" project-path="$USER_HOME$/StudioProjects/wooww" last-access-time="1753451655384" />
+    </command-history-files>
+  </component>
+</application>

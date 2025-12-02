@@ -1,0 +1,10 @@
+2025/09/25-03:12:10.768 3ffa Creating DB /home/lorey/.config/Postman/Partitions/5d730a6c-db6d-4a78-bd7a-c258532216a1/IndexedDB/file__0.indexeddb.leveldb since it was missing.
+2025/09/25-03:12:10.784 3ffa Reusing MANIFEST /home/lorey/.config/Postman/Partitions/5d730a6c-db6d-4a78-bd7a-c258532216a1/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2025/09/25-03:12:10.800 4012 Level-0 table #5: started
+2025/09/25-03:12:10.804 4012 Level-0 table #5: 494 bytes OK
+2025/09/25-03:12:10.810 4012 Delete type=0 #3
+2025/09/25-03:12:10.810 3ffa Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/25-03:12:10.859 3ffa Level-0 table #7: started
+2025/09/25-03:12:10.863 3ffa Level-0 table #7: 478 bytes OK
+2025/09/25-03:12:10.868 3ffa Delete type=0 #4
+2025/09/25-03:12:10.869 3ffa Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

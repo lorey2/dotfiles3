@@ -1,0 +1,12 @@
+<application>
+  <component name="StudioBotSettings">
+    <option name="contextSharingModeV2" value="AskPerProject" />
+    <option name="dasherProductVariant" value="Free" />
+    <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1753452660857">do you see what is my current project</historyEntry>
+      </list>
+    </option>
+  </component>
+</application>

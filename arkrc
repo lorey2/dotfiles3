@@ -1,0 +1,9 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Downloads/,$HOME/Downloads/Animal.Well-ElAmigos/,/usr/local/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled

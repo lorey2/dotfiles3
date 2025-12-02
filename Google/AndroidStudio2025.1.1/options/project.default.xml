@@ -1,0 +1,19 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="AutoImportSettings">
+        <option name="autoReloadType" value="NONE" />
+      </component>
+      <component name="WindowStateProjectService">
+        <state x="1010" y="403" width="532" height="609" key="FileChooserDialogImpl" timestamp="1753451532115">
+          <screen x="0" y="50" width="2560" height="1550" />
+        </state>
+        <state x="1010" y="403" width="532" height="609" key="FileChooserDialogImpl/0.50.2560.1550" timestamp="1753451532115" />
+        <state x="880" y="266" width="938" height="878" key="new project wizard" timestamp="1753451561500">
+          <screen x="0" y="50" width="2560" height="1550" />
+        </state>
+        <state x="880" y="266" width="938" height="878" key="new project wizard/0.50.2560.1550" timestamp="1753451561500" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

@@ -1,0 +1,148 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry encoding="base64">dw==</entry>
+      </history-cmd>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="wooww-30bd7ee5">
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/wooww/lib/main.dart" protocol="file" />
+      <jump line="12" column="23" filename="$USER_HOME$/StudioProjects/wooww/lib/main.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/wooww/android/local.properties" protocol="file" />
+      <jump line="21" column="14" filename="$USER_HOME$/StudioProjects/wooww/lib/main.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/wooww/android/app/src/main/AndroidManifest.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/wooww/README.md" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/wooww/pubspec.yaml" protocol="file" />
+      <jump line="39" column="16" filename="$USER_HOME$/StudioProjects/wooww/pubspec.yaml" protocol="file" />
+      <jump line="62" column="23" filename="$USER_HOME$/StudioProjects/wooww/pubspec.yaml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/wooww/test/widget_test.dart" protocol="file" />
+      <jump line="30" column="0" filename="$USER_HOME$/StudioProjects/wooww/test/widget_test.dart" protocol="file" />
+      <jump line="32" column="47" filename="$USER_HOME$/StudioProjects/wooww/lib/main.dart" protocol="file" />
+      <jump line="92" column="18" filename="$USER_HOME$/StudioProjects/wooww/lib/main.dart" protocol="file" />
+      <jump line="105" column="29" filename="$USER_HOME$/StudioProjects/wooww/lib/main.dart" protocol="file" />
+    </project>
+    <project id="client-5b21025c">
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/pubspec.yaml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/main.dart" protocol="file" />
+      <jump line="15" column="17" filename="$USER_HOME$/StudioProjects/lagora/client/lib/main.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/.env.host" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/.env.local" protocol="file" />
+      <jump line="10" column="24" filename="$USER_HOME$/StudioProjects/lagora/client/lib/main.dart" protocol="file" />
+      <jump line="42" column="24" filename="$USER_HOME$/StudioProjects/lagora/client/lib/main.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/view/marker_details_sheet.dart" protocol="file" />
+      <jump line="21" column="14" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/view/marker_details_sheet.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/view/full_screen_image_viewer.dart" protocol="file" />
+      <jump line="25" column="39" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/view/full_screen_image_viewer.dart" protocol="file" />
+      <jump line="16" column="38" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/view/full_screen_image_viewer.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/view/map_page.dart" protocol="file" />
+      <jump line="20" column="51" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/view/marker_details_sheet.dart" protocol="file" />
+      <jump line="37" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/view/marker_details_sheet.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/view_model/map_view_model.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="32" column="15" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="30" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="29" column="68" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="27" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="26" column="57" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="40" column="22" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="43" column="75" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="42" column="68" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="41" column="13" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/README.md" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/views/pages/activity_history.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/views/pages/stats.dart" protocol="file" />
+      <jump line="5" column="45" filename="$USER_HOME$/StudioProjects/lagora/client/lib/views/pages/stats.dart" protocol="file" />
+      <jump line="13" column="27" filename="$USER_HOME$/StudioProjects/lagora/client/lib/views/pages/stats.dart" protocol="file" />
+      <jump line="1" column="32" filename="$USER_HOME$/StudioProjects/lagora/client/.env.local" protocol="file" />
+      <jump line="1" column="34" filename="$USER_HOME$/StudioProjects/lagora/client/.env.host" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/.env" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/views/widgets/app_bar.dart" protocol="file" />
+      <jump line="12" column="24" filename="$USER_HOME$/StudioProjects/lagora/client/lib/views/widgets/app_bar.dart" protocol="file" />
+      <jump line="41" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/pubspec.yaml" protocol="file" />
+      <jump line="38" column="9" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/map_page/service/marker_service.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/auth/services/auth_service.dart" protocol="file" />
+      <jump line="11" column="33" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/auth/services/auth_service.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/lagora/client/lib/features/home_page/view/home_page.dart" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/StudioProjects/wooww/lib/main.dart" timestamp="1754056015403">
+        <mark key="&quot;" line="114" column="28" />
+        <mark key="[" line="105" column="11" />
+        <mark key="]" line="105" column="12" />
+        <mark key="^" line="105" column="12" />
+        <mark key="." line="105" column="11" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/lagora/client/lib/features/home_page/view/home_page.dart" timestamp="1758808504208">
+        <mark key="[" line="47" column="17" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/lagora/client/lib/views/widgets/app_bar.dart" timestamp="1758808239370">
+        <mark key="&quot;" line="12" column="24" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/wooww/android/app/src/main/AndroidManifest.xml" timestamp="1753705870751">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/lagora/client/pubspec.yaml" timestamp="1758808254262">
+        <mark key="&quot;" line="41" column="0" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/lagora/client/.env" timestamp="1758808254263">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/wooww/README.md" timestamp="1753705874168">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/lagora/client/README.md" timestamp="1758808254257">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/lagora/client/lib/views/pages/activity_history.dart" timestamp="1758808239357">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/wooww/pubspec.yaml" timestamp="1754056015397">
+        <mark key="&quot;" line="62" column="23" />
+        <mark key="[" line="39" column="15" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/wooww/test/widget_test.dart" timestamp="1754056015405">
+        <mark key="&quot;" line="30" column="0" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/lagora/client/.env.host" timestamp="1758808254265">
+        <mark key="&quot;" line="1" column="34" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/lagora/client/lib/main.dart" timestamp="1758808254260">
+        <mark key="&quot;" line="71" column="0" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/lagora/client/.env.local" timestamp="1758808254267">
+        <mark key="&quot;" line="1" column="32" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/wooww/android/local.properties" timestamp="1753705868062">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/StudioProjects/lagora/client/lib/views/pages/stats.dart" timestamp="1758808239365">
+        <mark key="&quot;" line="13" column="27" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name=":" type="CHARACTER_WISE">
+        <text encoding="base64">dw==</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64">bG9jYWw=</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-offset encoding="base64" />
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

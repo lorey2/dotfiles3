@@ -1,0 +1,91 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="Android.RunAndroidSdkManager">
+      <i c="2" l="1753451991143" />
+    </e>
+    <e n="CodeCompletion">
+      <i c="2" l="1758808505847" />
+    </e>
+    <e n="CreateDesktopEntry">
+      <i c="1" l="1753450865168" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="93" l="1758808537779" />
+    </e>
+    <e n="EditorDown">
+      <i c="128" l="1758808520936" />
+    </e>
+    <e n="EditorEnter">
+      <i c="4" l="1758808505229" />
+    </e>
+    <e n="EditorEscape">
+      <i c="7" l="1754057681569" />
+    </e>
+    <e n="EditorPasteFromX11">
+      <i c="1" l="1754057679898" />
+    </e>
+    <e n="EditorUp">
+      <i c="29" l="1758808521091" />
+    </e>
+    <e n="GitCheckoutAction">
+      <i c="4" l="1758808254174" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1754056002613" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="2" l="1753705983771" />
+    </e>
+    <e n="Run">
+      <i c="28" l="1758808613267" />
+    </e>
+    <e n="SaveAll">
+      <i c="2" l="1754056612427" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="3" l="1758808020688" />
+    </e>
+    <e n="Stop">
+      <i c="18" l="1758808729641" />
+    </e>
+    <e n="Vcs.UpdateProject">
+      <i c="1" l="1758808195085" />
+    </e>
+    <e n="com.android.tools.adtui.actions.DropDownAction">
+      <i c="1" l="1753705709208" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.DeviceManagerPanel$toAnAction$2">
+      <i c="1" l="1753705710677" />
+    </e>
+    <e n="com.intellij.ide.plugins.PluginManagerMain$3">
+      <i c="1" l="1758807926110" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1758807922714" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="161" l="1758808537776" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="5" l="1753705874165" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="40" l="1758808731337" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1754056001775" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1753450859424" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
+      <i c="2" l="1754056612305" />
+    </e>
+    <e n="flutter.NewProject.welcome">
+      <i c="1" l="1753451494822" />
+    </e>
+    <e n="io.flutter.actions.DeviceSelectorAction$SelectDeviceAction">
+      <i c="9" l="1758808106818" />
+    </e>
+  </component>
+</application>
