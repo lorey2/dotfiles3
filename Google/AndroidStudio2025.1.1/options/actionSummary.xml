@@ -27,6 +27,9 @@
     <e n="EditorUp">
       <i c="29" l="1758808521091" />
     </e>
+    <e n="FileChooser.ShowHidden">
+      <i c="2" l="1768384906518" />
+    </e>
     <e n="GitCheckoutAction">
       <i c="4" l="1758808254174" />
     </e>
@@ -51,6 +54,9 @@
     <e n="Vcs.UpdateProject">
       <i c="1" l="1758808195085" />
     </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1768384897199" />
+    </e>
     <e n="com.android.tools.adtui.actions.DropDownAction">
       <i c="1" l="1753705709208" />
     </e>
@@ -61,7 +67,7 @@
       <i c="1" l="1758807926110" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="1" l="1758807922714" />
+      <i c="2" l="1768384800368" />
     </e>
     <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
       <i c="161" l="1758808537776" />

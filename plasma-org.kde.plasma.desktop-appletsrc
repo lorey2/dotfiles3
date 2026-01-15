@@ -21,7 +21,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"2048x1280":["4","18","desktop:/2025-09-03_09-06-13.tsv","0","4","desktop:/2025-09-03_09-06-13.json","0","7","desktop:/pip","0","9","desktop:/docker-compose.yml","3","4","desktop:/resume_video_Inartis.zip","0","0","desktop:/ratiomaaster.session","0","2","desktop:/2025-09-03_09-06-13.vtt","0","6","desktop:/better.session","0","11","desktop:/resume_video_Inartis","0","8","desktop:/net.lutris.animal-well-1.desktop","0","12","desktop:/2025-09-03_09-06-13.srt","0","3","desktop:/2025-09-03_09-06-13.txt","0","5","desktop:/Postman","0","10","desktop:/resume_video_Inartis (1).zip","0","1"],"2991x1252":[]}
+positions={"2048x1280":["1","18","desktop:/net.lutris.animal-well-1.desktop","0","17"],"2991x1252":[]}
 sortMode=-1
 
 [Containments][2]
@@ -45,6 +45,10 @@ popupWidth=560
 [Containments][2][Applets][21][Configuration][Appearance]
 fontWeight=400
 
+[Containments][2][Applets][21][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][22]
 immutability=1
 plugin=org.kde.plasma.minimizeall
@@ -54,7 +58,7 @@ immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][2][Applets][27][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 popupHeight=324
 popupWidth=324
 
@@ -63,7 +67,20 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][27][Configuration][General]
-history=#5d3696,#28232f,#df958c,#28232f,#a4315e
+history=#1a1b26,#5d3696,#28232f,#df958c,#28232f,#a4315e
+
+[Containments][2][Applets][29]
+immutability=1
+plugin=com.wireguard.simple
+
+[Containments][2][Applets][29][Configuration]
+PreloadWeight=55
+popupHeight=432
+popupWidth=432
+
+[Containments][2][Applets][29][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][3]
 immutability=1
@@ -84,6 +101,17 @@ icon=start-here-kubuntu
 
 [Containments][2][Applets][3][Configuration][Shortcuts]
 global=Alt+F1
+
+[Containments][2][Applets][30]
+immutability=1
+plugin=com.wireguard.simple
+
+[Containments][2][Applets][30][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][30][Configuration][General]
+interfaceName=wgs_client
 
 [Containments][2][Applets][4]
 immutability=1
@@ -114,6 +142,9 @@ wallpaperplugin=org.kde.image
 [Containments][2][Applets][7][Applets][10]
 immutability=1
 plugin=org.kde.kdeconnect
+
+[Containments][2][Applets][7][Applets][10][Configuration]
+PreloadWeight=55
 
 [Containments][2][Applets][7][Applets][11]
 immutability=1
@@ -171,6 +202,9 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][2][Applets][7][Applets][23][Configuration]
 PreloadWeight=100
 
+[Containments][2][Applets][7][Applets][23][Configuration][General]
+currentDetailsTab=details
+
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.bluetooth
@@ -208,9 +242,10 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][9][Configuration]
-PreloadWeight=70
+PreloadWeight=85
 
 [Containments][2][Applets][7][Applets][9][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][2][Applets][7][ConfigDialog]
@@ -225,7 +260,7 @@ extraItems=org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.vault,org.kde
 knownItems=org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.brightness,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.kupapplet,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.printmanager,org.kde.plasma.weather
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;27;7;21;22
+AppletOrder=3;4;5;30;29;6;27;7;21;22
 
 [Containments][28]
 activityId=c99fd514-918a-451a-994a-788e843d68d1
@@ -237,8 +272,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][28][General]
-positions={"2048x1280":[],"2226x1252":[],"2991x1252":[]}
+positions={"1920x1080":[],"2048x1280":[],"2226x1252":[],"2991x1252":[]}
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/resume_video_Inartis,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/resume_video_Inartis (1).zip,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/net.lutris.animal-well-1.desktop,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/2025-09-03_09-06-13.tsv,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/2025-09-03_09-06-13.json,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/docker-compose.yml,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/resume_video_Inartis.zip,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/Postman,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/better.session,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/2025-09-03_09-06-13.vtt,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/2025-09-03_09-06-13.srt,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/pip,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/audio.wav,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/ratiomaaster.session,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/2025-09-03_14-23-57.mkv,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/2025-09-03_09-06-13.txt,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/2025-09-03_11-51-26.mkv,0,c99fd514-918a-451a-994a-788e843d68d1
+screenMapping=desktop:/2025-09-03_11-51-26.mkv,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/net.lutris.animal-well-1.desktop,0,c99fd514-918a-451a-994a-788e843d68d1,file:///home/lorey/Documents/Desktop/net.lutris.animal-well-1.desktop,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/2025-09-03_14-23-57.mkv,0,c99fd514-918a-451a-994a-788e843d68d1,desktop:/audio.wav,0,c99fd514-918a-451a-994a-788e843d68d1

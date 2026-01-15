@@ -1,7 +1,14 @@
-2025/11/25-15:08:34.991 3c92 Reusing MANIFEST /home/lorey/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/25-15:08:34.991 3c92 Recovering log #4
-2025/11/25-15:08:34.991 3c92 Reusing old log /home/lorey/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/000004.log 
-2025/11/25-15:08:35.008 3c92 Level-0 table #8: started
-2025/11/25-15:08:35.012 3c92 Level-0 table #8: 9577 bytes OK
-2025/11/25-15:08:35.016 3c92 Delete type=0 #4
-2025/11/25-15:08:35.016 3c91 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/28-17:39:21.504 a018 Reusing MANIFEST /home/lorey/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/28-17:39:21.504 a018 Recovering log #18
+2025/12/28-17:39:21.504 a018 Reusing old log /home/lorey/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/000018.log 
+2025/12/28-17:39:21.504 a018 Delete type=2 #16
+2025/12/28-17:39:21.522 a017 Level-0 table #23: started
+2025/12/28-17:39:21.525 a017 Level-0 table #23: 5111 bytes OK
+2025/12/28-17:39:21.530 a017 Delete type=0 #18
+2025/12/28-17:39:21.530 a017 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 786 : 1
+2025/12/28-17:39:21.530 a017 Compacting 1@0 + 1@1 files
+2025/12/28-17:39:21.534 a017 Generated table #24@0: 156 keys, 5095 bytes
+2025/12/28-17:39:21.534 a017 Compacted 1@0 + 1@1 files => 5095 bytes
+2025/12/28-17:39:21.539 a017 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/28-17:39:21.539 a017 Delete type=2 #23
+2025/12/28-17:39:21.539 a017 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 786 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

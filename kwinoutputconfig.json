@@ -5,7 +5,7 @@
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoRotation": "InTabletMode",
-                "brightness": 0.7,
+                "brightness": 0.3,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
@@ -18,7 +18,7 @@
                 "maxBitsPerColor": 0,
                 "mode": {
                     "height": 1600,
-                    "refreshRate": 240000,
+                    "refreshRate": 60002,
                     "width": 2560
                 },
                 "overscan": 0,
@@ -104,6 +104,35 @@
                 "sdrGamutWideness": 0,
                 "transform": "Normal",
                 "vrrPolicy": "Automatic",
+                "wideColorGamut": false
+            },
+            {
+                "allowDdcCi": true,
+                "allowSdrSoftwareBrightness": false,
+                "autoRotation": "InTabletMode",
+                "brightness": 1,
+                "colorPowerTradeoff": "PreferEfficiency",
+                "colorProfileSource": "sRGB",
+                "connectorName": "HDMI-A-1",
+                "detectedDdcCi": true,
+                "edidHash": "1a44bc57bb393209d5d8c930b5c41de5",
+                "edidIdentifier": "IVM 24869 16843009 0 2016 0",
+                "edrPolicy": "always",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "mode": {
+                    "height": 1080,
+                    "refreshRate": 120000,
+                    "width": 1920
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 1,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "uuid": "d1af6123-2a81-4c28-a7be-82c93690c6a3",
+                "vrrPolicy": "Never",
                 "wideColorGamut": false
             }
         ],
@@ -237,6 +266,31 @@
                             "y": 0
                         },
                         "priority": 0,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 1920,
+                            "y": 0
+                        },
+                        "priority": 0,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 4,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 1,
                         "replicationSource": ""
                     }
                 ]

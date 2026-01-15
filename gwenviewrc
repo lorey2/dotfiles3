@@ -10,18 +10,20 @@ File1[$e]=$HOME/.config/dotfiles/wall.png
 File2[$e]=$HOME/Pictures/Screenshots/Screenshot_20250821_164649.png
 File3[$e]=$HOME/42_webserv/doc/parsing.png
 File4[$e]=$HOME/weeeb/www/test/images/unsplash-image-01.jpg
-File5[$e]=$HOME/Downloads/ratiomaster-v0-r90ff8l7ggle1.webp
-File6[$e]=$HOME/Pictures/Screenshots/Screenshot_20251018_055743.png
-File7[$e]=$HOME/42_main/server1/www/favicon.ico
-File8[$e]=$HOME/Downloads/favicon.ico
+File5[$e]=$HOME/Pictures/Screenshots/Screenshot_20251018_055743.png
+File6[$e]=$HOME/42_main/server1/www/favicon.ico
+File7[$e]=$HOME/Downloads/favicon.ico
+File8[$e]=$HOME/Pictures/Screenshots/Screenshot_20251222_142418.png
+File9[$e]=$HOME/Downloads/ratiomaster-v0-r90ff8l7ggle1.webp
 Name1[$e]=wall.png
 Name2[$e]=Screenshot_20250821_164649.png
 Name3[$e]=parsing.png
 Name4[$e]=unsplash-image-01.jpg
-Name5[$e]=ratiomaster-v0-r90ff8l7ggle1.webp
-Name6[$e]=Screenshot_20251018_055743.png
+Name5[$e]=Screenshot_20251018_055743.png
+Name6[$e]=favicon.ico
 Name7[$e]=favicon.ico
-Name8[$e]=favicon.ico
+Name8[$e]=Screenshot_20251222_142418.png
+Name9[$e]=ratiomaster-v0-r90ff8l7ggle1.webp
 
 [SideBar]
 InformationSplitterSizes=220,255

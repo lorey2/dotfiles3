@@ -1,4 +1,5 @@
 
 [Default Applications]
 x-scheme-handler/postman=Postman.desktop
-x-scheme-handler/curseforge=CurseForge.desktop
+x-scheme-handler/curseforge=curseforge.desktop
+x-scheme-handler/etcher=balenaEtcher.desktop

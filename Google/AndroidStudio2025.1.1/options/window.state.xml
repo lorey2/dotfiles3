@@ -10,9 +10,13 @@
     <frame x="0" y="50" width="2560" height="1550" extendedState="6" />
   </component>
   <component name="WindowStateApplicationService">
-    <state x="1280" y="701" width="1000" height="813" key="WELCOME_SCREEN" timestamp="1753450851708">
+    <state x="1010" y="505" width="532" height="645" key="FileChooserDialogImpl" timestamp="1768384953952">
       <screen x="0" y="50" width="2560" height="1550" />
     </state>
-    <state x="1280" y="701" width="1000" height="813" key="WELCOME_SCREEN/0.50.2560.1550" timestamp="1753450851708" />
+    <state x="1010" y="505" width="532" height="645" key="FileChooserDialogImpl/0.50.2560.1550" timestamp="1768384953952" />
+    <state x="1280" y="701" width="1000" height="813" key="WELCOME_SCREEN" timestamp="1768384955530">
+      <screen x="0" y="50" width="2560" height="1550" />
+    </state>
+    <state x="1280" y="701" width="1000" height="813" key="WELCOME_SCREEN/0.50.2560.1550" timestamp="1768384955530" />
   </component>
 </application>

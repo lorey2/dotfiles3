@@ -134,7 +134,7 @@ ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
 DirSelectDialog Size=1024,640
-History Items[$e]=file:$HOME/webserv2,file:$HOME/webserv2,file:$HOME/webserv,file:///media/lorey/a0711a77-317a-43a6-aca4-077ce45b74f5/doublegras/megacorp
+History Items[$e]=file:$HOME/yoooo/bin,file:$HOME/yoooo,file:$HOME/.config/nvim,file:$HOME/.config/nvim,file:$HOME/music-social-daw,file:$HOME/music-social-daw,file:$HOME/music-social-daw/server,file:$HOME/music-social-daw,file:$HOME/music-social-daw,file:$HOME/music-social-daw,file:$HOME/music-social-daw/server,file:$HOME/music-social-daw,file:$HOME/music-social-daw,file:$HOME/.config/nvim,file:$HOME/.config/nvim,file:$HOME/.config/nvim,file:$HOME/.local/share/plasma/plasmoids/com.wireguard.simple,file:$HOME/.local/share/plasma/plasmoids/com.wireguard.simple,file:$HOME/.local/share/plasma/plasmoids,file:$HOME/goback,file:$HOME/goback,file:$HOME/goback,file:$HOME/goback,file:$HOME/goback,file:$HOME/lorey-porfolio,file:$HOME/lorey-porfolio,file:$HOME/lorey-porfolio,file:$HOME/lorey-porfolio,file:$HOME/lorey-porfolio,file:$HOME/goback,file:$HOME/goback,file:$HOME/doreact/frontend,file:$HOME/doreact/frontend,file:$HOME/doreact/,mtp:/ROG_Phone6/Espace de stockage interne partagé/Download/Flud/Christopher Paolini - Cycle de l'héritage 4 - L'Héritage %5Bmp3-64K%5D,file:$HOME/.config/nvim,file:$HOME/.config/nvim,file:$HOME/.config/nvim,file:$HOME/42_final,file:$HOME/42_final,file:$HOME/42_final,file:$HOME/42_final,file:$HOME/42_mmain,file:$HOME/42_mmain,file:$HOME/42_mmain,file:$HOME/42_mmain,file:$HOME/42_main,file:$HOME/42_main,file:$HOME/42_main,file:$HOME/ww
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
@@ -152,7 +152,7 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false

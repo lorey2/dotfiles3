@@ -7,4 +7,10 @@ ShowSidebar=true
 
 [Recent Files]
 File1[$e]=$HOME/42_main/en.subject.pdf
+File2[$e]=$HOME/Downloads/étiquette_du_colis_2527243.pdf
+File3[$e]=$HOME/Downloads/Brack.ch_AG_RMA-Nummer_2527243.pdf
+File4[$e]=$HOME/Downloads/PDFPOSDET.pdf
 Name1[$e]=en.subject.pdf
+Name2[$e]=étiquette_du_colis_2527243.pdf
+Name3[$e]=Brack.ch_AG_RMA-Nummer_2527243.pdf
+Name4[$e]=PDFPOSDET.pdf

@@ -1,5 +1,5 @@
 [Activities][LastVirtualDesktop]
-c99fd514-918a-451a-994a-788e843d68d1=8c356690-b022-40ad-a077-0ea7e3f1f17b
+c99fd514-918a-451a-994a-788e843d68d1=3a3177e3-77ba-4b94-b7cf-e76de6a9b91c
 
 [Desktops]
 Id_1=3be927f6-cc69-4453-ad0c-f3eddfc10f47
@@ -24,7 +24,13 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][3a3177e3-77ba-4b94-b7cf-e76de6a9b91c][bcd62c16-9b22-4d27-8e55-67b9197e36bc]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][3a3177e3-77ba-4b94-b7cf-e76de6a9b91c][d1af6123-2a81-4c28-a7be-82c93690c6a3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][3be927f6-cc69-4453-ad0c-f3eddfc10f47][bcd62c16-9b22-4d27-8e55-67b9197e36bc]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3be927f6-cc69-4453-ad0c-f3eddfc10f47][d1af6123-2a81-4c28-a7be-82c93690c6a3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][820f1986-40c4-54dc-a00f-45df0fd593be]
@@ -36,7 +42,13 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][8c356690-b022-40ad-a077-0ea7e3f1f17b][bcd62c16-9b22-4d27-8e55-67b9197e36bc]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][8c356690-b022-40ad-a077-0ea7e3f1f17b][d1af6123-2a81-4c28-a7be-82c93690c6a3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][e121fe0c-332a-4c3b-bdca-96b87f201707][bcd62c16-9b22-4d27-8e55-67b9197e36bc]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][e121fe0c-332a-4c3b-bdca-96b87f201707][d1af6123-2a81-4c28-a7be-82c93690c6a3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Xwayland]

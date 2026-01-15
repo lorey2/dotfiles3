@@ -16,9 +16,9 @@
     "GEMINI_INTELLIJ_INSTALLATION_ID": "c2e3e5b9-cbee-44ce-883d-a71521b0fa32",
     "LAST_CALCULATED_COLOR_INDEX_KEY": "3",
     "NEXT_SURVEY_TIMESTAMP": "2025-08-01T14:09:37.964916805Z",
-    "NextRunPlatformUpdateBuild": "AI-251.26094.121.2513.14007798",
+    "NextRunPlatformUpdateBuild": "AI-252.27397.103.2522.14617522",
     "NextRunPlatformUpdateSelfBuild": "AI-251.25410.109.2511.13752376",
-    "NextRunPlatformUpdateVersion": "Narwhal 3 Feature Drop | 2025.1.3",
+    "NextRunPlatformUpdateVersion": "Otter 2 Feature Drop | 2025.2.2 Patch 1",
     "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
     "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
     "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
@@ -39,7 +39,7 @@
     "installed.kotlin.plugin.version": "251.25410.109.2511.13752376-AS",
     "io.flutter.console.preferencesSet": "true",
     "jdk.selected.JAVA_MODULE": "Android API 36.0, extension level 17 Platform",
-    "last_opened_file_path": "/home/lorey/development/flutter",
+    "last_opened_file_path": "/home/lorey/.local/share/android/Sdk",
     "migrate.android.sdk.path.to.roamable.storage": "false",
     "migrated.non.roamable.values.from.general.settings": "true",
     "previousColorScheme": "_@user_Dark",
@@ -56,12 +56,14 @@
       "2025-09-21T12:01:21.453412465Z",
       "2025-09-25T13:44:13.594897756Z",
       "2025-10-17T22:14:54.677171301Z",
-      "2025-10-23T16:02:21.178442072Z"
+      "2025-10-23T16:02:21.178442072Z",
+      "2026-01-14T09:57:00.135391305Z"
     ],
     "FLUTTER_SDK_KNOWN_PATHS": [
       "/home/lorey/development/flutter"
     ],
     "file.chooser.recent.files": [
+      "/home/lorey/.local/share/android/Sdk",
       "/home/lorey/StudioProjects/lagora/client",
       "/home/lorey/development/flutter",
       "/home/lorey/development/flutter/bin"

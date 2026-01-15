@@ -22,6 +22,7 @@ fish_add_path ~/.local/share/bob-nvim/nvim-linux64/bin
 fish_add_path /var/lib/flatpak/exports/bin/
 fish_add_path ~/.dotnet/tools
 fish_add_path ~/.local/share/mise/shims
+fish_add_path /usr/local/go/bin
 
 set -gx DENO_INSTALL "~/.deno"
 fish_add_path ~/.deno/bin
@@ -129,3 +130,5 @@ fish_add_path /usr/local/cuda-13.0/bin
 
 # Set LD_LIBRARY_PATH for CUDA
 set -gx LD_LIBRARY_PATH /usr/local/cuda-13.0/lib64 $LD_LIBRARY_PATH
+set -Ux GOPATH $HOME/.local/share/go
+fish_add_path $GOPATH/bin

@@ -8,7 +8,7 @@ Show Tab Bar=true
 Show Url Nav Bar=true
 
 [MainWindow]
-2048x1280 screen: Height=1212
+2048x1280 screen: Height=1211
 2048x1280 screen: Width=1023
 
 [filetree]
