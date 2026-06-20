@@ -1,3 +1,15 @@
-2025/10/29-20:17:46.719 4f68 Reusing MANIFEST /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/29-20:17:46.719 4f68 Recovering log #4
-2025/10/29-20:17:46.725 4f68 Reusing old log /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000004.log 
+2026/01/31-15:53:13.522 49b4 Reusing MANIFEST /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/31-15:53:13.522 49b4 Recovering log #4
+2026/01/31-15:53:13.529 49b4 Reusing old log /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000004.log 
+2026/01/31-15:53:46.196 49b7 Level-0 table #8: started
+2026/01/31-15:53:46.212 49b7 Level-0 table #8: 720238 bytes OK
+2026/01/31-15:53:46.219 49b7 Delete type=0 #4
+2026/01/31-15:53:46.220 49b7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/01/31-15:53:46.220 49b7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x03\x02\x04\x01\x01\x01\x00-' @ 8048 : 1
+2026/01/31-15:53:46.221 49b7 Compacting 1@1 + 1@2 files
+2026/01/31-15:53:46.232 49b7 Generated table #9@1: 102 keys, 4484 bytes
+2026/01/31-15:53:46.232 49b7 Compacted 1@1 + 1@2 files => 4484 bytes
+2026/01/31-15:53:46.237 49b7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/31-15:53:46.238 49b7 Delete type=2 #5
+2026/01/31-15:53:46.238 49b7 Delete type=2 #8
+2026/01/31-15:53:46.239 49b7 Manual compaction at level-1 from '\x00\x02\x03\x02\x04\x01\x01\x01\x00-' @ 8048 : 1 .. (end); will stop at (end)

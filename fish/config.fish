@@ -66,7 +66,7 @@ abbr cp "cp -riv"
 abbr mkdir "mkdir -vp"
 alias ls="eza --color=always --icons --group-directories-first"
 alias la 'eza --color=always --icons --group-directories-first --all'
-alias ll 'eza --color=always --icons --group-directories-first --all --long'
+alias ll 'eza --color=always --icons --group-directories-first --all --long --total-size'
 abbr l ll
 abbr ncdu "ncdu --color dark"
 
@@ -90,7 +90,7 @@ abbr topgit topgrade --only git_repos
 abbr g git
 abbr windows systemctl reboot --boot-loader-entry=auto-windows
 
-set -x LG_CONFIG_FILE /home/folke/.config/lazygit/config.yml,/home/folke/.cache/nvim/lazygit-theme.yml
+set -x LG_CONFIG_FILE /home/lorey/.config/lazygit/config.yml
 
 alias lazygit "TERM=xterm-256color command lazygit"
 abbr gg lazygit
@@ -105,6 +105,7 @@ alias tn "npx --no-install ts-node --transpile-only"
 abbr tt "tn src/tt.ts"
 
 # Other
+abbr -a dockernuke 'docker rm -f (docker ps -aq)'
 abbr df "grc /bin/df -h"
 abbr ntop "ultra --monitor"
 abbr ytop btm
@@ -132,3 +133,9 @@ fish_add_path /usr/local/cuda-13.0/bin
 set -gx LD_LIBRARY_PATH /usr/local/cuda-13.0/lib64 $LD_LIBRARY_PATH
 set -Ux GOPATH $HOME/.local/share/go
 fish_add_path $GOPATH/bin
+
+# Hardcoded EMSDK Environment (Faster startup)
+set -gx EMSDK /home/lorey/emsdk
+set -gx EMSDK_NODE /home/lorey/emsdk/node/22.16.0_64bit/bin/node
+fish_add_path /home/lorey/emsdk
+fish_add_path /home/lorey/emsdk/upstream/emscripten

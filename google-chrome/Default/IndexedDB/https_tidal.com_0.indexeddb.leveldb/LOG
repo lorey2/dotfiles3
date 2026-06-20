@@ -1,0 +1,28 @@
+2026/01/29-21:55:29.026 3214 Reusing MANIFEST /home/lorey/.config/google-chrome/Default/IndexedDB/https_tidal.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/29-21:55:29.026 3214 Recovering log #3
+2026/01/29-21:55:29.027 3214 Reusing old log /home/lorey/.config/google-chrome/Default/IndexedDB/https_tidal.com_0.indexeddb.leveldb/000003.log 
+2026/01/29-21:56:09.765 3218 Level-0 table #5: started
+2026/01/29-21:56:09.783 3218 Level-0 table #5: 708015 bytes OK
+2026/01/29-21:56:09.790 3218 Delete type=0 #3
+2026/01/29-22:05:31.258 3218 Level-0 table #7: started
+2026/01/29-22:05:31.283 3218 Level-0 table #7: 1099824 bytes OK
+2026/01/29-22:05:31.292 3218 Delete type=0 #4
+2026/01/29-22:07:20.458 3218 Level-0 table #9: started
+2026/01/29-22:07:20.464 3218 Level-0 table #9: 38331 bytes OK
+2026/01/29-22:07:20.470 3218 Delete type=0 #6
+2026/01/29-22:07:20.471 3218 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x01\x0f\x00u\x00n\x00i\x00q\x00u\x00e\x00I\x00d\x00C\x00o\x00u\x00n\x00t\x00e\x00r' @ 4578 : 1
+2026/01/29-22:07:20.471 3218 Compacting 1@0 + 1@1 files
+2026/01/29-22:07:20.481 3218 Generated table #10@0: 856 keys, 10861 bytes
+2026/01/29-22:07:20.481 3218 Compacted 1@0 + 1@1 files => 10861 bytes
+2026/01/29-22:07:20.487 3218 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/29-22:07:20.487 3218 Delete type=2 #9
+2026/01/29-22:07:20.487 3218 Delete type=2 #7
+2026/01/29-22:07:20.488 3218 Manual compaction at level-0 from '\x00\x04\x01\x02\x01\x0f\x00u\x00n\x00i\x00q\x00u\x00e\x00I\x00d\x00C\x00o\x00u\x00n\x00t\x00e\x00r' @ 4578 : 1 .. (end); will stop at (end)
+2026/01/29-22:07:20.488 3218 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x01\x0f\x00u\x00n\x00i\x00q\x00u\x00e\x00I\x00d\x00C\x00o\x00u\x00n\x00t\x00e\x00r' @ 4578 : 1
+2026/01/29-22:07:20.488 3218 Compacting 1@1 + 1@2 files
+2026/01/29-22:07:20.498 3218 Generated table #11@1: 156 keys, 32558 bytes
+2026/01/29-22:07:20.498 3218 Compacted 1@1 + 1@2 files => 32558 bytes
+2026/01/29-22:07:20.503 3218 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/29-22:07:20.504 3218 Delete type=2 #5
+2026/01/29-22:07:20.504 3218 Delete type=2 #10
+2026/01/29-22:07:20.504 3218 Manual compaction at level-1 from '\x00\x04\x01\x02\x01\x0f\x00u\x00n\x00i\x00q\x00u\x00e\x00I\x00d\x00C\x00o\x00u\x00n\x00t\x00e\x00r' @ 4578 : 1 .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2026/03/18-15:37:22.453 120f8 Reusing MANIFEST /home/lorey/.config/feishin/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2026/03/18-15:37:22.453 120f8 Recovering log #57
+2026/03/18-15:37:22.460 120f8 Reusing old log /home/lorey/.config/feishin/IndexedDB/file__0.indexeddb.leveldb/000057.log 
+2026/03/18-15:56:03.740 120f8 Level-0 table #62: started
+2026/03/18-15:56:03.757 120f8 Level-0 table #62: 1807401 bytes OK
+2026/03/18-15:56:03.766 120f8 Delete type=0 #57

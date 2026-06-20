@@ -1,0 +1,14 @@
+2026-06-01 13:37:06.718 [info] Extension host with pid 11409 started
+2026-06-01 13:37:06.718 [info] Skipping acquiring lock for /home/lorey/.config/Code/User/workspaceStorage/867e06368105bfef2798c69a25abb85a.
+2026-06-01 13:37:07.349 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-01 13:37:07.392 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-01 13:37:07.612 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-01 13:37:07.789 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-01 13:37:07.858 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-01 13:37:07.861 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-06-01 13:37:08.070 [info] Eager extensions activated
+2026-06-01 13:37:08.082 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-01 13:37:08.084 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-01 13:37:25.358 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-06-01 20:52:24.841 [info] Extension host terminating: received terminate message from renderer
+2026-06-01 20:52:24.877 [info] Extension host with pid 11409 exiting with code 0

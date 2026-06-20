@@ -1,0 +1,1 @@
+(()=>{"use strict";window.addEventListener("cosDataEvent",(function(e){chrome.runtime.sendMessage({type:e.detail.type,roles:e.detail.roles,version:e.detail.version})}))})();

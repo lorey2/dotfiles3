@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+typedef struct {
+    char **map;
+    int width;
+    int height;
+    int iteration;
+} t_map;
+
+void fill_map() {
+
+}
+
+void free_map(t_map *map) {
+    for (int i = 0; i < map->height; j++) {
+        if (map->map[i])
+            free(map->map[i]);
+    }
+    if (map->map)
+        free(map->map);
+}
+
+bool init(t_map *map, char **av) {
+    map->width = atoi(av[1]);
+    map->height = atoi(av[2]);
+    map->iteration = atoi(av[3]);
+    map->map = malloc(sizeof(char*) * map->height);
+    if (!map->map)
+        return false;
+    for (int i = 0; i < map->height) {
+        map[i] = malloc(sizeof(char) * map->width);
+        if (!map[i])
+            return (free_board(map), false);
+        for (int j = 0; j < map->width; j++) {
+            map->map[i][j] = ' ';
+        }
+    }
+    return true;
+}
+
+void solve() {
+
+}
+
+void fill_map(t_map *map) {
+
+}
+
+int main(int ac, char **av) {
+    if (ac != 4)
+        return 1;
+    t_map map;
+    if (!init(&map, av)) {
+        return 1;
+    }
+    fill_map(&map);
+
+    solve();
+    return 0;
+}

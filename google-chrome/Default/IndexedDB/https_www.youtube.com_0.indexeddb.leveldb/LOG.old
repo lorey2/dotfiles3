@@ -1,3 +1,12 @@
-2025/10/28-01:28:40.952 bb68 Reusing MANIFEST /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/28-01:28:40.952 bb68 Recovering log #7
-2025/10/28-01:28:40.954 bb68 Reusing old log /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2026/01/31-16:01:55.152 49cb Reusing MANIFEST /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/31-16:01:55.152 49cb Recovering log #7
+2026/01/31-16:01:55.155 49cb Reusing old log /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2026/01/31-16:01:55.928 49b4 Level-0 table #12: started
+2026/01/31-16:01:55.945 49b4 Level-0 table #12: 1955798 bytes OK
+2026/01/31-16:01:55.951 49b4 Delete type=0 #7
+2026/01/31-16:02:15.812 49ca Compacting 1@1 + 1@2 files
+2026/01/31-16:02:15.818 49ca Generated table #13@1: 393 keys, 135711 bytes
+2026/01/31-16:02:15.818 49ca Compacted 1@1 + 1@2 files => 135711 bytes
+2026/01/31-16:02:15.823 49ca compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/31-16:02:15.823 49ca Delete type=2 #12
+2026/01/31-16:02:15.823 49ca Delete type=2 #9

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "create-vite": "^8.3.0",
     "devmoji": "^2.3.0"
   }
 }

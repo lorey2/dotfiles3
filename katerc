@@ -1,5 +1,6 @@
 [General]
 Days Meta Infos=30
+PinnedDocuments=
 Save Meta Infos=true
 Show Full Path in Title=false
 Show Menu Bar=true
@@ -7,9 +8,46 @@ Show Status Bar=true
 Show Tab Bar=true
 Show Url Nav Bar=true
 
+[Kate Print Settings][Margins]
+bottom=4.23
+left=4.23
+right=4.23
+top=4.23
+
 [MainWindow]
-2048x1280 screen: Height=1211
-2048x1280 screen: Width=1023
+2048x1280 screen: Height=1212
+2048x1280 screen: Width=1024
+
+[Printing][HeaderFooter]
+FooterBackground=211,211,211
+FooterBackgroundEnabled=false
+FooterEnabled=true
+FooterForeground=0,0,0
+FooterFormatCenter=
+FooterFormatLeft=
+FooterFormatRight=%U
+HeaderBackground=211,211,211
+HeaderBackgroundEnabled=false
+HeaderEnabled=true
+HeaderFooterFont=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1
+HeaderForeground=0,0,0
+HeaderFormatCenter=%f
+HeaderFormatLeft=%y
+HeaderFormatRight=%p
+
+[Printing][Layout]
+BackgroundColorEnabled=false
+BoxColor=invalid
+BoxEnabled=false
+BoxMargin=6
+BoxWidth=1
+ColorScheme=Printing
+Font=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Printing][Text]
+DontPrintFoldedCode=true
+Legend=false
+LineNumbers=false
 
 [filetree]
 editShade=183,220,246

@@ -1,0 +1,34 @@
+[2026-03-10 00:04:46.926] [info]  [SYSTEM] Checking for update
+[2026-03-10 00:04:46.993] [info]  [SYSTEM] Generated new staging user ID: 97dddc44-de74-5ad5-8d03-7aff1a6f7a26
+[2026-03-10 00:04:49.087] [info]  [SYSTEM] Update for version 1.7.0 is not available (latest version: 1.7.0, downgrade is allowed).
+[2026-03-10 00:05:11.082] [info]  [SYSTEM] Checking for update
+[2026-03-10 00:05:11.949] [info]  [SYSTEM] Update for version 1.7.0 is not available (latest version: 1.7.0, downgrade is allowed).
+[2026-03-10 13:42:37.371] [info]  [SYSTEM] Checking for update
+[2026-03-10 13:42:40.663] [info]  [SYSTEM] Found version 1.8.0 (url: Feishin-linux-x86_64.AppImage, Feishin-linux-amd64.deb)
+[2026-03-10 13:42:40.665] [info]  [SYSTEM] Downloading update from Feishin-linux-x86_64.AppImage, Feishin-linux-amd64.deb
+[2026-03-10 13:42:41.423] [info]  [SYSTEM] File has 2931 changed blocks
+[2026-03-10 13:42:41.486] [info]  [SYSTEM] Full: 188,319.36 KB, To download: 60,004.12 KB (32%)
+[2026-03-10 13:42:41.491] [info]  [SYSTEM] Differential download: https://github.com/jeffvli/feishin/releases/download/v1.8.0/Feishin-linux-x86_64.AppImage
+[2026-03-10 13:42:41.593] [info]  [SYSTEM] Redirect to https://release-assets.githubusercontent.com/github-production-release-asset/517572452/698bec90-8f75-4d01-b642-3667aeffd27f
+[2026-03-10 13:43:45.703] [info]  [SYSTEM] New version 1.8.0 has been downloaded to /home/lorey/.cache/feishin-updater/pending/Feishin-linux-x86_64.AppImage
+[2026-03-10 15:13:45.286] [info]  [SYSTEM] Auto install update on quit
+[2026-03-10 15:13:45.286] [info]  [SYSTEM] Install: isSilent: true, isForceRunAfter: false
+[2026-03-11 14:23:35.525] [info]  [SYSTEM] Checking for update
+[2026-03-11 14:23:37.210] [info]  [SYSTEM] Update for version 1.8.0 is not available (latest version: 1.8.0, downgrade is allowed).
+[2026-03-11 23:58:44.747] [info]  [SYSTEM] Checking for update
+[2026-03-11 23:58:46.908] [info]  [SYSTEM] Update for version 1.8.0 is not available (latest version: 1.8.0, downgrade is allowed).
+[2026-03-12 13:33:23.963] [info]  [SYSTEM] Checking for update
+[2026-03-12 13:33:26.064] [info]  [SYSTEM] Update for version 1.8.0 is not available (latest version: 1.8.0, downgrade is allowed).
+[2026-03-18 15:37:21.824] [info]  [SYSTEM] Checking for update
+[2026-03-18 15:37:23.780] [info]  [SYSTEM] Found version 1.9.0 (url: Feishin-linux-x86_64.AppImage, Feishin-linux-amd64.deb)
+[2026-03-18 15:37:23.781] [info]  [SYSTEM] Downloading update from Feishin-linux-x86_64.AppImage, Feishin-linux-amd64.deb
+[2026-03-18 15:37:23.785] [info]  [SYSTEM] Cached update sha512 checksum doesn't match the latest available update. New update must be downloaded. Cached: DoSbRD4t7HDj0Qqzb2PLdZBhZcwNYhvI6mcjTQkLRCpmRzCqh3c0ThPNFxLQcSzuvmWoHYhrJPseqsPMFHxqTg==, expected: wke9uQhYJnXlGqdfFWiFHF8BHYCOrnd6fTIblEfUDV8CYOtKxOh7cnet5fLTw1M2jB9IJrbgo6/lPm+FnLHUbQ==. Directory for cached update will be cleaned
+[2026-03-18 15:37:24.232] [info]  [SYSTEM] File has 2909 changed blocks
+[2026-03-18 15:37:24.250] [info]  [SYSTEM] Full: 188,348.28 KB, To download: 58,618.37 KB (31%)
+[2026-03-18 15:37:24.252] [info]  [SYSTEM] Differential download: https://github.com/jeffvli/feishin/releases/download/v1.9.0/Feishin-linux-x86_64.AppImage
+[2026-03-18 15:37:24.296] [info]  [SYSTEM] Redirect to https://release-assets.githubusercontent.com/github-production-release-asset/517572452/14ecea2e-fb9f-4398-bead-7198b581eafa
+[2026-03-18 15:37:28.828] [info]  [SYSTEM] New version 1.9.0 has been downloaded to /home/lorey/.cache/feishin-updater/pending/Feishin-linux-x86_64.AppImage
+[2026-03-18 18:38:02.915] [info]  [SYSTEM] Auto install update on quit
+[2026-03-18 18:38:02.916] [info]  [SYSTEM] Install: isSilent: true, isForceRunAfter: false
+[2026-03-22 19:48:41.758] [info]  [SYSTEM] Checking for update
+[2026-03-22 19:48:44.140] [info]  [SYSTEM] Update for version 1.9.0 is not available (latest version: 1.9.0, downgrade is allowed).

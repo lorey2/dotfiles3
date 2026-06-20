@@ -1,0 +1,21 @@
+2026/03/22-19:48:44.221 dda5 Reusing MANIFEST /home/lorey/.config/feishin/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2026/03/22-19:48:44.222 dda5 Recovering log #61
+2026/03/22-19:48:44.229 dda5 Reusing old log /home/lorey/.config/feishin/IndexedDB/file__0.indexeddb.leveldb/000061.log 
+2026/03/22-19:48:47.306 ddbe Compacting 1@1 + 1@2 files
+2026/03/22-19:48:47.316 ddbe Generated table #64@1: 26 keys, 28454 bytes
+2026/03/22-19:48:47.316 ddbe Compacted 1@1 + 1@2 files => 28454 bytes
+2026/03/22-19:48:47.321 ddbe compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/22-19:48:47.321 ddbe Delete type=2 #62
+2026/03/22-19:48:47.321 ddbe Delete type=2 #59
+2026/03/22-19:48:52.262 ddbf Level-0 table #66: started
+2026/03/22-19:48:52.291 ddbf Level-0 table #66: 1952102 bytes OK
+2026/03/22-19:48:52.298 ddbf Delete type=0 #61
+2026/03/22-19:50:17.196 dda5 Compacting 1@1 + 1@2 files
+2026/03/22-19:50:17.215 dda5 Generated table #67@1: 26 keys, 32618 bytes
+2026/03/22-19:50:17.216 dda5 Compacted 1@1 + 1@2 files => 32618 bytes
+2026/03/22-19:50:17.221 dda5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/22-19:50:17.221 dda5 Delete type=2 #64
+2026/03/22-19:50:17.221 dda5 Delete type=2 #66
+2026/03/22-20:17:39.798 ddbe Level-0 table #69: started
+2026/03/22-20:17:39.823 ddbe Level-0 table #69: 2158495 bytes OK
+2026/03/22-20:17:39.829 ddbe Delete type=0 #65

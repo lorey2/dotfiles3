@@ -1,0 +1,5 @@
+2026/01/29-21:40:55.670 4f30 Reusing MANIFEST /home/lorey/.config/arduino-ide/Local Storage/leveldb/MANIFEST-000001
+2026/01/29-21:40:55.739 4f30 Recovering log #3
+2026/01/29-21:40:55.740 4f30 Level-0 table #3: started
+2026/01/29-21:40:55.755 4f30 Level-0 table #3: 20310 bytes OK
+2026/01/29-21:40:55.763 4f30 Delete type=0 #3

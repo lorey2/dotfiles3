@@ -16,9 +16,9 @@
     "GEMINI_INTELLIJ_INSTALLATION_ID": "c2e3e5b9-cbee-44ce-883d-a71521b0fa32",
     "LAST_CALCULATED_COLOR_INDEX_KEY": "3",
     "NEXT_SURVEY_TIMESTAMP": "2025-08-01T14:09:37.964916805Z",
-    "NextRunPlatformUpdateBuild": "AI-252.27397.103.2522.14617522",
+    "NextRunPlatformUpdateBuild": "AI-253.32098.37.2534.15232325",
     "NextRunPlatformUpdateSelfBuild": "AI-251.25410.109.2511.13752376",
-    "NextRunPlatformUpdateVersion": "Otter 2 Feature Drop | 2025.2.2 Patch 1",
+    "NextRunPlatformUpdateVersion": "Panda 4 | 2025.3.4",
     "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
     "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
     "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
@@ -57,7 +57,10 @@
       "2025-09-25T13:44:13.594897756Z",
       "2025-10-17T22:14:54.677171301Z",
       "2025-10-23T16:02:21.178442072Z",
-      "2026-01-14T09:57:00.135391305Z"
+      "2026-01-14T09:57:00.135391305Z",
+      "2026-01-25T23:11:44.520566244Z",
+      "2026-05-04T23:21:39.805148458Z",
+      "2026-05-06T21:48:58.180766399Z"
     ],
     "FLUTTER_SDK_KNOWN_PATHS": [
       "/home/lorey/development/flutter"

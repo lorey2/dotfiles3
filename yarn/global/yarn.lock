@@ -34,6 +34,11 @@ commander@7.2.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
   integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
 
+create-vite@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/create-vite/-/create-vite-8.3.0.tgz#4addb78fe6f996a8f8c12a8e9bda1bff37e18baf"
+  integrity sha512-58bnPOiwODNTOV60tS/zttmTG1V1xZJThqqvpDPmp0i55fT9i2YsjWdnx7uFy0/FmWRUv4HJeEPlq6zAW3hwTQ==
+
 devmoji@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/devmoji/-/devmoji-2.3.0.tgz#5cc3764c59899802bcbecd19afeb9a22c0626b89"

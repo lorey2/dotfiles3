@@ -6,26 +6,28 @@ SideBarPage=operations
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/.config/dotfiles/wall.png
-File2[$e]=$HOME/Pictures/Screenshots/Screenshot_20250821_164649.png
-File3[$e]=$HOME/42_webserv/doc/parsing.png
-File4[$e]=$HOME/weeeb/www/test/images/unsplash-image-01.jpg
-File5[$e]=$HOME/Pictures/Screenshots/Screenshot_20251018_055743.png
-File6[$e]=$HOME/42_main/server1/www/favicon.ico
-File7[$e]=$HOME/Downloads/favicon.ico
-File8[$e]=$HOME/Pictures/Screenshots/Screenshot_20251222_142418.png
-File9[$e]=$HOME/Downloads/ratiomaster-v0-r90ff8l7ggle1.webp
-Name1[$e]=wall.png
-Name2[$e]=Screenshot_20250821_164649.png
-Name3[$e]=parsing.png
-Name4[$e]=unsplash-image-01.jpg
-Name5[$e]=Screenshot_20251018_055743.png
-Name6[$e]=favicon.ico
-Name7[$e]=favicon.ico
-Name8[$e]=Screenshot_20251222_142418.png
-Name9[$e]=ratiomaster-v0-r90ff8l7ggle1.webp
+File1[$e]=$HOME/Downloads/Gemini_Generated_Image_8p5ta98p5ta98p5t.png
+File10[$e]=$HOME/Downloads/cfb759d2-c7eb-4eba-ba7b-f4ed1280986f-Gemini_Generated_Image_8p5ta98p5ta98p5t.png
+File2[$e]=$HOME/Downloads/Gemini_Generated_Image_nobagunobagunoba.png
+File3[$e]=$HOME/Downloads/ratiomaster-v0-r90ff8l7ggle1.webp
+File4[$e]=$HOME/Downloads/test.jpg
+File5[$e]=$HOME/Downloads/8403e35c-2f66-4ee3-8f37-b248638a5aae.png
+File6[$e]=$HOME/Downloads/9084cb43-befb-441a-bafe-8d7283d5a2eb.png
+File7[$e]=$HOME/Documents/Pictures/Haruna screenshots/2025-09-03_09-06-13-0001.jpg
+File8[$e]=$HOME/Downloads/Untitled.png
+File9[$e]=$HOME/Downloads/1ee4983b-219a-40e2-b4d5-c8b38862287d-Gemini_Generated_Image_nobagunobagunoba.png
+Name1[$e]=Gemini_Generated_Image_8p5ta98p5ta98p5t.png
+Name10[$e]=cfb759d2-c7eb-4eba-ba7b-f4ed1280986f-Gemini_Generated_Image_8p5ta98p5ta98p5t.png
+Name2[$e]=Gemini_Generated_Image_nobagunobagunoba.png
+Name3[$e]=ratiomaster-v0-r90ff8l7ggle1.webp
+Name4[$e]=test.jpg
+Name5[$e]=8403e35c-2f66-4ee3-8f37-b248638a5aae.png
+Name6[$e]=9084cb43-befb-441a-bafe-8d7283d5a2eb.png
+Name7[$e]=2025-09-03_09-06-13-0001.jpg
+Name8[$e]=Untitled.png
+Name9[$e]=1ee4983b-219a-40e2-b4d5-c8b38862287d-Gemini_Generated_Image_nobagunobagunoba.png
 
 [SideBar]
 InformationSplitterSizes=220,255
 IsVisible ViewMode=true
-SideBarSplitterSizes=227,795
+SideBarSplitterSizes=210,812

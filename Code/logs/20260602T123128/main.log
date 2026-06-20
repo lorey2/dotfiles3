@@ -1,0 +1,8 @@
+2026-06-02 12:31:28.346 [info] StorageMainService: creating application shared storage
+2026-06-02 12:31:28.357 [info] [shared storage] Creating shared storage database at '/home/lorey/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-02 12:31:28.357 [info] [shared storage] Initializing fallback application storage (path: /home/lorey/.config/Code/User/globalStorage/state.vscdb)
+2026-06-02 12:31:28.404 [info] [shared storage] Fallback application storage initialized with 85 items
+2026-06-02 12:31:28.406 [info] update#setState idle
+2026-06-02 12:31:58.408 [info] update#setState checking for updates
+2026-06-02 12:31:58.455 [info] update#setState available for download
+2026-06-02 18:28:44.333 [info] Extension host with pid 20480 exited with code: 0, signal: unknown.

@@ -1,8 +1,11 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export --path GOPATH:/home/lorey/\x2elocal/share/go
+SETUVAR --export --path PATH:/opt/zig\x1e/home/lorey/\x2elocal/share/go/bin\x1e/usr/local/cuda\x2d13\x2e0/bin\x1e/usr/local/go/bin\x1e/var/lib/flatpak/exports/bin\x1e/usr/local/sbin\x1e/home/lorey/\x2elocal/bin\x1e/home/lorey/\x2ecargo/bin\x1e/bin\x1e/usr/share/pyenv/shims\x1e/usr/share/pyenv/bin\x1e/usr/local/bin\x1e/usr/sbin\x1e/usr/bin\x1e/sbin\x1e/usr/games\x1e/usr/local/games\x1e/snap/bin\x1e/home/lorey/\x2elmstudio/bin\x1e/home/lorey/\x2elmstudio/bin
 SETUVAR --export PYENV_ROOT:/home/lorey/\x2epyenv
 SETUVAR __fish_initialized:3800
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/nvm\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR --export fish_color_autosuggestion:636da6
 SETUVAR --export fish_color_cancel:\x1d
@@ -29,5 +32,5 @@ SETUVAR --export fish_color_status:red
 SETUVAR --export fish_color_user:\x1d
 SETUVAR --export fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_key_bindings:fish_default_key_bindings
-SETUVAR --export fish_user_paths:/home/lorey/\x2elocal/share/go/bin\x1e/usr/local/cuda\x2d13\x2e0/bin\x1e/usr/local/go/bin\x1e/var/lib/flatpak/exports/bin\x1e/usr/local/sbin\x1e/home/lorey/\x2elocal/bin\x1e/home/lorey/\x2ecargo/bin\x1e/bin
+SETUVAR --export fish_user_paths:/home/lorey/emsdk/upstream/emscripten\x1e/home/lorey/emsdk\x1e/home/lorey/\x2elocal/share/go/bin\x1e/usr/local/cuda\x2d13\x2e0/bin\x1e/usr/local/go/bin\x1e/var/lib/flatpak/exports/bin\x1e/usr/local/sbin\x1e/home/lorey/\x2elocal/bin\x1e/home/lorey/\x2ecargo/bin\x1e/bin
 SETUVAR grc_plugin_execs:df\x1edig\x1eifconfig\x1emake\x1emount\x1emtr\x1enetstat\x1eping\x1eps\x1etail\x1etraceroute\x1ewdiff\x1eblkid\x1edu\x1ednf\x1eenv\x1eid\x1eip\x1eiostat\x1ejournalctl\x1ekubectl\x1elast\x1elsattr\x1elsblk\x1elspci\x1elsmod\x1elsof\x1egetfacl\x1egetsebool\x1eulimit\x1euptime\x1enmap\x1efdisk\x1efindmnt\x1efree\x1esemanage\x1esar\x1ess\x1esysctl\x1esystemctl\x1etcpdump\x1etune2fs\x1evmstat\x1ew\x1ewho\x1esockstat

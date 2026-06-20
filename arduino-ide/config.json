@@ -1,0 +1,25 @@
+{
+	"windowstate": {
+		"isFullScreen": false,
+		"isMaximized": false,
+		"width": 1032,
+		"height": 1212,
+		"x": 0,
+		"y": 68,
+		"frame": true,
+		"screenLayout": "0:0:2048:1280",
+		"backgroundColor": "rgb(31, 39, 42)"
+	},
+	"workspaces": [
+		{
+			"x": 0,
+			"y": 68,
+			"width": 1032,
+			"height": 1212,
+			"isMaximized": false,
+			"isFullScreen": false,
+			"file": "/home/lorey/Arduino/sketch_jan29a",
+			"time": 1769726377870
+		}
+	]
+}

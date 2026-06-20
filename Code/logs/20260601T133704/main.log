@@ -1,0 +1,15 @@
+2026-06-01 13:37:04.614 [info] StorageMainService: creating application shared storage
+2026-06-01 13:37:04.758 [info] [shared storage] Creating shared storage database at '/home/lorey/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-01 13:37:04.759 [info] [shared storage] Initializing fallback application storage (path: /home/lorey/.config/Code/User/globalStorage/state.vscdb)
+2026-06-01 13:37:04.805 [info] [shared storage] Fallback application storage initialized with 85 items
+2026-06-01 13:37:04.808 [info] update#setState idle
+2026-06-01 13:44:40.226 [info] update#setState checking for updates
+2026-06-01 13:44:40.234 [warning] No ptyHost heartbeat after 6 seconds
+2026-06-01 13:44:40.244 [error] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/f6cfa2ea2403534de03f069bdf160d06451ed282?bg=true&u=none - error undefined net::ERR_NAME_NOT_RESOLVED
+2026-06-01 13:44:40.245 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:132354)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-06-01 13:44:40.248 [info] update#setState idle
+2026-06-01 16:31:23.506 [info] update#setState checking for updates
+2026-06-01 16:31:23.587 [info] update#setState available for download
+2026-06-01 20:52:24.878 [info] Extension host with pid 11409 exited with code: 0, signal: unknown.

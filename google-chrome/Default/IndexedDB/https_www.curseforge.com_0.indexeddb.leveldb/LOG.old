@@ -1,6 +1,3 @@
-2025/10/29-15:14:02.519 bb6d Creating DB /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.curseforge.com_0.indexeddb.leveldb since it was missing.
-2025/10/29-15:14:02.531 bb6d Reusing MANIFEST /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.curseforge.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/29-15:14:09.043 bb6a Level-0 table #5: started
-2025/10/29-15:14:09.047 bb6a Level-0 table #5: 387 bytes OK
-2025/10/29-15:14:09.054 bb6a Delete type=0 #3
-2025/10/29-15:14:09.054 bb6a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/01/17-01:22:59.049 389c Reusing MANIFEST /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.curseforge.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/17-01:22:59.049 389c Recovering log #7
+2026/01/17-01:22:59.049 389c Reusing old log /home/lorey/.config/google-chrome/Default/IndexedDB/https_www.curseforge.com_0.indexeddb.leveldb/000007.log 

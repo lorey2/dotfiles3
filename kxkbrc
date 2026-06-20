@@ -1,4 +1,5 @@
 [Layout]
-DisplayNames=bog
-LayoutList=bogue
+DisplayNames=,
+LayoutList=us,ch
 Use=true
+VariantList=,fr

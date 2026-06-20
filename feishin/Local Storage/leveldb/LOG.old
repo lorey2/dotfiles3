@@ -1,0 +1,17 @@
+2026/03/18-15:37:21.654 120f8 Reusing MANIFEST /home/lorey/.config/feishin/Local Storage/leveldb/MANIFEST-000001
+2026/03/18-15:37:21.685 120f8 Recovering log #88
+2026/03/18-15:37:21.687 120f8 Level-0 table #91: started
+2026/03/18-15:37:21.692 120f8 Level-0 table #91: 17086 bytes OK
+2026/03/18-15:37:21.697 120f8 Delete type=0 #88
+2026/03/18-15:37:21.697 120f8 Compacting 4@0 + 1@1 files
+2026/03/18-15:37:21.707 120f8 Generated table #93@0: 10 keys, 9385 bytes
+2026/03/18-15:37:21.707 120f8 Compacted 4@0 + 1@1 files => 9385 bytes
+2026/03/18-15:37:21.712 120f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/18-15:37:21.712 120f8 Delete type=2 #82
+2026/03/18-15:37:21.712 120f8 Delete type=2 #91
+2026/03/18-15:37:21.712 120f8 Delete type=2 #87
+2026/03/18-15:37:21.712 120f8 Delete type=2 #85
+2026/03/18-15:37:21.712 120f8 Delete type=2 #89
+2026/03/18-15:58:05.290 120f8 Level-0 table #95: started
+2026/03/18-15:58:05.302 120f8 Level-0 table #95: 11950 bytes OK
+2026/03/18-15:58:05.308 120f8 Delete type=0 #92

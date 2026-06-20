@@ -1,158 +1,107 @@
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=56,56,56
+Color=120,120,120
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65
-ContrastEffect=1
+ContrastAmount=0
+ContrastEffect=0
 Enable=
-IntensityAmount=0.1
-IntensityEffect=2
+IntensityAmount=0
+IntensityEffect=0
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=112,111,110
-ColorAmount=0.025
-ColorEffect=2
-ContrastAmount=0.1
-ContrastEffect=2
-Enable=false
+Color=120,120,120
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0
+ContrastEffect=0
+Enable=
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=163,212,250
-BackgroundNormal=252,252,252
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=112,125,138
-ForegroundLink=41,128,185
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=35,38,41
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
-
-[Colors:Complementary]
-BackgroundAlternate=27,30,32
-BackgroundNormal=42,46,50
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
-
-[Colors:Header]
-BackgroundAlternate=239,240,241
-BackgroundNormal=222,224,226
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=112,125,138
-ForegroundLink=41,128,185
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=35,38,41
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
-
-[Colors:Header][Inactive]
-BackgroundAlternate=227,229,231
-BackgroundNormal=239,240,241
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=112,125,138
-ForegroundLink=41,128,185
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=35,38,41
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=40,51,71
+BackgroundNormal=33,40,59
+ForegroundActive=65,167,252
+ForegroundInactive=108,125,156
+ForegroundLink=65,167,252
+ForegroundNegative=246,88,102
+ForegroundNeutral=239,189,93
+ForegroundNormal=147,164,195
+ForegroundPositive=139,205,91
+ForegroundVisited=199,90,232
 
 [Colors:Selection]
-BackgroundAlternate=163,212,250
-BackgroundNormal=61,174,233
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=255,255,255
-ForegroundInactive=112,125,138
-ForegroundLink=253,188,75
-ForegroundNegative=176,55,69
-ForegroundNeutral=198,92,0
-ForegroundNormal=255,255,255
-ForegroundPositive=23,104,57
-ForegroundVisited=155,89,182
+BackgroundAlternate=84,176,253
+BackgroundNormal=65,167,252
+ForegroundActive=26,33,46
+ForegroundInactive=26,33,46
+ForegroundLink=26,33,46
+ForegroundNegative=26,33,46
+ForegroundNeutral=26,33,46
+ForegroundNormal=26,33,46
+ForegroundPositive=26,33,46
+ForegroundVisited=26,33,46
 
 [Colors:Tooltip]
-BackgroundAlternate=239,240,241
-BackgroundNormal=247,247,247
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=112,125,138
-ForegroundLink=41,128,185
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=35,38,41
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=20,27,36
+BackgroundNormal=12,14,21
+ForegroundActive=65,167,252
+ForegroundInactive=108,125,156
+ForegroundLink=65,167,252
+ForegroundNegative=246,88,102
+ForegroundNeutral=239,189,93
+ForegroundNormal=147,164,195
+ForegroundPositive=139,205,91
+ForegroundVisited=199,90,232
 
 [Colors:View]
-BackgroundAlternate=247,247,247
-BackgroundNormal=255,255,255
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=112,125,138
-ForegroundLink=41,128,185
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=35,38,41
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=33,40,59
+BackgroundNormal=26,33,46
+ForegroundActive=65,167,252
+ForegroundInactive=108,125,156
+ForegroundLink=65,167,252
+ForegroundNegative=246,88,102
+ForegroundNeutral=239,189,93
+ForegroundNormal=147,164,195
+ForegroundPositive=139,205,91
+ForegroundVisited=199,90,232
 
 [Colors:Window]
-BackgroundAlternate=227,229,231
-BackgroundNormal=239,240,241
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=112,125,138
-ForegroundLink=41,128,185
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=35,38,41
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
-
-[DirSelect Dialog]
-DirSelectDialog Size=1024,640
-History Items[$e]=file:$HOME/yoooo/bin,file:$HOME/yoooo,file:$HOME/.config/nvim,file:$HOME/.config/nvim,file:$HOME/music-social-daw,file:$HOME/music-social-daw,file:$HOME/music-social-daw/server,file:$HOME/music-social-daw,file:$HOME/music-social-daw,file:$HOME/music-social-daw,file:$HOME/music-social-daw/server,file:$HOME/music-social-daw,file:$HOME/music-social-daw,file:$HOME/.config/nvim,file:$HOME/.config/nvim,file:$HOME/.config/nvim,file:$HOME/.local/share/plasma/plasmoids/com.wireguard.simple,file:$HOME/.local/share/plasma/plasmoids/com.wireguard.simple,file:$HOME/.local/share/plasma/plasmoids,file:$HOME/goback,file:$HOME/goback,file:$HOME/goback,file:$HOME/goback,file:$HOME/goback,file:$HOME/lorey-porfolio,file:$HOME/lorey-porfolio,file:$HOME/lorey-porfolio,file:$HOME/lorey-porfolio,file:$HOME/lorey-porfolio,file:$HOME/goback,file:$HOME/goback,file:$HOME/doreact/frontend,file:$HOME/doreact/frontend,file:$HOME/doreact/,mtp:/ROG_Phone6/Espace de stockage interne partagé/Download/Flud/Christopher Paolini - Cycle de l'héritage 4 - L'Héritage %5Bmp3-64K%5D,file:$HOME/.config/nvim,file:$HOME/.config/nvim,file:$HOME/.config/nvim,file:$HOME/42_final,file:$HOME/42_final,file:$HOME/42_final,file:$HOME/42_final,file:$HOME/42_mmain,file:$HOME/42_mmain,file:$HOME/42_mmain,file:$HOME/42_mmain,file:$HOME/42_main,file:$HOME/42_main,file:$HOME/42_main,file:$HOME/ww
-Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+BackgroundAlternate=26,33,46
+BackgroundNormal=20,27,36
+ForegroundActive=65,167,252
+ForegroundInactive=108,125,156
+ForegroundLink=65,167,252
+ForegroundNegative=246,88,102
+ForegroundNeutral=239,189,93
+ForegroundNormal=147,164,195
+ForegroundPositive=139,205,91
+ForegroundVisited=199,90,232
 
 [General]
+ColorScheme=OneDark Deep
 ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
+TerminalApplication=kitty
+TerminalService=kitty.desktop
+
+[Icons]
+Theme=breeze
+
+[KDE]
+LookAndFeelPackage=Catppuccin-Frappe-Rosewater
 
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=true
 Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=true
+Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
@@ -161,9 +110,9 @@ Speedbar Width=140
 View Style=DetailTree
 
 [WM]
-activeBackground=227,229,231
-activeBlend=227,229,231
-activeForeground=35,38,41
-inactiveBackground=239,240,241
-inactiveBlend=239,240,241
-inactiveForeground=112,125,138
+activeBackground=26,33,46
+activeBlend=20,27,36
+activeForeground=147,164,195
+inactiveBackground=20,27,36
+inactiveBlend=20,27,36
+inactiveForeground=108,125,156
